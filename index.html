@@ -1,0 +1,88 @@
+const chek = document.getElementById("check").addEventListener("click", function(){checkComm();});
+const attek= document.getElementById('attack').addEventListener("click", function(){attackComm();});
+const magek = document.getElementById('magic').addEventListener("click", function(){magicComm();});
+const flei = document.getElementById('flee').addEventListener("click", function(){fleeComm();});
+let playerHP = 100;
+let enemyHP = 100;
+let buffCount = 0;
+let debCount = 0;
+let healCount = 0;
+let chckCount = 0
+let enemyName = "Bug";
+let enemyCheck = "A very annoying Bug.";
+let playerTurn = true;
+let enemyTurn = true;
+let fleeBattle = false;
+let enemyLowHealth = false;
+
+if (playerHP < 0)
+{
+    playerHP = 0;
+}
+else if (playerHP > 100)
+{
+    playerHP = 100;
+}
+
+main()
+
+console.log(playerHP);
+console.log(enemyLowHealth);
+
+function main()
+{
+    document.getElementById("textarea").innerHTML = 
+    "Your HP = " + playerHP + "<br>" + "<br>" + "What will you do?" + "<br>" + "<br>" + "<br>";
+    
+    if (enemyHP == 0 || enemyHP < 0)
+    {
+
+        document.getElementById("menu").innerHTML = 
+        "Bug Defeated!";
+        finish();
+    }
+
+    if (enemyHP < 50)
+    {
+        enemyLowHealth = true;
+    }
+}
+
+function checkComm()
+{
+    chckCount ++;
+    if (chckCount < 2) 
+    {
+        document.getElementById("textarea").innerHTML = enemyName + "<br>" + "<br>" + "HP = " + enemyHP + "<br>" + "<br>" + enemyCheck;
+        checkState = false;
+    }
+    else if (chckCount >1)
+    {
+        main();
+        chckCount = 0;
+    }
+}
+
+function attackComm()
+{
+    alert("Attacked!");
+}
+
+function magicComm()
+{
+    alert("Magicked!");
+}
+
+function fleeComm()
+{
+    alert("Flee!");
+}
+
+function finish()
+{
+    
+}
+
+function toggleButton() {
+    document.getElementById("button").className = 'show'; 
+}

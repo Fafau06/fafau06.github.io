@@ -1,0 +1,11 @@
+body
+{
+    color: white;
+    font-family: url('DTM-Mono.otf')
+}
+
+blood
+{
+    color: red;
+    text-align: left;
+}
