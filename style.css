@@ -1,0 +1,27 @@
+body
+{
+    background: linear-gradient(#000FFF, #009FFF);
+    background-color: #00ffff;
+    color: white;
+    font-family: url('DTM-Mono.otf')
+}
+
+div
+{
+    align-items: center;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.35 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    padding: auto;
+    margin: auto;
+    border-radius: 6px;
+}
+
+blood
+{
+    color: red;
+    text-align: left;
+}
+
+.
