@@ -1,0 +1,54 @@
+body
+{
+    background: linear-gradient(#000FFF, #009FFF);
+    background-color: #00ffff;
+    color: white;
+    font-family: url('DTM-Mono.otf')
+}
+
+div
+{
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.35 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    padding-inline-start: 12px;
+    padding: auto;
+    margin: auto;
+    border-radius: 6px;
+}
+
+nav
+{
+    display: block;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.35 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    padding-inline-start: 12px;
+    padding: auto;
+    margin: auto;
+    border-radius: 6px;
+}
+
+#bannerimage
+{
+  width: 100%;
+  background: url('images/banner2.png') 50% / cover;
+  height: 150px;
+  background-position: center;
+}
+
+a
+{
+    color: white;
+    list-style-type: none;
+}
+
+blood
+{
+    color: red;
+    text-align: left;
+}
