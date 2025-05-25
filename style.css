@@ -2,6 +2,7 @@ body
 {
     background: linear-gradient(#000FFF, #009FFF);
     background-color: #00ffff;
+    background-repeat: repeat-x;
     color: white;
     font-family: url('DTM-Mono.otf')
 }
