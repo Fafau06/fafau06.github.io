@@ -1,10 +1,16 @@
+@font-face
+{
+    font-family: 'utDef';
+    src: url(../utext/DTM-Mono.otf);
+}
+
 body
 {
     background: linear-gradient(#000FFF, #009FFF);
     background-color: #00ffff;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     color: white;
-    font-family: url('DTM-Mono.otf')
+    font-family: 'utDef';
 }
 
 div
