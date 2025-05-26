@@ -8,7 +8,7 @@ body
 {
     background: linear-gradient(#000FFF, #009FFF);
     background-color: #00ffff;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     color: white;
     font-family: 'utDef';
 }
@@ -42,7 +42,7 @@ nav
 
 #bannerimage
 {
-  width: 100%;
+  width: 97%;
   background: url('images/banner2.png') 50% / cover;
   height: 150px;
   background-position: center;
