@@ -8,6 +8,7 @@ body
 {
     background: linear-gradient(#000FFF, #009FFF);
     background-repeat: repeat-x;
+    height: 100%;
     color: white;
     font-family: 'utDef';
 }
