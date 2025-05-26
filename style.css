@@ -45,6 +45,7 @@ nav
   width: 97%;
   background: url('images/banner2.png') 50% / cover;
   height: 150px;
+  margin-bottom: 20px;
   background-position: center;
 }
 
@@ -58,4 +59,12 @@ blood
 {
     color: red;
     text-align: left;
+}
+
+.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
