@@ -1,0 +1,47 @@
+START
+IMAGE:FG_MIKU:front2:0:20 - display one miku invisibly on layer 2
+E! - character tag test
+IMAGE:BG_STATION:back:0:0 IMAGE:FG_MIKU:front:50:20 IMAGE:FG_MIKU:front:90:0 IMAGE:FG_MIKU:front:100:50 E! - display THREE mikus in front of station
+IMAGE:BG_STATIONWIDE:sourceback:0:0 - load the back canvas source layer witha a double width image
+ZOOM:back:[-640]:[-400]:5000 - zoom in
+ZOOM:back:[320]:[200]:5000 - zoom out
+ZOOM:back:[320]:[200]:5000 - zoom out again to full
+PAN:back:[640]:[0]:5000 - pan a whole width to the right over five seconds
+PAN:back:[-640]:[0]:5000 - start a pan back to the left and see if it conflicts
+PAN:back:[0]:[200]:5000 - pan 200 to see which direction it goes
+PAN:back:[640]:[0]:5000 ZOOM:back:[-320]:[-200]:5000 - fuck it lets have both, see what happens. turns out it dont work
+ANIM:PLAY - start animating between both layers
+ANIM:STOP - stop animating 
+CLEARSCREEN IMAGE:FG_MIKU:front:10:20 IMAGE:FG_MIKU:front2:90:0 - clear the screen and change layer images
+CLEARLAYER:front IMAGE:FG_DARKMIKU:front:10:20 - clear front layer and replace with dark miku
+TEXT:[foobar]:100:100:400 - test the text tag
+RECT:back:[red]:20:20:100:120 RECT:front:[blue]:60:60:10:12 - draw some rectangles
+IMAGE:BG_STARS:back:0:0 - test a really long line to see at what point it starts to compress or overrun or fuck up in any other way
+E! - do the same but do it with the character tag to see what happens with that and if it overruns cleanly and then make it REALLY fucking long lol lmao how do you like this you stupid machine motherfucker awawawawawawawwa 
+CLEARSCREEN PERSIST:TRUE TEXT:foobar:100:100:400 E! - clear screen, test turning off persist, colours
+TEXT:[red]:100:200:400 E! - iterating downwards with more colours
+TEXT:[#690069]:120:240:400 E! - iterating downwards more with hex colour
+TEXT:[blue]:179:300:400 E! - iterating downwards again
+default location
+and then see if it looks like garbage overlapping itself
+yes
+PERSIST:FALSE - alright clearing that old text, blank screen
+is it getting cleared
+uhhhh
+CHOICE1:[back to start]:START CHOICE2:[to galley, status]:part - now what about a choice
+tick tock
+REMOVE:1 - la la la
+ran out of words so make your choice idiot
+###
+part
+IMAGE:BG_GALLEY:back:0:0 STATUS:[location: galley]] - okay you chose the galley
+good one m8 yeah nice
+CLEARSTATUS - hiding the status box now
+are you ready for a complex status box
+STATUS:[<span style="font-family:serif !important;color:blue;">blue serif text here</span><br><span style="color:red;font-family:sans-serif !important;font-weight:900;">red sans serif bold text on a new line</span><br><img src="images/FG_MIKU.png"><br>miku]] - abomination of a status box
+are you happy now
+CLEARSTATUS - hiding that. phew
+ran out of words now
+go home
+THE END
+###

@@ -1,0 +1,360 @@
+/* RESET */
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, a, em, img,
+small, strike, strong, sub, sup, tt, var,
+ol, ul, li,
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+/* GLOBALS */
+@font-face {
+    font-family: 'milkjf';
+    src: url("pc-9800.ttf");
+    /* src:  url("x68000_sans.ttf"); */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+:root {
+	--text: white;
+	--border: white;
+	--accent :red;
+
+    --background: black;  
+    --menu-bg: black;  
+	--panel-bg: rgba(0,0,0,0.8);
+
+	--gap: 0.75vw;
+	--padding: 1rem;
+	--border-width: 0.15vw;
+
+    --menu-hover: s;
+
+	--letter-spacing: 0.15vw;
+	--letter-spacing-menu: 0.2vw;
+	--font-size: 1.5vw;
+	--font-size-menu: 1.75vw;
+    --font: 'milkjf';
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    user-select: none;
+    font-size: 20px;
+}
+
+body {
+    background:black;
+    width: 100%;
+    height: 100%;
+    font-family: var(--font);
+    overflow: hidden;
+    font-size: 1.5vw;
+}
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10%;
+    z-index: 100;
+}
+
+#loading-screen:has(#loadingline-done) {
+    cursor: pointer;
+}
+
+.toload {
+    color: gray;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: var(--background);
+    color: var(--text);
+
+}
+
+/* MENU + BUTTONS */
+#menu-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 1.5rem;
+    z-index: 90;
+}
+
+#menu-bar.touch .menu-bar-bg {
+    top: 0px;
+    background-color: transparent;
+}
+
+#menu-bar.touch .menu-bar-bg span div {
+    background-color: black;
+}
+
+.menu-bar-bg {
+    position: relative;
+    top: -105vh;
+    width: 100%;
+    background-color: var(--menu-bg);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    transition: top 0.5s ease;
+}
+
+.menu-bar.locked {
+    top: 0;
+}
+
+.menu-bar-bg span {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu-bar-bg span div:hover {
+    color: var(--accent);
+    cursor: pointer;
+}
+
+#menu-bar:hover > .menu-bar-bg {
+    top: 0;
+    transition: top 0.5s ease;
+}
+
+.menu-bar-bg .open-menu {
+    color: var(--accent);
+}
+
+#settings-menu {
+    position: fixed;
+    width: 20%;
+    height: auto;
+    pointer-events: all;
+    z-index: 90;
+    border: var(--border-width) solid var(--border);
+    background-color: var(--panel-bg);
+    padding: var(--padding);
+}
+
+#settings-menu input[type="range"] {
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    background-color: transparent;
+    outline: none;
+}
+
+#settings-menu input[type="range"]:hover {
+    cursor: pointer;
+}
+
+#settings-menu input[type="range"]::-webkit-slider-thumb,
+#settings-menu input[type="range"]::-moz-range-thumb  {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: var(--text);
+}
+
+#settings-menu input[type="range"]::-webkit-slider-runnable-track,
+#settings-menu input[type="range"]::-moz-range-track {
+    background: var(--text);
+}
+
+#settings-menu input[type="range"]::-moz-range-progress {
+    background: var(--accent);
+}
+
+#save-menu {
+    position: fixed;
+    width: 20%;
+    height: auto;
+    pointer-events: all;
+    z-index: 99;
+    border: var(--border-width) solid var(--border);
+    background-color: var(--panel-bg);
+    padding: var(--padding);
+}
+
+#save-menu div:hover {
+    color: var(--accent);
+    cursor: pointer;
+}
+
+#messagecontainer {
+    position: absolute;
+    border: var(--border-width) solid var(--border);
+    padding: var(--padding);
+    background-color: var(--panel-bg);
+    z-index: 90;
+
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent) var(--background);
+    width: 85%;
+    height: 80%;
+}
+
+/* SIDEBAR & CHOICES */
+#sidebar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-start;
+    margin-top: 10%;
+    margin-right: 5%;
+    z-index: 90;
+}
+
+#statuswindow, #choicewindow {
+  padding: var(--padding);
+  margin: var(--gap);
+  border: var(--border-width) solid var(--border);
+  background-color: var(--panel-bg);
+  height: fit-content;
+  width: fit-content;
+}
+
+#choicewindow {
+  pointer-events:all;
+  z-index: 90;
+}
+
+#choicelist {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.choiceListItem {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.choices {
+  color: var(--accent);
+}
+
+.choiceListItem:hover {
+  color: var(--accent);
+  cursor: pointer;
+}
+
+/* CANVASES */
+#screen {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    image-rendering: pixelated;
+}
+
+canvas {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+
+    transition-timing-function: linear;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    object-fit: contain;
+}
+
+#text {
+  z-index: 4;
+}
+#front {
+  z-index: 3;
+}
+#front2 {
+  z-index: 3;
+}
+#backTrans {
+  z-index: 2;
+}
+#back {
+  z-index: 1;
+}
+
+/* CRT EFFECTS */
+.crt::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(18, 16, 16, 0.1);
+  opacity: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.crt::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+    linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 0.06),
+      rgba(0, 255, 0, 0.02),
+      rgba(0, 0, 255, 0.06)
+    );
+  z-index: 5;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+.crt {
+  animation: textShadow 5.6s infinite;
+}
