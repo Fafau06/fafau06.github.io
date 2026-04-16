@@ -1,13 +1,13 @@
 const CONFIG = {
-    resolutionX: 640,
-    resolutionY: 400,
-    screenBorderWidth: 0.1,
+    resolutionX: 1920,
+    resolutionY: 1080,
+    screenBorderWidth: 0.5,
 
     startingChapter: "START",
 
     loadingSplashMessage: "Loading Super Videotome",
     loadingAnimationSpeed: 300,
-    loadingDoneMessage: "Game ready",
+    loadingDoneMessage: "YOLOOO",
     loadingPrompt: "Click to begin",
 
     debugLogs: true // turn me on to see testing logs
