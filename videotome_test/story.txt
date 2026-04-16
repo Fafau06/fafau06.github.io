@@ -1,0 +1,61 @@
+START
+wahoo! welcome to videotome super (modded!)
+BG:BG_STATION MUS_TEST - Let's make this space more lively, and jump in.
+IMAGE:FG_MIKU:front:350:20 - hi miku
+I'm assuming you're already familiar with the original version and what it can do, so let's get right to the new stuff.
+There's a bunch of tweaks and changes under the hood, but if you want to know about those check the project page.
+First, put your cursor near the top of the page. You'll see the menu bar come down.
+Play with those menus and the settings for as long as you like, then we can continue.
+You'll also see the save menu! This version supports autosaving AND saving at any point!
+GOTO:AutosaveCont_SAVE - By default, Super will autosave when a chapter ends with _SAVE. However, there's a toggle in config.js that will cause it to autosave everytime a chapter changes.
+###
+AutosaveCont_SAVE
+It just autosaved, by the way. Go check what that looks like.
+Feel free to make as many saves as you like and load as and when you please during the demo.
+also let me know if anything breaks please thank you
+E! - Hey, did you hear character tags can now have different colours?
+M! - i'm miku!
+E! - That's right, Miku.
+Let's bring out the big new feature of this version...
+VIDBG:VID_TEST - VIDEO!
+Videos aren't just for the background, however. You can put videos on any layer.
+VID:VID_TEST:front:0:0 VID:VID_TEST2:front2:0:0 ANIM:PLAY - So that means you animate them just like you would images!
+ANIM:STOP IMAGE:FG_MIKU:front:350:20 - However, once we bring Miku back on the front layer, the video pauses at whatever frame it's on.
+IMAGE:BG_STATION:back:0:0 IMAGE:FG_MIKU:front:50:20 IMAGE:FG_MIKU:front:90:0 IMAGE:FG_MIKU:front:100:50 - You're free to manipulate the new canvas just as you would before.
+VID:VID_ROACH:front:300:100 - Videos work with transparency, so you can also do things like this!
+CLEARSCREEN BG:BG_STATION - alright alright let's go back
+Actually, we can make moving between locations much more interesting, now.
+TRANS:[scatter]:back:10 BG:BG_GALLEY - Transition!
+Currently there's only one pre-packaged transition, which is that one you just saw from Heartbreak.
+However, you can use css classes to make your own transitions. Check the css file for a jumping point.
+CSS is pretty powerful, so you can do some very fun stuff.
+BG:BG_STATION TRANS:[transitionCircleWipe]:back:1000  - Like this!
+VIDBG:VID_TEST MUSVOL:[0.2] - hey wait can i transition a video
+VIDBG:VID_TEST2 TRANS:[transitionCircleWipe]:back:1000 - testing
+okay yeah about what i expected
+VIDBG:VID_TEST TRANS:[scatter]:back:200 - this looked dope as hell with the scatter transition though look at this 
+CLEARSCREEN BG:BG_STATION MUSVOL:[1] - OK MOVING ON 
+Here's something fun, you can now input text to use as variables later!
+INPUT:name:20 - Try it now! Put your name in.
+And your name is... $name$!
+POS:RESET:100:64 - Text tags got a overhaul as well. TEXT: has been split up into a bunch of seperate commands.
+POS:RESET:150:20 PERSIST:TRUE - They're more versitile, and everything will persist after setting it one time.
+POS:RESET:200:64 COL:[red] - ok uhhhh what else
+POS:10:150:64 FONT:[cursive] - we can also make this guy into different fonts
+POS:50:150:15 SIZE:100 COL:[blue] LINE:100 - and REALLY BEEG
+PERSIST:FALSE RESETTEXT - There's also the option to autoplay some lines. Fun if you're doing some more cinematic stuff.
+The next 5 lines will be autoplayed!
+AUTO:4:1000 - 5
+4
+3
+2
+1... done!
+uh
+i think that's it go make your own games have fun
+CHOICE1:[restart]:START - demo over go home
+
+i'm serious
+
+MUSVOL:[0] REMOVE:1 - ok fine
+VIDBG:VID_THE FUNC:[document.getElementById("VID_THE").removeAttribute("muted");]] - ⠀
+###
