@@ -986,7 +986,7 @@ function drawDialogue(str, speaker, speakerColour) {
     } else {
         spkrcolor = "black";
         spkr = null;
-        str = "*nbsp;" + str;
+        str = " " + str;
     };
 
     // clear previous text
