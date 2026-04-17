@@ -24,8 +24,8 @@ var DEFAULT = {
     textColour: "white",
     textLineheight: 20,
 
-    speechmarkLeft: "\"",
-    speechmarkRight: "\"",
+    speechmarkLeft: '\"',
+    speechmarkRight: '"\',
 
     fontAlpha: "1",
     fontStrokeWidth: 0,
