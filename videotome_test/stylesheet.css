@@ -1,12 +1,12 @@
 @font-face {
   font-family: milkjf;
-  src: url("pc-9800.ttf");
+  src: url("../fonts/pc-9800.ttf");
   /* src:  url("x68000_sans.ttf"); */
 }
 
 @font-face {
   font-family: otherfont;
-  src: url("x68000_sans.ttf");
+  src: url("../fonts/x68000_sans.ttf");
   /* src:  url("x68000_sans.ttf"); */
 }
 
