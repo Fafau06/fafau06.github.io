@@ -5,8 +5,8 @@ const CONFIG = {
     loadingSplashMessage: "Loading Videotome",
     loadingDonehMessage: "Ready!",
 
-    resolutionX: 1920,
-    resolutionY: 1080
+    resolutionX: 640,
+    resolutionY: 400
 };
 
 var DEFAULT = {
