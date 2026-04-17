@@ -1058,7 +1058,7 @@ function logMessage(speaker, speakerColour, text) {
     } else {
         speaker = ('<span style="color:' + speakerColour + ';">' + speaker + '</span>');
     };
-    let NewMessage = speaker.concat(" ", text);
+    let NewMessage = speaker.concat("", text);
     let ul = document.getElementById("messagelog");
     let li = document.createElement("li");
     li.innerHTML = NewMessage;
