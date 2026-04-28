@@ -26,20 +26,11 @@ GOTO:NewBlock M! - isn't this exciting
 ###
 NewBlock
 CLEARLAYER:front IMAGE:FG_MIKU:front:10:20 BG:BG_STATION M! - This is a valid choice setup and will work as intended.
-CHOICE1:[yes]:AnswerYes CHOICE2:[no]:AnswerNo CHOICE3:[maybe]:AnswerMaybe M! - PICK!!!
+
 tick tock
 REMOVE:1 - la la la
 REMOVE:2 - la la la la
 ran out of words so make your choice idiot
-####
-AnswerYes
-GOTO:VideoTest M! - Wheee
-####
-AnswerNo
-GOTO:VideoTest M! - Waaahhh
-####
-AnswerMaybe
-GOTO:VideoTest M! - Meanie
 ####
 VideoTest
 RECT:front:[green]:50:50:100:100 RECT:front:[red]:0:200:200:300 RECT:front:[blue]:400:100:500:100 - so many shapes and colours!
@@ -104,3 +95,12 @@ i'm serious
 MUSVOL:[0] REMOVE:1 - ok fine
 VIDBG:VID_THE FUNC:[document.getElementById("VID_THE").removeAttribute("muted");]] - ⠀
 ###
+AnswerYes
+GOTO:VideoTest M! - Wheee
+####
+AnswerNo
+GOTO:VideoTest M! - Waaahhh
+####
+AnswerMaybe
+GOTO:VideoTest M! - Meanie
+####
