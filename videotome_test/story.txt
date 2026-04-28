@@ -25,23 +25,20 @@ CLEARSTATUS - Bye status box!
 GOTO:NewBlock M! - isn't this exciting
 ###
 NewBlock
-M! CLEARLAYER:front IMAGE:FG_MIKU:front:10:20 BG:BG_STATION CHOICE1:[Yes]:BLOCK3 CHOICE2:[No]:BLOCK4 CHOICE3:[Idk]:BLOCK5 - PICK!!!
+CLEARLAYER:front IMAGE:FG_MIKU:front:10:20 BG:BG_STATION CHOICE1:[yes]:AnswerYes CHOICE2:[no]:AnswerNo CHOICE3:[maybe]:AnswerMaybe M! - PICK!!! This is a valid choice setup and will work as intended.
 tick tock
 REMOVE:1 - la la la
 REMOVE:2 - la la la la
 ran out of words so make your choice idiot
 ####
-BLOCK3
-M! - Wheee
-GOTO:VideoTest
+AnswerYes
+GOTO:VideoTest M! - Wheee
 ####
-BLOCK4
-M! - Waaahhh
-GOTO:VideoTest
+AnswerNo
+GOTO:VideoTest M! - Waaahhh
 ####
-BLOCK5
-M! - Meanie
-GOTO:VideoTest
+AnswerMaybe
+GOTO:VideoTest M! - Meanie
 ####
 VideoTest
 RECT:front:[green]:50:50:100:100 RECT:front:[red]:0:200:200:300 RECT:front:[blue]:400:100:500:100 - so many shapes and colours!
