@@ -26,7 +26,7 @@ GOTO:NewBlock M! - isn't this exciting
 ###
 NewBlock
 CLEARLAYER:front IMAGE:FG_MIKU:front:10:20 BG:BG_STATION M! - This is a valid choice setup and will work as intended.
-
+CHOICE1:[yes]:AnswerYes CHOICE2:[no]:AnswerNo CHOICE3:[maybe]:AnswerMaybe M! - This is a valid choice setup and will work as intended.
 tick tock
 REMOVE:1 - la la la
 REMOVE:2 - la la la la
