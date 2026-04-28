@@ -22,16 +22,13 @@ M! - i'm miku!
 E! - That's right, Miku.
 STATUS:[<span style="font-family:serif !important;color:blue;">blue serif text here</span><br><span style="color:red;font-family:sans-serif !important;font-weight:900;">red sans serif bold text on a new line</span><br><img src="images/FG_MIKU.png"><br>miku]] - abomination of a status box
 CLEARSTATUS - Bye status box!
-GOTO:NewBlock
+GOTO:NewBlock M! - isn't this exciting
 ###
 NewBlock
-CLEARSCREEN IMAGE:FG_MIKU:front:10:20 MUS_musicname SFX_sfxname SET:variable:value CHOICE1:Yes:Block3 CHOICE2:No:Block4 CHOICE3:Idk:Block5 M! - PICK!!!
+CLEARSCREEN IMAGE:FG_MIKU:front:10:20 BG:BG_STATION CHOICE1:[Yes]:Block3 CHOICE2:[No]:Block4 CHOICE3:[Idk]:Block5 M! - PICK!!!
 tick tock
 REMOVE:1 - la la la
-REMOVE:1 - la la la la
-REMOVE:1 - la la la la la
-REMOVE:1 - la la la la la la
-REMOVE:1 - la la la la la la la
+REMOVE:2 - la la la la
 ran out of words so make your choice idiot
 ####
 Block3
