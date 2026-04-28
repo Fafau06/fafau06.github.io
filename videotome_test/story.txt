@@ -25,7 +25,8 @@ CLEARSTATUS - Bye status box!
 GOTO:NewBlock M! - isn't this exciting
 ###
 NewBlock
-CLEARLAYER:front IMAGE:FG_MIKU:front:10:20 BG:BG_STATION CHOICE1:[yes]:AnswerYes CHOICE2:[no]:AnswerNo CHOICE3:[maybe]:AnswerMaybe M! - PICK!!! This is a valid choice setup and will work as intended.
+CLEARLAYER:front IMAGE:FG_MIKU:front:10:20 BG:BG_STATION M! - This is a valid choice setup and will work as intended.
+CHOICE1:[yes]:AnswerYes CHOICE2:[no]:AnswerNo CHOICE3:[maybe]:AnswerMaybe M! - PICK!!!
 tick tock
 REMOVE:1 - la la la
 REMOVE:2 - la la la la
