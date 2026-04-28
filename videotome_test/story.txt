@@ -2,6 +2,9 @@ START
 wahoo! welcome to videotome super (modded!)
 BG:BG_STATION MUS_TEST - Let's make this space more lively, and jump in.
 IMAGE:FG_MIKU:front:350:20 - hi miku
+FUNC:[alert("BOO!");]]  M! - GET SCARED!!!
+not funny
+FUNCDELAY:[alert("BOO!");]]  M! - I think something's about to happen...
 I'm assuming you're already familiar with the original version and what it can do, so let's get right to the new stuff.
 There's a bunch of tweaks and changes under the hood, but if you want to know about those check the project page.
 First, put your cursor near the top of the page. You'll see the menu bar come down.
@@ -13,9 +16,38 @@ AutosaveCont_SAVE
 It just autosaved, by the way. Go check what that looks like.
 Feel free to make as many saves as you like and load as and when you please during the demo.
 also let me know if anything breaks please thank you
+RECT:front:[green]:50:50:100:100 - And now there's a green square in the top left corner.
 E! - Hey, did you hear character tags can now have different colours?
 M! - i'm miku!
 E! - That's right, Miku.
+STATUS:[<span style="font-family:serif !important;color:blue;">blue serif text here</span><br><span style="color:red;font-family:sans-serif !important;font-weight:900;">red sans serif bold text on a new line</span><br><img src="images/FG_MIKU.png"><br>miku]] - abomination of a status box
+CLEARSTATUS - Bye status box!
+GOTO:NewBlock
+###
+NewBlock
+CLEARSCREEN IMAGE:FG_MIKU:front:10:20 MUS_musicname SFX_sfxname SET:variable:value CHOICE1:Yes:Block3 CHOICE2:No:Block4 CHOICE3:Idk:Block5 M! - PICK!!!
+tick tock
+REMOVE:1 - la la la
+REMOVE:1 - la la la la
+REMOVE:1 - la la la la la
+REMOVE:1 - la la la la la la
+REMOVE:1 - la la la la la la la
+ran out of words so make your choice idiot
+####
+Block3
+M! - Wheee
+GOTO:VideoTest
+####
+Block4
+M! - Waaahhh
+GOTO:VideoTest
+####
+Block5
+M! - Meanie
+GOTO:VideoTest
+####
+VideoTest
+RECT:front:[green]:50:50:100:100 RECT:front:[red]:0:200:200:300 RECT:front:[blue]:400:100:500:100 - so many shapes and colours!
 Let's bring out the big new feature of this version...
 VIDBG:VID_TEST - VIDEO!
 Videos aren't just for the background, however. You can put videos on any layer.
@@ -34,7 +66,22 @@ VIDBG:VID_TEST MUSVOL:[0.2] - hey wait can i transition a video
 VIDBG:VID_TEST2 TRANS:[transitionCircleWipe]:back:1000 - testing
 okay yeah about what i expected
 VIDBG:VID_TEST TRANS:[scatter]:back:200 - this looked dope as hell with the scatter transition though look at this 
-CLEARSCREEN BG:BG_STATION MUSVOL:[1] - OK MOVING ON 
+CLEARSCREEN BG:BG_STATION MUSVOL:[1] - OK MOVING ON
+POSY:50 - Now I'm at the top of the screen!
+But, my x position will stay at the default.
+POSY:70 PERSIST:TRUE - This is very useful for making paragraphs.
+POSY:90 - Like this!
+POS:0:0:64 COL:[red] - So we're red in the corner of the screen...
+POS:0:RESET:64 - But now the Y value is the default!
+COL:[RESET] - Now the colour's back to normal.
+POS:RAND:RAND:64 - I'm in a random location!
+POSX:RAND - Now my Y position is the same as whatever it was before, but my X is something random again!
+RESETTEXT - Alright, fun's over. Back to normal.
+Let's keep the text around.
+PERSIST:TRUE - So this will just overlap itself at the default position...
+POS:100:50:64 - But you can start doing things like this!
+POS:100:80:64 - You can have a bunch of lines on screen at once, this way.
+PERSIST:FALSE - Alright, that's cleared now.
 Here's something fun, you can now input text to use as variables later!
 INPUT:name:20 - Try it now! Put your name in.
 And your name is... $name$!
@@ -52,6 +99,9 @@ AUTO:4:1000 - 5
 1... done!
 uh
 i think that's it go make your own games have fun
+CON:jimAgrees:eq:true M! - {Yippee|Bwaaa}
+MATH:coins:ADD:1 M! - For making it here, I'll give you a shiny coin.
+M! - How many do you have now? $coins$? That's pretty good!
 CHOICE1:[restart]:START - demo over go home
 
 i'm serious
