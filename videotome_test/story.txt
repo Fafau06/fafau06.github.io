@@ -25,21 +25,21 @@ CLEARSTATUS - Bye status box!
 GOTO:NewBlock M! - isn't this exciting
 ###
 NewBlock
-CLEARSCREEN IMAGE:FG_MIKU:front:10:20 BG:BG_STATION CHOICE1:[Yes]:Block3 CHOICE2:[No]:Block4 CHOICE3:[Idk]:Block5 M! - PICK!!!
+M! CLEARLAYER:front IMAGE:FG_MIKU:front:10:20 BG:BG_STATION CHOICE1:[Yes]:BLOCK3 CHOICE2:[No]:BLOCK4 CHOICE3:[Idk]:BLOCK5 - PICK!!!
 tick tock
 REMOVE:1 - la la la
 REMOVE:2 - la la la la
 ran out of words so make your choice idiot
 ####
-Block3
+BLOCK3
 M! - Wheee
 GOTO:VideoTest
 ####
-Block4
+BLOCK4
 M! - Waaahhh
 GOTO:VideoTest
 ####
-Block5
+BLOCK5
 M! - Meanie
 GOTO:VideoTest
 ####
