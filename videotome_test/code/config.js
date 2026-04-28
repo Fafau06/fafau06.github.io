@@ -3,7 +3,7 @@ const CONFIG = {
 
     loadingAnimationSpeed: 500,
     loadingSplashMessage: "Loading Videotome",
-    loadingDonehMessage: "Ready!",
+    loadingDonehMessage: "Yuready!",
 
     resolutionX: 640,
     resolutionY: 400
