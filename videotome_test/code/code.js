@@ -235,7 +235,7 @@ function readyStory() {
     bgimg.src = "images/BG_TITLE.png";
 
     // loading screen
-    document.getElementById("loading-progress").innerHTML = CONFIG.loadingSplashMessage + ".";
+    document.getElementById("loading-progress").innerHTML = CONFIG.loadingSplashMessage + "\0";
 
     loadingAnimation(); // run once to play first "frame"
     loadingAnimInterval = setInterval(loadingAnimation, CONFIG.loadingAnimationSpeed);
@@ -394,7 +394,7 @@ function imageLoaded() {
 
     if (imagesLoaded == imagesToLoad) {
         document.getElementById("loading-screen").innerHTML += "<br>";
-        document.getElementById("loading-screen").innerHTML += "Images mogged";
+        //document.getElementById("loading-screen").innerHTML += "Images mogged";
 
         console.log("how many times do we hit this?");
         console.log("images loaded: " + imagesLoaded);
@@ -409,7 +409,7 @@ function videoLoaded() {
 
     if (videosLoaded == videosToLoad) {
         document.getElementById("loading-screen").innerHTML += "<br>";
-        document.getElementById("loading-screen").innerHTML += "Videos mogged";
+        //document.getElementById("loading-screen").innerHTML += "Videos mogged";
 
         checkIfFinishedLoading();
     }
@@ -420,7 +420,7 @@ function soundLoaded() {
 
     if (soundsLoaded == soundsToLoad) {
         document.getElementById("loading-screen").innerHTML += "<br>";
-        document.getElementById("loading-screen").innerHTML += "Sounds mogged";
+        //document.getElementById("loading-screen").innerHTML += "Sounds mogged";
 
         checkIfFinishedLoading();
     }
@@ -431,7 +431,7 @@ function storyLoaded() {
 
     if (storiesLoaded == storiesToLoad) {
         document.getElementById("loading-screen").innerHTML += "<br>";
-        document.getElementById("loading-screen").innerHTML += "Story mogged";
+        document.getElementById("loading-screen").innerHTML += "シナリオ: Goober1<br>イラスト: Goober2<br>フォトグラフィー: Goober3<br>ばか": Goober4;
 
         checkIfFinishedLoading();
     }
