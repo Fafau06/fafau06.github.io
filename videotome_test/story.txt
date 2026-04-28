@@ -88,7 +88,7 @@ i think that's it go make your own games have fun
 CON:jimAgrees:eq:true M! - {Yippee|Bwaaa}
 MATH:coins:ADD:1 M! - For making it here, I'll give you a shiny coin.
 M! - How many do you have now? $coins$? That's pretty good!
-CHOICE1:[restart]:START - demo over go home
+CHOICE4:[restart]:START - demo over go home
 
 i'm serious
 
