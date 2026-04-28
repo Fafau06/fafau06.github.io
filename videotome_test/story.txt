@@ -4,7 +4,7 @@ BG:BG_STATION MUS_TEST - Let's make this space more lively, and jump in.
 IMAGE:FG_MIKU:front:350:20 - hi miku
 FUNC:[alert("BOO!");]]  M! - GET SCARED!!!
 not funny
-FUNCDELAY:[alert("BOO!");]]  M! - I think something's about to happen...
+FUNCDELAY:[alert("BOO!");]  M! - I think something's about to happen...
 I'm assuming you're already familiar with the original version and what it can do, so let's get right to the new stuff.
 There's a bunch of tweaks and changes under the hood, but if you want to know about those check the project page.
 First, put your cursor near the top of the page. You'll see the menu bar come down.
