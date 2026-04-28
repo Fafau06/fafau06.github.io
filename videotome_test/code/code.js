@@ -431,7 +431,7 @@ function storyLoaded() {
 
     if (storiesLoaded == storiesToLoad) {
         document.getElementById("loading-screen").innerHTML += "<br>";
-        document.getElementById("loading-screen").innerHTML += "シナリオ: Goober1<br>イラスト: Goober2<br>フォトグラフィー: Goober3<br>ばか": Goober4;
+        document.getElementById("loading-screen").innerHTML += "シナリオ: Goober1<br>イラスト: Goober2<br>フォトグラフィー: Goober3<br>ばか: Goober4";
 
         checkIfFinishedLoading();
     }
