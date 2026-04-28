@@ -394,7 +394,7 @@ function imageLoaded() {
 
     if (imagesLoaded == imagesToLoad) {
         document.getElementById("loading-screen").innerHTML += "<br>";
-        document.getElementById("loading-screen").innerHTML += "Images loaded";
+        document.getElementById("loading-screen").innerHTML += "Images mogged";
 
         console.log("how many times do we hit this?");
         console.log("images loaded: " + imagesLoaded);
@@ -409,7 +409,7 @@ function videoLoaded() {
 
     if (videosLoaded == videosToLoad) {
         document.getElementById("loading-screen").innerHTML += "<br>";
-        document.getElementById("loading-screen").innerHTML += "Videos loaded";
+        document.getElementById("loading-screen").innerHTML += "Videos mogged";
 
         checkIfFinishedLoading();
     }
@@ -420,7 +420,7 @@ function soundLoaded() {
 
     if (soundsLoaded == soundsToLoad) {
         document.getElementById("loading-screen").innerHTML += "<br>";
-        document.getElementById("loading-screen").innerHTML += "Sounds loaded";
+        document.getElementById("loading-screen").innerHTML += "Sounds mogged";
 
         checkIfFinishedLoading();
     }
@@ -431,7 +431,7 @@ function storyLoaded() {
 
     if (storiesLoaded == storiesToLoad) {
         document.getElementById("loading-screen").innerHTML += "<br>";
-        document.getElementById("loading-screen").innerHTML += "Story loaded";
+        document.getElementById("loading-screen").innerHTML += "Story mogged";
 
         checkIfFinishedLoading();
     }
@@ -449,7 +449,7 @@ function checkIfFinishedLoading() {
                 document.getElementById("loading-progress").innerHTML = CONFIG.loadingDonehMessage;
                 document.getElementById("loading-screen").innerHTML += "<br>";
                 document.getElementById("loading-screen").innerHTML += "<br>";
-                document.getElementById("loading-screen").innerHTML += "Click/spacebar to begin";
+                document.getElementById("loading-screen").innerHTML += "Alt+F4 to begin";
             }
         }, "2000");
     }
