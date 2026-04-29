@@ -1,30 +1,36 @@
-@font-face {
+@font-face
+{
   font-family: milkjf;
   src: url("fonts/pc-9800.ttf");
   /* src:  url("x68000_sans.ttf"); */
 }
 
-@font-face {
+@font-face
+{
   font-family: otherfont;
   src: url("fonts/x68000_sans.ttf");
   /* src:  url("x68000_sans.ttf"); */
 }
 
-* {
+*
+{
   box-sizing: border-box;
 }
-textarea:focus, input:focus{
+textarea:focus, input:focus
+{
   outline: none;
 }
 
-video {
+video
+{
   opacity: 0;
   pointer-events: none;
   position: fixed;
   top: 0;
 }
 
-body {
+body
+{
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -33,7 +39,8 @@ body {
   overflow:hidden;
 }
 
-#loading-screen, #saveload-screen {
+#loading-screen, #saveload-screen
+{
   position:fixed;
   top:0;
   width:100vw;
@@ -47,13 +54,15 @@ body {
   padding-top:20vh;
 }
 
-#loading-progress, #saveload-progress {
+#loading-progress, #saveload-progress
+{
   width:100%;
   text-align:center;
   font-size:2vw;
 }
 
-.main {
+.main
+{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,7 +71,8 @@ body {
   background: black;
 }
 
-#menu-bar {
+#menu-bar
+{
   position: fixed;
   top: -4.5vw;
   width: 100vw;
@@ -72,37 +82,44 @@ body {
   user-select: none;
 }
 
-#menu-bar.locked {
+#menu-bar.locked
+{
   top: 0;
 }
 
-.menu-bar-bg {
+.menu-bar-bg
+{
   width: 100vw;
   height: 4.5vw;
   background: #000;
 }
 
-.menu-bar-bg > div {
+.menu-bar-bg > div
+{
   display: inline-block;
   color: #fff;
   font-size: 2vw;
   padding: 1vw 0 1vw 1vw;
 }
 
-.menu-bar-bg > div.open-menu {
+.menu-bar-bg > div.open-menu
+{
   color: #e60017;
 }
 
-#savebutton, #resetbutton {
+#savebutton, #resetbutton
+{
   padding: 1vw 1vw 1vw 0;
   float: right;
 }
 
-#menu-bar:hover {
+#menu-bar:hover
+{
   top: 0;
 }
 
-#settings-menu {
+#settings-menu
+{
   position: fixed;
   width: 20vw;
   height: auto;
@@ -117,11 +134,13 @@ body {
   padding: 1.5vw;
 }
 
-#settings-menu > input {
+#settings-menu > input
+{
   width: 100%;
 }
 
-#save-menu {
+#save-menu
+{
   position: fixed;
   width: 30vw;
   height: auto;
@@ -136,86 +155,103 @@ body {
   padding: 1.5vw;
 }
 
-.save-slot {
+.save-slot
+{
   height:auto;
   width:100%;
   display: flex;
   align-items: center;
 }
 
-.save-slot span {
+.save-slot span
+{
   padding:0 0.3vw;
 }
 
-.no-save {
+.no-save
+{
   color:gray;
 }
 
-#save-slot-auto {
+#save-slot-auto
+{
   padding-bottom:1.5vw;
   border-bottom: 0.1vw white solid;
 }
 
-#save-slot-container {
+#save-slot-container
+{
   overflow-y: scroll;
   max-height:40vh;
   scrollbar-width: thin;
   scrollbar-color: red black;
 }
 
-.save-slot > div:nth-child(1) {
+.save-slot > div:nth-child(1)
+{
   width:24%;
   height:3vw;
   background:gray;
   background-size: cover;
 }
 
-#save-slot-thumb-auto {
+#save-slot-thumb-auto
+{
   height:4vw;
 }
 
-#save-slot-container .save-slot {
+#save-slot-container .save-slot
+{
   padding:1vw 1vw 0 0;
 }
 
-#save-slot-container .save-slot > div:nth-child(1) {
+#save-slot-container .save-slot > div:nth-child(1)
+{
   width:20%;
 }
 
-.save-slot > div:nth-child(2) {
+.save-slot > div:nth-child(2)
+{
   margin-left:1vw;
 }
 
-.save-slot > div:nth-child(3) {
+.save-slot > div:nth-child(3)
+{
   margin-left: auto;
 }
 
-.save-slot > div:nth-child(3):hover, .save-slot > div:nth-child(5):hover {
+.save-slot > div:nth-child(3):hover, .save-slot > div:nth-child(5):hover
+{
   cursor:pointer;
   color:red;
 }
 
-#saveload-screen {
+#saveload-screen
+{
   display:none;
 }
 
-#saveload-screen.loading {
+#saveload-screen.loading
+{
   display:block;
 }
 
-.sidebar {
+.sidebar
+{
   z-index: 4;
   position: absolute;
   top: 0;
   right: 3vw;
 }
 
-.menu-bar-bg > div:hover {
+.menu-bar-bg > div:hover
+{
   cursor: pointer;
   color: #e60017;
 }
 
-#tag-input {
+#tag-input
+{
   width:40vw;
   height:5vw;
   background:#000;
@@ -229,7 +265,8 @@ body {
 }
 
 .choices,
-.status {
+.status
+{
   padding: 1.5vw;
   user-select: none;
   display: inline-block;
@@ -245,7 +282,8 @@ body {
   /* transition: height 1.5s; */
 }
 
-#history-container {
+#history-container
+{
   display: inline-block;
   font-size: 1.5vw;
   letter-spacing: 0.15rem;
@@ -264,7 +302,8 @@ body {
   min-width: 100%;
 }
 
-.loglist {
+.loglist
+{
   list-style-type: none;
   padding-left: none;
   padding-top: 5px;
@@ -273,7 +312,8 @@ body {
   margin-top: 5px;
 }
 
-.hidden {
+.hidden
+{
   border: 0px;
   border-style: solid;
   border-color: white;
@@ -283,57 +323,25 @@ body {
   /* transition: height 1.5s; */
 }
 
-.choiceListItem {
+.choiceListItem
+{
   color: white;
   text-decoration: none;
 }
 
-.choices {
+.choices
+{
   color: #e60017;
 }
 
-.choiceListItem:hover {
+.choiceListItem:hover
+{
   color: #e60017;
   /* text-decoration: underline; */
 }
 
-.crt::after {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(18, 16, 16, 0.1);
-  opacity: 0;
-  z-index: 4;
-  pointer-events: none;
-}
-.crt::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
-    linear-gradient(
-      90deg,
-      rgba(255, 0, 0, 0.06),
-      rgba(0, 255, 0, 0.02),
-      rgba(0, 0, 255, 0.06)
-    );
-  z-index: 4;
-  background-size: 100% 2px, 3px 100%;
-  pointer-events: none;
-}
-.crt {
-  animation: textShadow 5.6s infinite;
-}
-
-#screen {
+#screen
+{
   height: 100%;
   width: 100%;
   position: relative;
@@ -345,7 +353,8 @@ body {
   image-rendering: high-quality;
 }
 
-canvas {
+canvas
+{
   position: absolute;
   height: 100%;
   width: 100%;
@@ -358,38 +367,47 @@ canvas {
   animation-fill-mode: forwards;
   animation-iteration-count:1;
 }
-#text {
+#text
+{
   z-index: 4;
 }
-#front {
+#front
+{
   z-index: 3;
 }
-#front2 {
+#front2
+{
   z-index: 3;
 }
-#backTrans {
+#backTrans
+{
   z-index: 2;
 }
-#back {
+#back
+{
   z-index: 1;
 }
 
 /* transitions */
-.transitionFade {
+.transitionFade
+{
   opacity:0;
   transition-property:opacity;
 }
-.transitionScale {
+.transitionScale
+{
   transform:scale(0);
   transition-property:transform;
 }
 
-.transitionCircleWipe {
+.transitionCircleWipe
+{
   animation-name:circleWipe;
   animation-iteration-count:1;
 }
 
-@keyframes circleWipe {
+@keyframes circleWipe
+{
   from {clip-path: circle(100% at 50% 50%);}
   to {clip-path: circle(0% at 50% 50%);}
 }
