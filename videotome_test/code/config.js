@@ -20,11 +20,11 @@ var DEFAULT =
 
     textXpos: 160,
     textYpos: 880,
-    textEndpos: 45,
+    textEndpos: 54,
     textFont: "milkjf",
-    textSize: 64,
+    textSize: 54,
     textColour: "white",
-    textLineheight: 64,
+    textLineheight: 60,
 
     speechmarkLeft: "“",
     speechmarkRight: "”",
