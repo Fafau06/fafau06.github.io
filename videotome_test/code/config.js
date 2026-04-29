@@ -18,8 +18,8 @@ var DEFAULT =
 
     animtime: 800,
 
-    textXpos: 880,
-    textYpos: 550,
+    textXpos: 160,
+    textYpos: 880,
     textEndpos: 64,
     textFont: "milkjf",
     textSize: 64,
