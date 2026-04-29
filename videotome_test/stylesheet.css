@@ -341,7 +341,6 @@ body
   height: 100%;
   width: 100%;
   position: relative;
-  border: 2px solid black;
   margin: auto;
   background: black;
   display: flex;
