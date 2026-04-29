@@ -18,13 +18,13 @@ var DEFAULT =
 
     animtime: 800,
 
-    textXpos: 80,
-    textYpos: 350,
+    textXpos: 880,
+    textYpos: 550,
     textEndpos: 64,
     textFont: "milkjf",
-    textSize: 16,
+    textSize: 64,
     textColour: "white",
-    textLineheight: 20,
+    textLineheight: 40,
 
     speechmarkLeft: "“",
     speechmarkRight: "”",
