@@ -25,7 +25,7 @@ CLEARSTATUS - Bye status box!
 GOTO:NewBlock M! - isn't this exciting
 ###
 NewBlock
-CLEARLAYER:front IMAGE:FG_MIKU:front:10:20 BG:BG_STATION M! - This is a valid choice setup and will work as intended.
+CLEARLAYER:front IMAGE:FG_MIKU:front:10:20 BG:BG_WIDESCREEN1 M! - This is a valid choice setup and will work as intended.
 CHOICE1:[yes]:AnswerYes CHOICE2:[no]:AnswerNo CHOICE3:[maybe]:AnswerMaybe M! - This is a valid choice setup and will work as intended.
 Except when it doesn't
 tick tock
@@ -72,6 +72,17 @@ POS:0:0:64 COL:[red] - So we're red in the corner of the screen...
 POS:0:RESET:64 - But now the Y value is the default!
 COL:[RESET] - Now the colour's back to normal.
 POS:RAND:RAND:64 - I'm in a random location!
+AUTO:10:10 POS:RAND:RAND:64 - I'm in a random location!
+POS:RAND:RAND:25 - I'm in a random location!
+POS:RAND:RAND:50 - I'm in a random location!
+POS:RAND:RAND:75 - I'm in a random location!
+POS:RAND:RAND:80 - I'm in a random location!
+POS:RAND:RAND:90 - I'm in a random location!
+POS:RAND:RAND:100 - I'm in a random location!
+POS:RAND:RAND:110 - I'm in a random location!
+POS:RAND:RAND:115 - I'm in a random location!
+POS:RAND:RAND:120 - I'm in a random location!
+POS:RAND:RAND:128 - I'm in a random location!
 POSX:RAND - Now my Y position is the same as whatever it was before, but my X is something random again!
 RESETTEXT - Alright, fun's over. Back to normal.
 Let's keep the text around.
