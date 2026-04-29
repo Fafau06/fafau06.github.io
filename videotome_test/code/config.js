@@ -1,15 +1,17 @@
-const CONFIG = {
+const CONFIG =
+{
     startingChapter: "START",
 
-    loadingAnimationSpeed: 500,
+    loadingAnimationSpeed: 100,
     loadingSplashMessage: "Loading Videotome",
     loadingDonehMessage: "Yuready!",
 
-    resolutionX: 640,
-    resolutionY: 400
+    resolutionX: 1920,
+    resolutionY: 1080
 };
 
-var DEFAULT = {
+var DEFAULT =
+{
     removeChoiceAtBlockEnd: true,
 
     autosaveAll: false,
