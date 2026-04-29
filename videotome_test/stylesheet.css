@@ -12,10 +12,6 @@
   /* src:  url("x68000_sans.ttf"); */
 }
 
-*
-{
-  box-sizing: border-box;
-}
 textarea:focus, input:focus
 {
   outline: none;
