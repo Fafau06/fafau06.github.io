@@ -21,7 +21,7 @@ var DEFAULT =
     textXpos: 160,
     textYpos: 880,
     textEndpos: 54,
-    textFont: "milkjf",
+    textFont: "merriregular",
     textSize: 54,
     textColour: "white",
     textLineheight: 60,
