@@ -1,15 +1,8 @@
 START
-wahoo! welcome to videotome super (modded!)
 BG:BG_STATION MUS_TEST - Let's make this space more lively, and jump in.
 IMAGE:FG_MIKU:front:350:20 - hi miku
-FUNC:[alert("BOO!");]]  M! - GET SCARED!!!
-not funny
-FUNCDELAY:[alert("BOO!");]  M! - I think something's about to happen...
-I'm assuming you're already familiar with the original version and what it can do, so let's get right to the new stuff.
-There's a bunch of tweaks and changes under the hood, but if you want to know about those check the project page.
-First, put your cursor near the top of the page. You'll see the menu bar come down.
-Play with those menus and the settings for as long as you like, then we can continue.
-You'll also see the save menu! This version supports autosaving AND saving at any point!
+RECT:front:[black]:150:50:380:300 POSY:70 PERSIST:TRUE - This is very useful for making paragraphs.
+POSY:90 - Like this!
 GOTO:AutosaveCont_SAVE - By default, Super will autosave when a chapter ends with _SAVE. However, there's a toggle in config.js that will cause it to autosave everytime a chapter changes.
 ###
 AutosaveCont_SAVE
@@ -44,30 +37,8 @@ AnswerMaybe
 GOTO:VideoTest M! - Meanie
 ###
 VideoTest
-RECT:front:[green]:50:50:100:100 RECT:front:[red]:0:200:200:300 RECT:front:[blue]:400:100:500:100 - so many shapes and colours!
-Let's bring out the big new feature of this version...
-VIDBG:VID_TEST - VIDEO!
-Videos aren't just for the background, however. You can put videos on any layer.
-VID:VID_TEST:front:0:0 VID:VID_TEST2:front2:0:0 ANIM:PLAY - So that means you animate them just like you would images!
-ANIM:STOP IMAGE:FG_MIKU:front:350:20 - However, once we bring Miku back on the front layer, the video pauses at whatever frame it's on.
-IMAGE:BG_STATION:back:0:0 IMAGE:FG_MIKU:front:50:20 IMAGE:FG_MIKU:front:90:0 IMAGE:FG_MIKU:front:100:50 - You're free to manipulate the new canvas just as you would before.
-VID:VID_ROACH:front:300:100 - Videos work with transparency, so you can also do things like this!
-CLEARSCREEN BG:BG_STATION - alright alright let's go back
-Actually, we can make moving between locations much more interesting, now.
-TRANS:[scatter]:back:10 BG:BG_GALLEY - Transition!
-Currently there's only one pre-packaged transition, which is that one you just saw from Heartbreak.
-However, you can use css classes to make your own transitions. Check the css file for a jumping point.
-CSS is pretty powerful, so you can do some very fun stuff.
-BG:BG_STATION TRANS:[transitionCircleWipe]:back:1000  - Like this!
-VIDBG:VID_TEST MUSVOL:[0.2] - hey wait can i transition a video
-VIDBG:VID_TEST2 TRANS:[transitionCircleWipe]:back:1000 - testing
-okay yeah about what i expected
-VIDBG:VID_TEST TRANS:[scatter]:back:200 - this looked dope as hell with the scatter transition though look at this 
-CLEARSCREEN BG:BG_STATION MUSVOL:[1] - OK MOVING ON
 POSY:50 - Now I'm at the top of the screen!
 But, my x position will stay at the default.
-POSY:70 PERSIST:TRUE - This is very useful for making paragraphs.
-POSY:90 - Like this!
 POS:0:0:64 COL:[red] - So we're red in the corner of the screen...
 POS:0:RESET:64 - But now the Y value is the default!
 COL:[RESET] - Now the colour's back to normal.
@@ -100,7 +71,7 @@ POS:10:150:64 FONT:[cursive] - we can also make this guy into different fonts
 POS:50:150:15 SIZE:100 COL:[blue] LINE:100 - and REALLY BEEG
 PERSIST:FALSE RESETTEXT - There's also the option to autoplay some lines. Fun if you're doing some more cinematic stuff.
 The next 5 lines will be autoplayed!
-AUTO:4:1000 - 5
+AUTO:4:100 - 5
 4
 3
 2
