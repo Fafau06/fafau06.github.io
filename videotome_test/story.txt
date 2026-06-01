@@ -3,9 +3,9 @@ BG:BG_BRUTALIST MUS_TEST - Let's make this space more lively, and jump in.
 IMAGE:FG_MIKU:front:350:20 - hi miku
 BG:BG_BRUTALISTCINEMA M! - this is brutalist with the bars
 BG:BG_BRUTALISTSMALL M! - this is the zato style
-RECT:front:[black]:150:50:680:500 POSY:70 PERSIST:TRUE - This is very useful for making paragraphs.
+RECT:front:[black]:150:50:1250:900 POSY:70 PERSIST:TRUE - This is very useful for making paragraphs.
 POSY:90 - Like this!
-RESETTEXT - Alright, fun's over. Back to normal.
+PERSIST:FALSE RESETTEXT - Alright, fun's over. Back to normal.
 GOTO:AutosaveCont_SAVE - By default, Super will autosave when a chapter ends with _SAVE. However, there's a toggle in config.js that will cause it to autosave everytime a chapter changes.
 ###
 AutosaveCont_SAVE
