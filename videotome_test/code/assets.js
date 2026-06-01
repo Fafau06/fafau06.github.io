@@ -9,6 +9,8 @@ const IMGs =
     BG_TITLE:"images/BG_TITLE.png",
     BG_WIDESCREEN1:"images/BG_WIDESCREEN1.png",
     BG_BRUTALIST:"images/BG_Brutalist.png",
+    BG_BRUTALISTCINEMA:"images/BG_BrutalistCinema.png",
+    BG_BRUTALISTSMALL:"images/BG_BrutalistSmall.png",
     BG_STATION:"images/STATION.png",
     BG_STATIONWIDE:"images/STATIONWIDE.png",
     BG_STARS:"images/BG_STARS.png",
