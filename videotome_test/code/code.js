@@ -351,7 +351,7 @@ function attachCanvas() {
 
 function setScreen(screen) {
     // screen sizing
-    let screenScaling = (window.innerHeight / CONFIG.resolutionY) - 0.1;
+    let screenScaling = Math.min(window.innerHeight / CONFIG.resolutionY, window.innerWidth / CONFIG.resolutionX) - 0.001;
     
     screen.width = CONFIG.resolutionX;
     screen.height = CONFIG.resolutionY;
