@@ -377,9 +377,9 @@ canvas
   position: absolute;
   height: 100%;
   width: 100%;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -webkit-crisp-edges;
-  image-rendering: crisp-edges;
+  image-rendering: -moz-high-quality;
+  image-rendering: -webkit-high-quality;
+  image-rendering: high-quality;
   image-rendering: high-quality;
   transition-timing-function: linear;
   animation-timing-function: linear;
