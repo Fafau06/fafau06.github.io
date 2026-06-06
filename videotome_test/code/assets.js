@@ -11,6 +11,7 @@ const IMGs =
     BG_BRUTALIST:"images/BG_Brutalist.png",
     BG_BRUTALISTCINEMA:"images/BG_BrutalistCinema.png",
     BG_BRUTALISTSMALL:"images/BG_BrutalistSmall.png",
+    BG_BRUTALISTLONG:"images/BG_BrutalistLong.png",
     BG_STATION:"images/STATION.png",
     BG_STATIONWIDE:"images/STATIONWIDE.png",
     BG_STARS:"images/BG_STARS.png",
@@ -36,6 +37,7 @@ const VIDs =
 
 const MUSIC =
 {
+    MUS_DTEST: "music/relaxed dialogue.mp3",
     MUS_TEST:"music/pixelollie.mp3",
     SFX_TITLE:"music/SFX_TITLE.mp3",
     SFX_TEXT: "music/SFX_TEXT.mp3"
