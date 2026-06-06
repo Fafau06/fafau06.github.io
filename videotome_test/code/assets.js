@@ -3,7 +3,8 @@ const IMGs =
     FG_BLANK:"images/blank.png",
 
     // bg assets
-    
+
+    BG_BLACK:"images/MMDBG3.png",
     BG_BACKGROUND:"images/BG_TEXTURE1.png",
     BG_CLEAR:"images/BG_CLEAR.png",
     BG_TITLE:"images/BG_TITLE.png",
