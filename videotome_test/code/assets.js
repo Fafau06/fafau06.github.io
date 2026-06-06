@@ -20,7 +20,7 @@ const IMGs =
 
     // char sprites
 
-    FG_DIAOVER:"images/DiagOverlay",
+    FG_DIAOVER:"images/DiagOverlay.png",
     FG_TANNA:"images/AnnaTest.png",
     FG_MIKU:"images/FG_MIKU.png",
     FG_DARKMIKU:"images/FG_DARKMIKU.png"
