@@ -4,7 +4,7 @@ BG:BG_BRUTALISTLONG TRANS:[transitionFade]:back:1000 MUS_DTEST - There was the s
 It was my fingers, slowly curling. 
 That was a motion that shouldn’t have been possible, it had never been possible throughout the past several years and yet... it was happening now. 
 With a head swirling full of thoughts, I stayed still, Anabelle, my owner, was coming around again to appraise me.
-IMAGE:FG_TANNA:front:0:0 TRANS:[transitionFade]:front:500 IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:front2:500 A! - There! You’re so pretty now, this dress was worth this month’s allowance after all.
+IMAGE:FG_TANNA:front:0:0 IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:front:500 A! - There! You’re so pretty now, this dress was worth this month’s allowance after all.
 Straight black hair, red contacts that she rarely removed, lips coated in black lipstick that spread to reveal a set of white teeth, the girl smiled.
 Done with the dress, she returned to her package, pulling out socks, a tiara and an assortment of other accessories. 
 I recognised them immediately, they were the new outfit from the latest season of the magical girl anime that we were watching, the new clothes that Luciella wore were now my clothes.
