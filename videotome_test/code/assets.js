@@ -48,6 +48,6 @@ const MUSIC =
 
 const SPEAKERS =
 {
-  A: {name: "ANNABELLE", colour: "#fea79a"},
+  A: {name: "ANABELLE", colour: "#fea79a"},
   L: {name:"LUCIELLA", colour:"#00ddc0"}
 };
