@@ -18,7 +18,9 @@ const IMGs =
     BG_GALLEY:"images/BG_GALLEY.png",
 
     // char sprites
-    
+
+    FG_DIAOVER:"images/DiagOverlay",
+    FG_TANNA:"images/AnnaTest.png",
     FG_MIKU:"images/FG_MIKU.png",
     FG_DARKMIKU:"images/FG_DARKMIKU.png"
 };
@@ -45,6 +47,6 @@ const MUSIC =
 
 const SPEAKERS =
 {
-  E: {name: "emily", colour: "#fea79a"},
-  M: {name:"miku", colour:"#00ddc0"}
+  A: {name: "ANNABELLE", colour: "#fea79a"},
+  L: {name:"LUCIELLA", colour:"#00ddc0"}
 };
