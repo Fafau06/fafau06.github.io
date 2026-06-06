@@ -1,12 +1,19 @@
 START
-BG:BG_BRUTALIST MUS_TEST - Let's make this space more lively, and jump in.
-IMAGE:FG_MIKU:front:350:20 - hi miku
-BG:BG_BRUTALISTCINEMA M! - this is brutalist with the bars
-BG:BG_BRUTALISTSMALL M! - this is the zato style
-RECT:front:[black]:150:50:1250:900 POSY:70 POS:RESET:150:20 PERSIST:TRUE - They're more versitile, and everything will persist after setting it one time.
-POS:RESET:150:20 - Is this like a long paragraph example and if so how long can I make the paragraph and where will this textblock be? So many questions my confusion only grows...
-POSY:90 - Like this!
-PERSIST:FALSE RESETTEXT - Alright, fun's over. Back to normal.
+BG:BG_BLACK - Zppt.
+BG:BG_BRUTALISTLONG TRANS:[transitionFade]:back:1000 MUS_DTEST - There was the sound of the dress getting zipped up from the back as Anabelle dressed me up when I felt something strange.
+It was my fingers, slowly curling. 
+That was a motion that shouldn’t have been possible, it had never been possible throughout the past several years and yet... it was happening now. 
+With a head swirling full of thoughts, I stayed still, Anabelle, my owner, was coming around again to appraise me.
+IMAGE:FG_TANNA:front:0:0 TRANS:[transitionFade]:front:500 IMAGE:FG_DIAOVER:front2:0:0 TRANS:[transitionFade]:front2:500 A! - There! You’re so pretty now, this dress was worth this month’s allowance after all.
+Straight black hair, red contacts that she rarely removed, lips coated in black lipstick that spread to reveal a set of white teeth, the girl smiled.
+Done with the dress, she returned to her package, pulling out socks, a tiara and an assortment of other accessories. 
+I recognised them immediately, they were the new outfit from the latest season of the magical girl anime that we were watching, the new clothes that Luciella wore were now my clothes.
+Anabelle positioned my body on the chair, making me sit down before lifting my foot to put on the thigh highs. 
+Motions that used to be familiar now felt so novel that it was strange, I could feel my feet now, alongside her soft hands that gently pulled the sock up from where it was scrunched at my ankles. 
+A warmth was radiating off her, the more I concentrated the more sensations were made known to me, so this was the stimulating world that she lived in.
+So lost in my thoughts that I was, the process of dressing me up felt quicker than usual and she nested the tiara, the final piece even in the magical girl sequence, in my hair, the spikes poking at my scalp a little uncomfortably.
+A! - You’re so perfect now, Luciella.
+Holding my chin, she kissed my silicone lips, I never knew that a human’s mouth could be so soft, when her lips left mine I found myself a small ache in my chest.
 GOTO:AutosaveCont_SAVE - By default, Super will autosave when a chapter ends with _SAVE. However, there's a toggle in config.js that will cause it to autosave everytime a chapter changes.
 ###
 AutosaveCont_SAVE
