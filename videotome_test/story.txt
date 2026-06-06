@@ -1,5 +1,5 @@
 START
-BG:BG_BLACK - Zppt.
+CLEARSCREEN BG:BG_BLACK - Zppt.
 BG:BG_BRUTALISTLONG IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 MUS_DTEST - There was the sound of the dress getting zipped up from the back as Anabelle dressed me up when I felt something strange.
 It was my fingers, slowly curling. 
 That was a motion that shouldn’t have been possible, it had never been possible throughout the past several years and yet... it was happening now. 
