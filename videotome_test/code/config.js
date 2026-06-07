@@ -34,7 +34,7 @@ var DEFAULT =
     fontStrokeColour: "black",
     fontSmoothing: true,
 
-    speakerLeftOffset: 42,
+    speakerLeftOffset: 35,
     speakerTopOffset: 0,
     speakerEndpos: 1, 
     speakerColour: "red", 
