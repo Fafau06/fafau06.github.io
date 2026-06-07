@@ -14,6 +14,12 @@
 
 @font-face
 {
+  font-family: antonsmall;
+  src: url("fonts/AntonSC-Regular.ttf");
+}
+
+@font-face
+{
   font-family: merriregular;
   src: url("fonts/Merriweather-Regular.ttf");
 }
@@ -55,7 +61,7 @@ body
   width: 100vw;
   margin: 0;
   background-color: white;
-  font-family: milkjf;
+  font-family: antonsmall;
   overflow:hidden;
 }
 
