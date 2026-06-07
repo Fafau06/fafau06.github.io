@@ -20,7 +20,7 @@ var DEFAULT =
 
     textXpos: 160,
     textYpos: 880,
-    textEndpos: 80,
+    textEndpos: 64,
     textFont: "merriregular",
     textSize: 54,
     textColour: "white",
@@ -34,7 +34,8 @@ var DEFAULT =
     fontStrokeColour: "black",
     fontSmoothing: true,
 
-    speakerLeftOffset: 70,
+    speakerLeftOffset: 74,
+    speakerTopOffset: 0,
     speakerEndpos: 1, 
     speakerColour: "red", 
 
