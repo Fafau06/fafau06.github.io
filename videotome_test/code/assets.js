@@ -22,6 +22,7 @@ const IMGs =
 
     FG_DIAOVER:"images/DiagOverlay.png",
     FG_TANNA:"images/AnnaTest.png",
+    FG_TDUO:"images/AnnaTestDuo.png",
     FG_MIKU:"images/FG_MIKU.png",
     FG_DARKMIKU:"images/FG_DARKMIKU.png"
 };
