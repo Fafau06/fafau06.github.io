@@ -14,88 +14,721 @@ A warmth was radiating off her, the more I concentrated the more sensations were
 So lost in my thoughts that I was, the process of dressing me up felt quicker than usual and she nested the tiara, the final piece even in the magical girl sequence, in my hair, the spikes poking at my scalp a little uncomfortably.
 A! - You’re so perfect now, Luciella.
 Holding my chin, she kissed my silicone lips, I never knew that a human’s mouth could be so soft, when her lips left mine I found myself a small ache in my chest.
-GOTO:AutosaveCont_SAVE - By default, Super will autosave when a chapter ends with _SAVE. However, there's a toggle in config.js that will cause it to autosave everytime a chapter changes.
+GOTO:SCENE_ONE
 ###
-AutosaveCont_SAVE
-It just autosaved, by the way. Go check what that looks like.
-Feel free to make as many saves as you like and load as and when you please during the demo.
-also let me know if anything breaks please thank you
-RECT:front:[green]:50:50:100:100 - And now there's a green square in the top left corner.
-E! - Hey, did you hear character tags can now have different colours?
-M! - i'm miku!
-E! - That's right, Miku.
-STATUS:[<span style="font-family:serif !important;color:blue;">blue serif text here</span><br><span style="color:red;font-family:sans-serif !important;font-weight:900;">red sans serif bold text on a new line</span><br><img src="images/FG_MIKU.png"><br>miku]] - abomination of a status box
-CLEARSTATUS - Bye status box!
-GOTO:NewBlock M! - isn't this exciting
+SCENE_ONE
+BG:BG_BEDROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+As far as I knew, Anabelle didn’t go to school.
+But she would leave the house sometimes, coming back with fan-made magazines or manga of that same show, “Please Give Me A Miracle!”, usually abbreviated to “KiseChou” to add it to her massive collection.
+Anyone who stepped into the house would instantly know how much of a fan she was, there was merchandise everywhere, figures on the shelves, plushies on the sofa, the small apartment was filled with it, no, more specifically, the whole apartment was filled with me, with Luciella.
+She was one of the side characters, well-known for her soft pastel colours and surprisingly tsundere personality.
+During the many rewatches of the show, I learned the gap between her girly moe look and sharp tongue was what made Anabelle fall in love.
+That night too, she was talking to me before falling asleep, laying me down in her bed then lying down herself, pulling the covers over us.
+A! - Thank you, Luciella.
+Red eyes looked into my unblinking purple ones.
+A! - You don’t know how many times you saved me.
+I couldn’t do anything but look back at her, how badly I wanted to touch her, there was an itch now that I knew that it was possible.
+A! - When reality felt like it was crushing me, when everything, the sight of my hair, my body and my uniform were all hurting me, I thought about how I could go back home and see you, to see that cute pouting face on the TV and suddenly things felt a little easier.
+She moved a little, closing the gap between my body and hers.
+As she wrapped her arms around my waist, chest pressing against mine and her legs placed between my own, it felt like my body too was starting to heat up, it felt like I was on fire.
+A! - But now you’re here, at home with me every single day, I couldn’t be happier.
+GOTO:SCENE_TWO
 ###
-NewBlock
-CLEARLAYER:front IMAGE:FG_MIKU:front:10:20 BG:BG_WIDESCREEN1 M! - This is a valid choice setup and will work as intended.
-CHOICE1:[yes]:AnswerYes CHOICE2:[no]:AnswerNo CHOICE3:[maybe]:AnswerMaybe M! - This is a valid choice setup and will work as intended.
-Except when it doesn't
-tick tock
-REMOVE:1 - la la la
-REMOVE:2 - la la la la
-ran out of words so make your choice idiot
-REMOVEALL GOTO:VideoTest M! - Too late!
+SCENE_TWO
+BG:BG_LIVINGROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+I wonder when it was that I started to distance myself away from Luciella.
+It felt like the “Luciella” that was me and the “Luciella” that was fighting monsters on the screen were two separate people, I was Luciella but I also was not, there was such a feeling growing in my head, long before I felt my fingers move.
+And yet Anabelle treated us the same.
+She didn’t know any better so it was okay but…
+Ever since I started to feel my body it seemed that my heart started learning how to feel too, I wanted to tell Anabelle about this, no, not just about this, I had so many things that I wanted to tell her.
+But there was something creeping up inside of me, I think this is what they called fear.
+I was scared of her reaction to something so shocking.
+Maybe she would be surprised, or confused about how this could be.
+Maybe she would be happy that her favourite character had become real.
+When I started thinking about the different scenarios it was hard to stop, there was fuzzy feeling pooling in my stomach, this must be excitement.
+Either way, it was difficult to find a time to speak, let alone show her that I could move on my own.
+I was stopped by something every time I wanted to, from all of the knowledge I gained through watching shows with her, I realised after a while that the jittery feeling was nervousness.
+Nervousness… it was as though I was unable to part my lips, my body acted as solid and stationary as silicone should be whenever I mustered up the courage to do anything.
+How was I going to prove that I was someone, that I wasn’t just a doll, when it was this hard to get myself together now that I had a shot?
+Developing these sensations and such clear feelings was complicated.
+Shhk.
+The door closed and I woke up from my nap.
+A! - Luciella, I’m back.
+Despite not being able to close my eyes, I could still sleep somewhat.
+It was a feeling like withdrawing into my body and then coming back out after a duration or when I heard Anabelle’s voice again, I had discovered it after spending too many bored nights waiting for it to be daytime again.
+She came over now, the sofa dipping as she sat next to where I was positioned, raising her hand to stroke my hair.
+A! - Was it alright for you at home?
+I finally managed to nod just the slightest bit but Anabelle had already turned away, reaching into the paper bag that was next to her.
+Taking out a stack of books, she showed them to me.
+A! - Ta-da! I went to the bookstore and found some doujinshi of you! Lucky~
+They were all erotic fan-made books, no doubt of Luciella getting attacked by one monster or another.
+But from the times that I managed to see what Anabelle was reading I knew that not a single one would have Luciella with another character.
+For Anabelle, shipping Luciella with a character from the main cast was impossible.
+She shifted closer to me, slender arms hugging me close to her, rubbing her cheek against mine.
+A! - I’m only grateful to these doujin circles for drawing you so beautifully, none of these otaku come close to loving you as much as I do.
+At that moment, I dared to press my face against hers just enough for her to think that it was her imagination.
+GOTO:SCENE_THREE
 ###
-AnswerYes
-GOTO:VideoTest M! - Wheee
+SCENE_THREE
+BG:BG_BEDROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+For several days, there was a feeling stuck in me that was both warm and shaky.
+I had woke up early and spent hours pondering before eventually labelling it as “yearning”.
+Looking over at Anabelle, I stared at the way her chest was rising and falling as she slept, and made up my mind.
+I had to do something today.
+Moving my attention to the rest of the bedroom, I stared at the light fluttering of the curtains, occasionally bringing sunlight into the darkened room.
+Several minutes passed before Anabelle stirred, rubbing her eyes as she turned to her side, facing me with a smile.
+A! - Good morning, Luciella.
+It was now or never.
+I took a breath in.
+L! - Good morning, Anabelle.
+Even I was surprised, I wasn't sure if it would actually work.
+How was it that I could speak, even my voice sounded like Luciella.
+She stared at me for a moment, blinked several times, rubbed her eyes, and then continued staring.
+A! - Did you just…
+L! - Yes.
+I turned my head a little, heat rising to my face.
+L! - If you look at me like that—
+A! - Is it really… you?
+When I faced Anabelle again, she was smiling in disbelief.
+A! - Luciella, you’re real?
+I flushed.
+L! - I… I don’t know why I can speak either…
+A! - I don’t care about that! You’re real! You’re… talking to me! And saying my name!
+She was so overjoyed it was a little cute, I couldn’t help but smile too.
+L! - Hehe… I am…
+If it made her happy, I could get used to this voice.
+Anabelle practically threw her arms around me, squeezing me hard.
+A! - Oh my gosh, I can’t believe this is happening, I can’t believe you are actually real, this is like a dream.
+She laughed, an amazingly joyous sound.
+But I bit my lip awkwardly, realising something.
+L! - Anabelle… do you still want me to…? It’s poking against me…
+A! - Ah… right…
+She was flustered for a moment, cheeks turning red.
+This was new, I had never seen her embarrassed like this before, it was cute too.
+L! - I… I can do it on my own now if you want me to.
+There was a pause.
+A! - Okay.
+Anabelle shifted, moving to the side of the bed while I sat down on the floor, kneeling in front of her while she squirmed, avoiding eye contact.
+A! - It's embarrassing suddenly…
+I grabbed the lube from the bedside table and pulled down her shorts.
+L! - Even though it's been happening since the beginning?
+A! - It’s different… now that you're real…
+Staring at her length, I brought my face closer to sniff it.
+SIZE:30 A! - Don't smell it…
+But I couldn't help it, to the me that couldn't smell until now it was just so interesting.
+I held her dick with one hand and rubbed lube on it with the other, positioning my mouth near the tip and swallowing it to the base.
+Gllp.
+A! - Mhhf—
+A sound exited her, torn out of her lips as I started moving, rolling the tip around my tongue as I sucked her off.
+A! - Luciella, you're too—
+A strained moan left through gritted teeth as she gripped my hair and forced her dick down my throat, slamming it and and out of my mouth as she moved her hips.
+My throat was warm, it was all very strange.
+A! - Fuck, it feels different now, it's like you're real, I'm sorry, I'm sorry that I'm using you like this but it feels so good.
+Anabelle apologised over and over as she abused my mouth, I would have told her that it was okay if I could.
+Eventually she let go of me, panting, and I released her dick from my mouth, kissing the tip.
+L! - Is it good?
+A! - It's the best.
+Smiling to myself, I continued for a while more until her breaths were coming out ragged and her legs were shaking.
+A! - Luciella, I'm—”
+Shoving my face away, Anabelle tried reaching over to the bedside table for the tissues but it was too late, her cum splurted out onto my face, some of it dripping down into my mouth.
+A! - Ah…! I’m so sorry! Um…”
+She fumbled around and grabbed a whole bunch of tissues.
+A! - I'll help you wipe your face…
+I licked the area around my mouth.
+L! - It's salty.
+A! - Please don't say that.
+I laughed a little.
+L! - You're cute like this…
+She looked up at me, startled, and I stilled, did I say something wrong?
+I backtracked, and did my best Luciella impression.
+L! - But…!
+I wiped my face clean and got up, turning away from her.
+L! - It's not like I like you or anything!
+There was a slight pause, my mind was spinning.
+Then Anabelle laughed wholeheartedly, standing up and patting my head.
+A! - Thank you, Luciella.
+Somehow, those words twisted my insides.
+GOTO:SCENE_FOUR
 ###
-AnswerNo
-GOTO:VideoTest M! - Waaahhh
+SCENE_FOUR
+BG:BG_LIVINGROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+After Anabelle brushed her teeth and washed up, we went to the living room.
+There was a feeling like magic, her mood was fluffy and light, full of interest in me now that I was “real” to her.
+A! - Do you have any memories? Or did you just gain consciousness suddenly? When did you start moving?
+She was almost bouncing in her seat, looking at me with big, sparkling eyes.
+A! - I'm sorry if there are too many questions, this is just so exciting!
+She giggled and I smiled a little, flushed and embarrassed to have so much attention on me.
+L! - I mean… I have always been conscious in a way?
+I remember everything from when you bought me until now, maybe it was when you started talking to me that I “woke up”.
+But it was only recently that I realised that I could move, I couldn't feel until then.
+I paused, and thought for a while before continuing.
+L! - I could “feel” but it was in a way that was detached, like it wasn't really my body.
+It was like… there was no warmth, there were no sensations, heat, cold, warmth, emotions, I could feel all of them for the first time since then and wow…
+I laughed a little.
+L! - It's so much and so new but so amazing at the same time, it's so much… better… than just being a doll.
+A! - It sounds different, truly…
+Her initial enthusiasm waned slightly, her voice dropping.
+A! - I can understand feeling detached from your body, I am constantly…
+Then, as though she was catching herself, she stopped, brightening up.
+A! - I mean! It's better now, so don't worry about it! What was I going on about anyway haha…
+Either way, it didn't matter how much she was trying to avoid it or cover it up, I already knew, that's the reason I was bought anyway.
+Anabelle… there were things about her body that brought her pain.
+It wasn't something that she brought up much, or wanted to talk about at all.
+I didn't understand it at first, were those thoughts and feelings she had not just a fact?
+To me, it was just something that was a part of her self.
+But to Anabelle, it was something much more difficult.
+Even if she didn't talk about it much, I knew that for sure.
+L! - Mm… what else do you want to know?
+Maybe if I diverted the topic back to what it originally was, she would feel better?
+Anabelle seemed to have relaxed a little bit at my question and I sighed a little internally.
+I was getting the hang of this strange thing called communicating.
+A! - Yes! There's so much more than I want to know, but somehow…
+She squinted at me, considering something deeply.
+A! - There's something that has been bugging me since just now, I'm not sure if it makes sense for me to say it though.
+The way she was phrasing her words made me uneasy.
+A! - Basically what I wanted to say is, you're not really being like Luciella, are you?
+Somehow, that statement was like a stake driving through my heart.
+A! - Because you're basically Luciella, right? But your personality… it doesn't match, even though you look exactly like her.
+She continued staring with an increasingly confused expression.
+A! - Something is just a little off, you're too…? I’m not actually sure how to explain this.
+As Anabelle tilted her head, lost in thought, there was a jittering feeling, like something struggling to leave, knocking against the sides of myself.
+A! - The way you say things—
+L! - Anyway…!
+If I didn't intercept, it felt like something bad would happen.
+I pulled my lips into a smile, slightly awkward maybe but it would have to do.
+L! - Um… I remember now, I wanted to say that I can wear clothes on my own now! And do my hair and everything…!
+Anabelle's expression cleared, shifting back to excitement.
+A! - Yes, the clothes! I can talk to you about all of them now then! I have never been able to talk about your designs to anyone until now, where do I even start…
+Holding my hand, she pulled me towards her bedroom.
+GOTO:SCENE_FIVE
 ###
-AnswerMaybe
-GOTO:VideoTest M! - Meanie
+SCENE_FIVE
+BG:BG_BEDROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+Anabelle stepped into the room, opening her closet.
+It was filled completely with frilly clothes, split in half by a massive style difference.
+On the right side were Anabelle's gothic lolita clothes, black and white dresses and jumper skirts hung up one after another.
+In boxes at the bottom of the closet were neatly stored petticoats and accessories like socks and headdresses.
+And on the left was a sudden burst of colour, pastel dresses filled with lace and ruffles, those were what she had bought for me.
+Cosplay dresses for Luciella were now used to dress me up, Anabelle had a whole array, I don't think there wasn't a dress that she didn't have.
+Luciella's main magical girl clothes, redesigns over the years, art from collaboration events.
+If there wasn't an existing dress being sold for cosplay, Anabelle would save up and have one custom made
+Her collection reached a point where she had to shift some of her clothes out of the closet to make space for mine.
+Shhf.
+Anabelle pushed her clothes to the side, making a little more space for Luciella's dresses.
+A! - There! Which one do you like best! You can wear that one today.
+Her eager expression and shining eyes compelled me to turn and face the overwhelming amount of clothes.
+It was hard to decide, I was so used to Anabelle choosing for me that I didn't have much preference.
+L! - This one? But, I like the one I'm wearing right now too… you can decide!
+A! - Aw… but I really wanted to know what you liked!
+L! - Hm…
+I turned my attention to the clothes again, taking a closer look at the clothes.
+It wasn't that I didn't like them, it's just that I was always wearing the same things, or around the same colours and designs… they all kind of blended together.
+That was when I spotted it, a bag of clothes squashed into a corner.
+I had never seen it before, so stuffed inside that it would be hard to see from where I was usually positioned.
+My curiosity piqued, I moved my hand towards it.
+L! - What's thi—
+Bang.
+Anabelle pushed the door shut.
+I think, maybe we can keep that dress on for today!
+There was a strained smile on her face.
+A! - Come on, let's go outside, I need my laptop to preorder the new keychains! They're so cute, I have to show you.
+Tugging on my wrist, she pulled me out of the bedroom but I continued staring at the closet.
+What was that bag?
+I wanted to know so badly.
+GOTO:SCENE_SIX
 ###
-VideoTest
-POSY:50 - Now I'm at the top of the screen!
-But, my x position will stay at the default.
-POS:0:0:64 COL:[red] - So we're red in the corner of the screen...
-POS:0:RESET:64 - But now the Y value is the default!
-COL:[RESET] - Now the colour's back to normal.
-POS:RAND:RAND:64 - I'm in a random location!
-AUTO:10:10 POS:RAND:RAND:64 - I'm in a random location!
-POS:RAND:RAND:25 - I'm in a random location!
-POS:RAND:RAND:50 - I'm in a random location!
-POS:RAND:RAND:75 - I'm in a random location!
-POS:RAND:RAND:80 - I'm in a random location!
-POS:RAND:RAND:90 - I'm in a random location!
-POS:RAND:RAND:100 - I'm in a random location!
-POS:RAND:RAND:110 - I'm in a random location!
-POS:RAND:RAND:115 - I'm in a random location!
-POS:RAND:RAND:120 - I'm in a random location!
-POS:RAND:RAND:128 - I'm in a random location!
-POSX:RAND - Now my Y position is the same as whatever it was before, but my X is something random again!
-RESETTEXT - Alright, fun's over. Back to normal.
-Let's keep the text around.
-PERSIST:TRUE - So this will just overlap itself at the default position...
-POS:100:50:64 - But you can start doing things like this!
-POS:100:80:64 - You can have a bunch of lines on screen at once, this way.
-PERSIST:FALSE - Alright, that's cleared now.
-Here's something fun, you can now input text to use as variables later!
-INPUT:name:20 - Try it now! Put your name in.
-And your name is... $name$!
-POS:RESET:100:64 - Text tags got a overhaul as well. TEXT: has been split up into a bunch of seperate commands.
-POS:RESET:150:20 PERSIST:TRUE - They're more versitile, and everything will persist after setting it one time.
-POS:RESET:200:64 COL:[red] - ok uhhhh what else
-POS:10:150:64 FONT:[cursive] - we can also make this guy into different fonts
-POS:50:150:15 SIZE:100 COL:[blue] LINE:100 - and REALLY BEEG
-PERSIST:FALSE RESETTEXT - There's also the option to autoplay some lines. Fun if you're doing some more cinematic stuff.
-The next 5 lines will be autoplayed!
-AUTO:4:100 - 5
-4
-3
-2
-1... done!
-uh
-i think that's it go make your own games have fun
-CON:jimAgrees:eq:true M! - {Yippee|Bwaaa}
-MATH:coins:ADD:1 M! - For making it here, I'll give you a shiny coin.
-M! - How many do you have now? $coins$? That's pretty good!
-CHOICE4:[restart]:START - demo over go home
-
-i'm serious
-
-MUSVOL:[0] REMOVE:1 - ok fine
-VIDBG:VID_THE FUNC:[document.getElementById("VID_THE").removeAttribute("muted");]] - ⠀
+SCENE_SIX
+BG:BG_LIVINGROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+I sat on the sofa, swinging my legs and watching the channel show advertisements of other anime showing this season.
+Anabelle was in the kitchen making food, most likely something instant, and I thought about going over to watch her cook.
+It wasn't often that I actually saw her cooking, at most she placed me on the kitchen floor while she made whatever it was.
+So I was a little curious now, and got up from the sofa, walking over.
+L! - What are you making?
+A! - Uwa!
+She spun around from where she was standing at the stove, waiting for a pot of water to boil.
+A! - You surprised me! I almost had a heart attack.
+L! - I wanted to see what you were doing.
+A! - Oh!
+She shifted a little, showing me the packet of instant noodles.
+A! - Spicy ramen!
+L! - Every other meal you're eating spicy ramen.
+Anabelle usually placed me across the table from her while she ate, talking to me about one thing or another.
+And she always ate either instant noodles or some convenience store bought food.
+It didn't seem very healthy.
+Anabelle laughed.
+A! - You won't know how good it tastes.
+She paused. Then peered at me.
+A! - Wait… Can you?
+L! - Probably not, I don't really want to eat anyway so I think I can do without food.
+As I looked at the seasoning getting dumped inside the boiling pot, the red soup didn't look that appetising either.
+Anabelle stirred the noodles around, waiting for them to cook and I stood awkwardly next to her, unsure of what to do.
+A! - You don't have to just stand there, you know.
+She laughed, turning around and looking at me.
+A! - You can go out and do whatever you want, I'll tell you once I'm done.
+That's true, my body was mine now.
+I could do whatever I wanted.
+I nodded and left the kitchen.
+GOTO:SCENE_SEVEN
+###
+SCENE_SEVEN
+BG:BG_LIVINGROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+The bedroom.
+I stepped inside warily, as though I wasn't supposed to be here, as though I was doing something wrong, and cleared the doorway carefully.
+Walking towards the closet, I opened it.
+Crrk.
+The hinges squeaked, I had opened the doors too slowly and I looked out, seeing if Anabelle was coming.
+But it seemed that I was safe for now, so I continued.
+I stared at the clothes hanging in front of me, then used my hand to push Anabelle's clothes to the side until I found it, a ziplock bag wretched in the corner at the back of the closet, as though shoved there to be forgotten.
+Grabbing it with my free hand, I pulled the bag out and put it on my lap.
+It was merely a bag of old clothes, somehow, I was a little disappointed.
+But as I took them out of the bag, my interest was sparked again.
+What were these clothes? They were not… Anabelle at all.
+A hoodie, cargo pants?
+These were so strange… I had only ever known frilly tops and poofy skirts, I have never seen these before.
+Digging through the closet, I found another bag of shirts and took them out.
+There were words written on them, it took me a while but I finally realised what they were.
+L! - Band… t-shirts? Anabelle had such things in the house?
+Holding one up against my body, I walked over to the full-length mirror, it fit perfectly.
+So out of place it was against my magical girl dress that I wanted to laugh and yet so different from what I was used to… I almost liked it.
+Putting it down, I rummaged through the closet again and managed, somehow, to find more.
+Studded belts, things that seemed to be cut up pieces of cloth? There was even a small bag of chains.
+I took the items out excitedly and held them with my hands, turning them this way and that.
+L! - Anabelle liked these kinds of things? This is so cool… why would she hide it away?
+I had a thousand and one questions and I felt bad for snooping through her things but I couldn't help it, I had to know more, I wanted to learn more about her.
+If she was angry, I could just apologise, right?
+I mean, she was probably just embarrassed to like niche music but she was already into lolita, she was well into the subculture zone already.
+Clunk.
+I whipped my head around at the sound.
+There was a dropped game console.
+And when I looked up, I saw Anabelle staring down at me.
+A! - Wha… You're… Eh…?
+So filled with these thoughts and so full of excitement, I didn't notice that Anabelle had come into the room.
+L! - Ah! I'm sorry for taking your things without permission but—
+A! - What do you think you're doing?
+Her voice was cold and her things were strewn on the floor all around me.
+I was caught red-handed.
+L! - Um! It's just!
+I scrambled, trying to find something to say, her expression was scaring me.
+She had never been angry at me before.
+L! - I saw the bag just now and I was curious… but it didn't seem like you would let me look at it if I asked…
+It felt like I was digging a deeper and deeper hole for myself.
+A! - So what made you think that searching through my stuff behind my back was a better option?
+A! - No, what made you think that was even an option?
+I just looked at her, I didn't know what to say.
+L! - I… was curious. I didn't know that there were still things about you that I didn't know about…
+L! - I wanted to learn more about you.
+Anabelle took a deep breath in, then sighed.
+A! - Lets just keep everything for now.
+Getting down on the floor next to me, Anabelle grabbed the shirts and dumped them unceremoniously into one of the bags.
+I watched the harsh way she stuffed everything in, and looked away.
+Picking up the chains, I dropped them into a bag too.
+With the two of us, we made quick work of the pile.
+Then, Anabelle threw them back into the closet, back into the corner behind all of her clothes.
+A! - There.
+She sighed.
+A! - I didn't think you would even notice it.
+Even though she laughed, there was something fake about it.
+L! - Can I ask, what is about thos—
+A! - I think we should actually talk about what I was trying to say in the morning.
+She cut me off firmly, looking straight into me.
+Anabelle's gaze was piercing and I looked away.
+L! - Which part? You said so many things.
+If I played dumb…
+No, this was just a last ditch attempt.
+A! - About your personality. You need to be more like Luciella or this wouldn't work.
+Or it wouldn't work?
+What… wouldn't work?
+The unease from before was coming back, creeping up within me.
+L! - What does that… mean?
+A! - It means that you… are Luciella, right? You're not like some… I don't know, random thing that woke up in my doll, right?
+She laughed again.
+A! - Of course not, that would be absurd.
+I laughed with her, nervously.
+L! - That would be quite strange, yes.
+If so, would it be so difficult to accept?
+I bit my lip.
+A! - Yes, so! What I meant is this, Luciella would never take this much interest in such…!
+She pointed at the bags in the closet.
+A! - Such ugly clothes.
+But they weren't ugly, they were so cool, so different.
+The details, the hard edges were so interesting, I wanted to hold the studded belt up to the sun and see the metal shine.
+But it was shoved somewhere deep inside the closet now, unable to see the light of day.
+Disappointment swirled in my gut.
+Anabelle stuck her hand into the closet, pushing her clothes to one side and giving my clothes more space to poof out.
+A! - Aren't these so much better? They're yours, all yours!
+A! - Just look at the colours, the patterns.
+But I stared wistfully at those bags, vanishing into the closet’s depths.
+It was just clothes, did it matter that much?
+I didn't really understand.
+A! - The light colours, the frills, like look, isn't this yellow pretty?
+A! - Or what about this pink one, it matches your hair!
+A! - And there's this blue one too, from the cafe collaboration, aren't these so much nicer?
+Anabelle pulled the dresses out one after another, showing them off to me but all I could was look unfeelingly.
+They were cute, sure but…
+I thought longingly about the clothes I had laid out all over the floor, those rock-looking clothes.
+I preferred those ones so much more.
+L! - They're nice but I don't know, isn't it the same if I wear this or if I wear something else?
+Testing the waters immediately proved to be a mistake, Anabelle looked at me like I was speaking a foreign language.
+There was a long pause followed by her laughter.
+Once again, the same laughter laced with disbelief.
+It made my skin crawl.
+A! - Don't be silly, it's totally different. You're a magical girl, Luciella!
+A! - Your whole character revolves around pastel colours, a tsundere who enjoys girly and dreamy things but is too embarrassed to admit it.
+A! - Why would you be interested in anything else?
+A! - I saw you hold the shirts against your body briefly just now, they're not… you… at all.
+As Anabelle continued, it felt like my heart was getting twisted.
+A! - Like no way, black clothes? Those spikes and studs? Horrible.
+A! - You're so much prettier like this!
+She moved closer, running her fingers through my hair, touching the white sleeves of my dress.
+A! - Long pink hair, a dress straight out of KiseChou, you're a splitting image of Luciella.
+A! - So if you really are her, then you have to be the part.
+The look in her eyes paired with that innocent tone of voice said it all, she was being perfectly serious.
+A! - Isn't that just natural?
+She was scaring me.
+My hands grabbed purchase at the carpet underneath me, the fur squashed in my fists.
+L! - I guess, yeah! That makes sense. I'm sorry for being strange, I was just curious, is all.
+An awkward smile.
+But it seemed to satisfy her for now and she breathed out a sigh of relief.
+A! - And here I was, worried that you would be getting silly ideas after being able to feel and stuff.
+A! - But…!
+I'm happy that's not the case.
+Anabelle stretched, then turned to me again, as though she remembered something.
+Something was different about her expression, I didn't know how to make sense of it.
+A! - You know… that I love you, right?
+The question took me by surprise, I didn't know how I was supposed to react.
+This whole conversation, everything that has been happening felt out of my league.
+A! - Because I never want you to forget that.
+A! - I was saying all of these things, about clothes and everything, because… I love you! You know?
+She brought me into her arms, patting my head from where it rested over her shoulder.
+A! - I just want us to understand each other better, this is how I've always seen you, this is how I fell in love.
+A! - That's why I want, no, I need this to stay, to continue.
+A! - It's been working like this all this while, I just want to make sure that we're on the same page, you know?
+I couldn't understand what she was saying, did she just want me to act?
+I… didn't want to do that.
+But she has been taking care of me all this time, talking to me, dressing me up.
+Anabelle has been so good to me, of course I loved her too.
+I want to be of use to her, to satisfy her, whether it was physically or emotionally.
+I was supposed to deal with her sexual needs and give her companionship after all, I would love to do that for her.
+And… I wanted her love too.
+I wanted that soft warmth to stay inside of me.
+Now that I could feel it physically, I didn't want to let go of it.
+I lifted my arms, and hugged Anabelle back.
+L! - I love you too.
+GOTO:SCENE_EIGHT
+###
+SCENE_EIGHT
+BG:BG_LIVINGROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+Over the next few days, it felt like Anabelle was trying to give me a crash course on Luciella's character.
+It started when she took out her DVDs of the first season one day, placing them on the coffee table.
+A! - I found my old DVDs! We can watch them together!
+I was sitting on the floor, reading while leaning against the bottom of the sofa.
+L! - Okay.
+While Anabelle was slotting the DVD in, I got up, sitting on the sofa and placing the book on my lap.
+Apart from clothes and merchandise, Anabelle had a surprisingly large array of books and she often let me sit next to her when she read.
+Story books, novels, fiction and non-fiction.
+It was because of all of these times that I picked up most of what I knew about human emotions as well as the outside world.
+Anabelle came over now, sitting next to me on the sofa as the episode started playing.
+A! - It works! I was worried that it wouldn't, we really haven't used the DVD player in a while.
+L! - It has been a while. Usually you just rewatch through the downloaded files on the computer.
+Anabelle smiled happily.
+A! - You really do remember…
+We must have spent the whole afternoon watching KiseChou, Anabelle excitedly pointing out to me which ### SCENEs she liked most.
+It was more or less the usual commentary but she would ask me questions now.
+Things like whether I liked the animation, what I thought of the art style.
+I answered truthfully, I really did enjoy the show, and when I saw her overjoyed face, I felt something warm settle in my chest.
+A! - I'm so happy right now, Luciella is talking to me about KiseChou and she likes it just as much as me…
+She faced me, taking my hands in hers and smiling warmly.
+A! - Thank you so much.
+There was a fluttering feeling in my stomach, I wanted to continue seeing that smile.
+After a few more days into our KiseChou marathon, an idea struck Anabelle.
+A! - Luciella is an artist, right? She's creative, she draws, does crafts, makes items from scratch…
+A! - How about I give you her sketchbook? It's limited-edition but that's okay!
+A! - You can move now, what if you use it to draw?
+A! - You'll really become her like this.
+Anabelle looked at the book I had beside me, it must have been the third or fourth that I read by now.
+A! - Luciella would prefer drawing much more than reading anyway.
+L! - I—
+A! - Just hold on a moment, I'll bring the sketchbook over for you to take a look!
+I was cut off again as Anabelle stood up, vanishing into the bedroom before coming out again, a book in her hands.
+A! - Here! So? What do you think?
+She sat down on the sofa again, holding the sketchbook out towards me.
+It was very girly, pink with puffy stickers of clouds and ribbons.
+It looked like it came straight out of the anime.
+CHOICE1:[Take the sketchbook]:### SCENE_EIGHT_A CHOICE2:[Reject the sketchbook]:### SCENE_EIGHT_B - When I looked at Anabelle again, she was waiting expectantly for an answer.
+###
+SCENE_EIGHT_A
+Anabelle threw her arms around me, giggling before drawing away.
+Then, she held my cheek and pressed a kiss onto my lips.
+GOTO:SCENE_EIGHT_C A! - Luciella… you're making all of my dreams come true.
+###
+SCENE_EIGHT_B
+I hesitated, glancing back at the book next to me.
+What was I going to give up if I accepted this now?
+But I so desperately wanted to keep that smile on Anabelle's face…
+CHOICE1:[Take the sketchbook]:### SCENE_EIGHT_A - I looked back at her.
+###
+SCENE_EIGHT_C
+Even as I looked at the joy on her face, even as I felt the warmth spread through my body, it felt like I had made the wrong decision.
+L! - I don't know anything about drawing… How can I start?
+But since it was like this, I had to continue.
+Anabelle lit up at my question.
+A! - The computer! Come, I'll show you how to use it, you can search for tutorials and stuff.
+Leaving the sofa, we went towards the computer room.
+GOTO:SCENE_NINE
+###
+SCENE_NINE
+BG:BG_COMPROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+Anabelle calls it the computer room but it really was just a room to store whatever miscellaneous things were lying around in the house.
+It was only referred to as the computer room because that's all Anabelle went in there for.
+She walked over to the desk now and I stood over her, watching her turn the computer on.
+It powered on soon enough, showing the main screen.
+Naturally, Luciella was set as the wallpaper.
+A! - Okay so, once you're here, you can use the mouse to click on the web browser.
+Moving the mouse, I watched the cursor go to the bottom of the screen, clicking on Waterfox.
+But as soon as she did, the window opened with the tabs she had the previous time she used the computer.
+A! - Ah—
+There was a doujinshi website as well as a few imageboards with erotic art of Luciella.
+When I turned back to look at Anabelle, she was covering her face with her hands.
+A! - This is not what it looks like.
+I felt a grin tug at the corner of my lips.
+L! - This is exactly what it looks like.
+I spun her around in her chair.
+L! - You've been pent up, haven't you?
+I bent down, almost kneeling on the floor.
+Moving closer to her, I tugged at the waistband of her shorts.
+L! - I can help you—
+But Anabelle moved back, the chair wheels rolling away until they hit the wall.
+A! - No, um… I can fix it on my own.
+I blinked, confused.
+But I have been doing it the whole time, did she not want it anymore?
+Did she not need me anymore?
+Anabelle wasn't meeting my eyes, I didn't understand.
+What was I doing wrong?
+Anxiety bloated like waves from my gut, slowly rising.
+L! - But… You can't fix it on your own, that's the reason you even bought me.
+I fumbled around for words.
+Anabelle chewed on her bottom lip.
+A! - But you're real now, you're finally going to become Luciella, no, you are Luciella, I can't…
+She finally met my eyes.
+A! - Luciella, I don't know how I'm going to treat you like a sex doll anymore.
+A! - I… that day… it felt so wrong to use you like that.
+A! - You can move on your own now, you can feel…
+A! - You're not just something I can fuck anytime I want.
+A! - I can't do that.
+I didn't know what to do, I just stared at her, stunned.
+But… that was my purpose.
+It's precisely because I can feel that I want her to do it, I'll be happy if I could be of use to her.
+And yet she was saying that she didn't want to do that anymore.
+Because…? Because I'm Luciella?
+But I didn't even want to be Luciella in the first place, I…
+I just wanted to be a person, like Anabelle.
+And be with her, love her, live like her…
+What did it mean to be someone?
+Everything was still so new…
+And here I was, being forced to do one thing or the other…
+I didn't want Anabelle to abandon me.
+I didn't want to abandon myself.
+L! - No…
+I shook my head.
+L! - No! You… I know that you can't fix this on your own, if you can then prove it!
+I approached her again, caging her in.
+A! - Luciella, stop—
+But it was too late, I had pulled her shorts down, they fell miserably around her ankles.
+L! - Jerk it off by yourself. Then I'll drop this.
+Anabelle looked down at herself and stilled before slowly, slowly, reaching a hand down.
+But her arm was trembling and she stopped just short.
+Looking up at me fiercely, Anabelle stood up from the chair suddenly.
+A! - Just because you started being able to speak, did you think that gave you the right to give me orders?
+It was like a switch was flipped.
+Fear ran down my spine and I lost my nerve.
+A! - Then what was it? What do you get from tormenting me?
+She yanked her shorts up now and when she took a step towards me, I couldn't help but take a step back.
+My back was against the wall before I knew it.
+A! - You are not Luciella.
+A! - I don't know who you are and I don't care anymore, you must be Luciella from now on.
+The words were spat out hard and fast like they disgusted her.
+When Anabelle tilted my chin up to face her, it was like a shadow fell over her face.
+It thoroughly terrified me.
+A! - I'm not going to accept anything else.
+My knees felt weak.
+L! - Okay. I… understand.
+GOTO:SCENE_TEN
+###
+SCENE_TEN
+BG:BG_COMPROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+Ever since that day, I spent my time feverishly trying to learn how to draw.
+I don't know how many times I watched tutorials, or rewatched KiseChou to emulate Luciella's art style.
+The first few days were particularly difficult, I had never held a pencil before, I was as good as a toddler.
+But at least I was good at absorbing information, Anabelle's watch history soon filled up with videos on shapes in the 2D, then 3D space.
+Once I figured that out I moved on to actual tutorials on anatomy.
+The pages slowly filled up, wobbly lines grew more confident, the same shape drawn over and over again before it got turned over to a different angle and drawn again.
+I repeated the motions without stopping for hours, it wasn't as if I had anything else I needed to do.
+I didn't need to eat, I didn't even need to sleep, I started using drawing as my only way to pass time.
+It felt like if I touched books again, Anabelle would kill me.
+Not just books, it felt like if I wasn't perfectly Luciella, she would snap again.
+But if there was one saving grace, it was that Anabelle seemed to be satisfied enough to not expect me to emulate Luciella's way of speaking.
+As long as I gave her answers that made her happy, I didn't need to be a tsundere or anything else.
+Maybe she realised that it would be unrealistic in the real world.
+But in any case, speaking in a tone I liked was the one thing I could keep.
+When I thought about it like that, it was all so limiting.
+Sometimes when Anabelle was sleeping, I would take off my clothes and look at myself.
+Turning myself this way and that, staring at the body that I had only recently started feeling.
+Staring at Luciella's body and feeling so…
+Disconnected.
+GOTO:SCENE_ELEVEN
+###
+SCENE_ELEVEN
+BG:BG_BEDROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+Anabelle dozed off on the sofa so I took the opportunity to sneak into the bedroom.
+Taking off my clothes, I looked at myself in the mirror.
+L! - This body…
+Smooth silicone skin, a uniform beige colour save for the pink of my areolas and from what I could see, my clitoris.
+If I touched them now, would I feel something?
+Was this Luciella's body, or was it mine?
+Ever since Anabelle disregarded me, it had only ever been Luciella.
+The person in the mirror was Luciella.
+Then where was I?
+I…
+Luciella would never do anything dirty, Anabelle said so herself.
+That's why she refused me.
+That's why I had to…
+I went into the bedroom for a brief moment before coming out again with Anabelle's bottle of lube.
+Setting it down on the floor, I sat down too, and spread my legs.
+I had never seen how I looked like below until now but it was just as pink, with a hole.
+So that was where Anabelle put herself in when she used me, I didn't know that it would look like that.
+Pumping out some of the lube into my hand, I tentatively brought it down and touched myself.
+At first, I didn't feel anything but as I continued…
+The wetness of the lube against my silicone body made it start tingling.
+I didn't know that I could feel something like this.
+Pleasure was going into my head, it felt like I was choking on it.
+My abdomen was tightened.
+L! - Nnhg…!
+I bit my bottom lip as the pleasure reached its peak, I drowned.
+L! - Pah… hah…
+I sighed, panted, tilting my head back as I closed my eyes.
+I didn't know… was this what Anabelle felt too?
+But she didn't want me to help her do it anymore.
+But… I want to make her feel good.
+Even if she…
+There was a messy feeling jumbling up my thoughts.
+Anabelle has rejected me.
+She only wants Luciella.
+But I still want her.
+There was a heat that slowly rose.
+Why couldn't she just accept me?
+Didn't she want company all of this time?
+I can finally alleviate her loneliness in a real way.
+But she didn't want that. At all.
+My jaw clenched.
+All Anabelle wanted was to squash me into a box.
+Into the mould called “Luciella”.
+Anabelle scared me.
+But the more I thought about it, the angrier I got.
+I…
+I…!
+Anabelle's expression flashed in my mind, then froze.
+Those burning eyes, her thumb under my chin, my back against the wall.
+My hands shook.
+“I'm not going to accept anything else.”
+One sentence alone instilled so much fear in me.
+Why…?
+I pressed my legs closed.
+I should… get back to drawing.
+I was making good progress anyway.
+I was finally getting the anatomy down after weeks.
+My heart was squeezed taut.
+This wasn't what I really wanted to do…
+But I stood up, put on my clothes, kept the lube, and returned to the sketchbook.
+My pencil hovered over the page.
+Then, I started to draw.
+GOTO:SCENE_TWELVE
+###
+SCENE_TWELVE
+BG:BG_LIVINGROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+A! - Ah! You're getting so good at this!
+Anabelle looked over my shoulder from where I was sketching on the coffee table.
+I had taken the laptop out, a video on how to draw anime eyes paused on the screen.
+I gave her a smile, hoping that it wasn't too forced.
+L! - I've been practising, is all.
+Anabelle sat on the sofa, folding her legs.
+A! - Do you like it? After spending so much time drawing over the last few weeks.
+L! - Mm! It's been really fun.
+Anabelle smiled happily, throwing her arms around my neck.
+A! - Hehe… I'm glad… So you can do it if you want to.
+I knew it, you were Luciella all along.
+You were just trying to trick me, right?
+When I turned around, she was looking at me with those shining eyes.
+But there was a hard edge now, something dark circling her irises.
+L! - Yeah.
+My facial muscles were straining.
+L! - I was just…
+The words were stuck.
+But I had to force them out.
+L! - I was just playing around.
+A! - Hah! I knew it! You're just too good, I was worried.
+I laughed with her, there was nothing else I could do.
+When I looked back at the half drawn eye, I felt sick.
+GOTO:SCENE_THIRTEEN
+###
+SCENE_THIRTEEN
+BG:BG_BLACK IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+Zppt.
+BG:BG_NLIVINGROOM TRANS:[transitionFade]:back:1000 - U+0020
+The dress fell to the ground, pooling around my feet.
+Stepping out of it, I pulled my panties down and sat down, pumping lube into my hands.
+Anabella was asleep and I sat on the sofa in the darkened living room, bringing my hand down between my legs.
+Maybe because it felt good, maybe because it felt like I was dirtying Luciella’s body and making it my own but I had started masturbating almost every night.
+Anabelle slept like a log, once she was asleep there was no waking her until it was the morning so I was safe.
+But as my secret nightly activities continued, the more I…
+I wanted to be me.
+I wanted to be able to figure out who I was.
+But Anabelle didn’t want that.
+She was deluded almost.
+But being like this made her nice to me.
+If I was anything else… Anabelle would be scary again.
+A shiver ran down my spine.
+But when I looked at Luciella’s magical girl clothes, in a pile on the floor, and knowing that I had to put them on…
+I averted my eyes and stared at my wet fingers.
+This small act of rebellion had to satisfy me for now.
+GOTO:SCENE_FOURTEEN
+###
+SCENE_FOURTEEN"
+BG:BG_LIVINGROOM TRANS:[transitionFade]:back:1000 - U+0020
+The sky was starting to brighten and I quickly pulled my panties up, zipping up my dress and lying down, pretending to be resting.
+Several weeks of this had passed and I had gotten very good at drawing, and equally good at pretending.
+“Luciella, I love you.” Anabelle often said that while hugging me and I said it back with as much emotion as I could muster.
+I’m sure it was convincing, I had gotten good at this after all, but the more I said it, the more I felt hollow inside.
+I had loved her before but I wasn’t sure anymore.
+She was no longer someone who was good to me.
+She no longer took care of me.
+She only took care of the version of me that she wanted, that she forced me to be.
+When I touched myself, it was no longer enough.
+Some days, I took off my clothes only to sit there blankly until the sun came up.
+My body, my heart, grew emptier and emptier every day.
+It felt like I was falling apart.
+If I didn’t do something about this, it felt like I would lose my shape entirely.
+That…
+Was that okay?
+Maybe it was.
+Maybe I should just give in and accept what Anabelle wanted.
+Then it wouldn’t be this hard for me.
+And yet…
+I couldn’t give it up.
+I couldn’t give myself up.
+This horrible body that was hardly mine, I had to do something about it.
+Then, everything would be better.
+I would feel better.
+As long as Anabelle didn’t find out, it would all be okay.
+After the first time I touched myself, after my first taste of rebellion, it was like I got addicted.
+But as with any drug, the effects would only get weaker over time.
+I needed something more.
+I needed…
+I lifted my hand to the ceiling, as though trying to grab on something, anything, when I remembered.
+The clothes in her closet.
+Those amazing, pretty, magical rock clothes.
+If I could get my hands on them…
+No.
+There was no “if”.
+I had to get my hands on them.
+GOTO:SCENE_FIFTEEN
 ###
