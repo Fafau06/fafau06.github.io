@@ -1003,6 +1003,7 @@ function drawDialogue(str, speaker, speakerColour) {
     // additional speaker name text
     if (spkr != null) {
         let spkrxpos = textXpos - DEFAULT.speakerLeftOffset;
+        let spkrypos = textYpos - DEFAULT.speakerTopOffset;
         let spkrendpos = spkrxpos + DEFAULT.speakerEndpos;
         drawText(spkr, spkrcolor, textSize, textFont, spkrxpos, textYpos, spkrendpos, textLineheight);
     };
