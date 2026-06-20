@@ -28,6 +28,7 @@ var DEFAULT =
 
     speechmarkLeft: "“",
     speechmarkRight: "”",
+    breakline: "<br/",
 
     fontAlpha: "1",
     fontStrokeWidth: 0,
