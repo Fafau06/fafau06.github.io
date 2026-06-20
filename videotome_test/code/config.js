@@ -35,7 +35,7 @@ var DEFAULT =
     fontSmoothing: true,
 
     speakerLeftOffset: 35,
-    speakerTopOffset: 0,
+    speakerTopOffset: 100,
     speakerEndpos: 1, 
     speakerColour: "red", 
 
