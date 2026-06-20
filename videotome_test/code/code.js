@@ -979,11 +979,14 @@ function drawDialogue(str, speaker, speakerColour) {
     };
 
     // wrap text with markers if someone speaking
-    if (speaker !== 'narration') {
-        str = "<br>" + DEFAULT.speechmarkLeft + str + DEFAULT.speechmarkRight;
+    if (speaker !== 'narration')
+    {
+        str = "&#10;" + DEFAULT.speechmarkLeft + str + DEFAULT.speechmarkRight;
         spkr = speaker;
         spkrcolor = speakerColour;
-    } else {
+    }
+    else
+    {
         spkrcolor = "black";
         spkr = null;
         str = "\0" + str;
