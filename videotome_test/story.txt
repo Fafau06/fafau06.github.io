@@ -18,7 +18,7 @@ Holding my chin, she kissed my silicone lips, I never knew that a human’s mout
 GOTO:SCENE_ONE
 ###
 SCENE_ONE
-BG:BG_BEDROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+BG:BG_BEDROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 -  
 As far as I knew, Anabelle didn’t go to school.
 But she would leave the house sometimes, coming back with fan-made magazines or manga of that same show, “Please Give Me A Miracle!”, usually abbreviated to “KiseChou” to add it to her massive collection.
 Anyone who stepped into the house would instantly know how much of a fan she was, there was merchandise everywhere, figures on the shelves, plushies on the sofa, the small apartment was filled with it, no, more specifically, the whole apartment was filled with me, with Luciella.
@@ -67,11 +67,10 @@ But from the times that I managed to see what Anabelle was reading I knew that n
 For Anabelle, shipping Luciella with a character from the main cast was impossible.
 She shifted closer to me, slender arms hugging me close to her, rubbing her cheek against mine.
 A! - I’m only grateful to these doujin circles for drawing you so beautifully, none of these otaku come close to loving you as much as I do.
-At that moment, I dared to press my face against hers just enough for her to think that it was her imagination.
-GOTO:SCENE_THREE
+GOTO:SCENE_THREE - At that moment, I dared to press my face against hers just enough for her to think that it was her imagination.
 ###
 SCENE_THREE
-BG:BG_BEDROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+BG:BG_BEDROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 -  
 For several days, there was a feeling stuck in me that was both warm and shaky.
 I had woke up early and spent hours pondering before eventually labelling it as “yearning”.
 Looking over at Anabelle, I stared at the way her chest was rising and falling as she slept, and made up my mind.
@@ -455,7 +454,7 @@ A! - Here! So? What do you think?
 She sat down on the sofa again, holding the sketchbook out towards me.
 It was very girly, pink with puffy stickers of clouds and ribbons.
 It looked like it came straight out of the anime.
-CHOICE1:[Take the sketchbook]:### SCENE_EIGHT_A CHOICE2:[Reject the sketchbook]:### SCENE_EIGHT_B - When I looked at Anabelle again, she was waiting expectantly for an answer.
+CHOICE1:[Take the sketchbook]:SCENE_EIGHT_A CHOICE2:[Reject the sketchbook]:SCENE_EIGHT_B - When I looked at Anabelle again, she was waiting expectantly for an answer.
 ###
 SCENE_EIGHT_A
 Anabelle threw her arms around me, giggling before drawing away.
@@ -730,10 +729,9 @@ Those amazing, pretty, magical rock clothes.
 If I could get my hands on them…
 No.
 There was no “if”.
-I had to get my hands on them.
-"GOTO:SCENE_FIFTEEN
+GOTO:SCENE_FIFTEEN - I had to get my hands on them.
 ###
-SCENE_FIFTEEN"
+SCENE_FIFTEEN
 BG:BG_BEDROOM TRANS:[transitionFade]:back:1000 - U+0020
 I waited for the day that Anabelle left the house for an anime convention before executing my plan.
 Excitement welled up within me as I waved Anabelle goodbye and I went into the bedroom immediately once I heard the door lock shut.
