@@ -1,5 +1,5 @@
 START
-CHOICE1:[Chapter 8]:### SCENE_EIGHT CHOICE2:[Chapter 15]:### SCENE_FIFTEEN - Select Chapter
+CHOICE1:[Chapter 8]:SCENE_EIGHT CHOICE2:[Chapter 15]:SCENE_FIFTEEN - Select Chapter
 CLEARSCREEN BG:BG_BLACK - Zppt.
 BG:BG_BRUTALISTLONG IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 MUS_DTEST - There was the sound of the dress getting zipped up from the back as Anabelle dressed me up when I felt something strange.
 It was my fingers, slowly curling. 
