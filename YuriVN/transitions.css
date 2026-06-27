@@ -1,0 +1,18 @@
+.transitionFade {
+  opacity:0;
+  transition-property:opacity;
+}
+.transitionScale {
+  transform:scale(0);
+  transition-property:transform;
+}
+
+.transitionCircleWipe {
+  animation-name:circleWipe;
+  animation-iteration-count:1;
+}
+
+@keyframes circleWipe {
+  from {clip-path: circle(100% at 50% 50%);}
+  to {clip-path: circle(0% at 50% 50%);}
+}

@@ -1,0 +1,772 @@
+Welcome to the setup guide for Videtome Super! In here is a multi-step guide to getting a VT:S game up and running, adding new assets, available tags, and more complex tweaks.
+
+This guide assumes you're on Windows. If you're on Mac and see Windows-specific instructions, try searching for "[instructions] on mac". If you're on Linux and don't know how google works I have no idea how your computer is functional.
+
+ctrl + f = Contents
+==== INTRODUCTORY GUIDE
+== CREATING A NEW VT:S PROJECT
+== SETTING UP A LOCAL SERVER
+== WRITING YOUR STORY
+== RELOADING VT:S
+
+==== BEGINNER GUIDE
+== ADDING NEW ASSETS
+== ADDING NEW CHARACTERS
+== SCRIPTING
+== MAKING CHARACTERS SPEAK
+== CANVAS LAYERS
+== USING IMAGES
+== USING AUDIO
+
+==== INTERMEDIATE GUIDE
+== MOVING BETWEEN CHAPTERS
+== CHOICES
+== BRANCHING BASED ON VARIABLES
+== USER-DEFINED VARIABLES
+
+==== TAG LIST
+
+==== ADVANCED GUIDE
+== CONFIG
+
+
+
+==== INTRODUCTORY GUIDE
+This part assumes you have absolutely zero knowledge of the tools involved to get VT:S from its original zip file and running in your browser. If you have an understanding of unzipping archives, text editors, and setting up a local server, you can safely skip this section and go to the BEGINNER GUIDE.
+
+There are several SUPPLEMENTs in this section that go a bit deeper on certain topics relating to web development. You can skip these if you're just looking to set up a game and get creating right away.
+
+== CREATING A NEW VT:S PROJECT
+VT:S is downloaded as a zip archive file. This is, basically, a way to send over a whole folder of stuff over the internet without needing to download a bunch of individual parts.
+
+Nowadays, Windows can handle zip files without needing external programs. However, for the sake of your future development journey, I highly recommend downloading a program such as 7zip, which lets you open a host of other archives like .rar and .7z, and gives you a lot more control over archive files.
+
+Download and install 7zip (https://www.7-zip.org/). When installed, you now need to point Windows to open zip files using 7zip. Right click on the VT:S zip file, and hit "Open with". If 7zip is not available on the dropdown, hit "Choose another app". A list will come up, and you need to scroll until you hit "7zip FM" or "7zip File Manager". If you see "7zip GUI", ignore it.
+
+If 7zip opens, and you can see the files inside the zip, you've done everything correctly. You now have a choice of two options to unzip your project:
+
+    1. Create a folder anywhere on your PC with a name of your choice. Select all the files in the VT:S zip, and drag them into your new folder. 
+
+    2. To do this with fewer clicks, right click on the VT:S zip, and go to the 7zip dropdown. Select "Extract to [filename]/". This automatically creates a new folder and places all the content of the zip inside it. You can then move this folder to wherever you wish.
+
+Open up your new folder, and your VT:S project is ready to edit.
+
+== SETTING UP A LOCAL SERVER
+If you've messed with webpages before, you may notice the html file in the VT:S project folder. However, if you try opening the index.html in your browser, nothing will happen when you click or press space. This is because of CORS security restrictions, and to get VT:S running, we need to set up a local server.
+
+The easiest way to do this is using Python. Start by downloading and installing Python (https://www.python.org/downloads/). Unless you know what you're doing, hit accept on all the default options.
+
+Now, we have to use console commands to get a local server running. In the VT:S project folder, make sure you're not selecting any files, and hold shift and right click. On the dropdown menu, select "Open PowerShell window here". This should open a blue window, and the first line should have the path of the folder you're currently in. Make sure that you're in the top level of the VT:S project, and not in any of the asset folders.
+
+Type in the following command:
+
+    py -m http.server
+
+And hit enter. The next line should say "Serving HTTP on :: port 8000 (http://[::]:8000/)".
+
+Go to http://localhost:8000/ in your browser of choice. If all's gone well, you should see the VT:S splash screen, and be able to advance to the next screen.
+
+To keep the local server running, the PowerShell window must be kept open. If your VT:S project suddenly stops working, check that you didn't close it by accident.
+
+= SUPPLEMENT: CORS RESTRICTIONS
+The reason we have to set up a local server is due to CORS restrictions, which stands for "Cross-Origin Resource Sharing". For technical reading on this, you can check the MDN page: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+Simply: modern browsers have a bunch of restrictions that prevent a page from loading code and data from other websites (more specifically, domains), unless safeguarded. This is so that, say, an advertiser can't run malicious code from their own website when it's embedded into several others, and then phone home with all the data they've stolen.
+
+However, for us, when we open the html file alone, our browser thinks that our story.txt file is on a different domain. It throws a CORS error and blocks the file from being loaded. By running a local server, we mount all our files onto the same domain, and now our browsers are happy to load it.
+
+TL;DR: Blame advertisers. It's always advertisers. They're the reason we have to click to interact on webpages because they abused autoplaying videos with sound.
+
+== WRITING YOUR STORY
+Open story.txt in a text editor. If you're on Windows, this will probably be Notepad, which is fine for now. The story.txt file holds all the story text that VT:S will read and display, and right now contains the demo story. If you'd like, you can run through the VT:S demo while also checking the story.txt file at the same time, to see how much you can pick up on how it works on your own.
+
+Select all the text in here (hotkey ctrl + a), and delete it. If you're worried about the example story being lost, you can still go back to the original demo and check the story.txt in there.
+
+Your first line should be START. VT:S will read the first line of the file as a chapter title, and will not display it on the screen. Your final line should be ###, which tells VT:S that the chapter has ended. Any lines after ### will not be displayed.
+
+Now, type some lines of text below START. These can be anything you want, with any amount of sentences, as long as you hit enter for each line. For each new line, VT:S will parse this as the next screen to show on click.
+
+    START
+    Here's an example story.
+    You can copy this over if you like!
+    But, it's probably more fun to write your own.
+    (watch out for the indents in this file, nothing in story.txt should be indented)
+    ###
+
+= SUPPLEMENT: TEXT EDITORS
+While it's absolutely fine to create a VT:S game using nothing but your default text editor, it's highly recommended that you download one that's designed for programming. This gives you a lot more control over the text you write, lets you see line numbers, and also means you won't run into weird behaviour if you try to use non-standard characters, like the CJK unicode block.
+
+Notepad++ (https://notepad-plus-plus.org/) is a recommended text editor for beginners, being an improvement over the default Windows Notepad without an overwhelming number of features. Other text editors exist as well, more geared towards experienced programmers.
+
+== RELOADING VT:S
+Whenever you make changes to your story.txt file (or any VT:S files), you will need to refresh your browser to see the changes.
+
+Sometimes, however, refreshing the page does not show any changes in VT:S, and it will still run through the old story.txt file. This is because the old file is now in the browser's cache, and the browser is unaware that there is new content in the file to load.
+
+To fix this, open up developer tools by pressing F12. If this doesn't work, search for "[your browser] developer tools"; there may be an advanced option you need to check to access it, or it may use a different hotkey.
+
+There's a lot of very useful tools in here for advanced web development, but don't worry if this looks too overwhelming, as we won't be using these for now. We need to go to the settings menu, which can be accessed by pressing F1. If this doesn't work, in the top right of the developer tools window, there should be a small gear that brings up the settings. If there isn't one, like in Firefox, there should be a small meatball menu, and from that dropdown you can access the settings.
+
+In settings, look for an option that says "Disable HTTP cache" or "Disable cache", and toggle it on. This should be under Network or Advanced Settings. As long as you have the developer tools window open while you hit refresh, the cache will clear.
+
+Once the cache is cleared, your new story.txt should load just fine.
+
+If all's gone well, everytime you click, a line that you wrote in story.txt should become visible. Congratulations! You've just made your first VT:S game!
+
+= SUPPLEMENT: CACHING
+Caching is a feature found in every modern browser. When you visit a webpage for the first time, your browser will save the resources on the page (images, code, etc.) to its cache. This is why, if you've visited a webpage before, your browser will load it quicker this time, as the resources on the page are already in the cache. It only loads new resources if it doesn't believe it's loaded them before. This makes browsing the modern web much faster.
+
+Since we're running a local server, the browser will treat VT:S just like a standard webpage, caching included. This issue does not happen if you open a html file on its own, but as mentioned above, this leaves us at the mercy of CORS restrictions.
+
+The easiest way around caching issues is changing the name of your assets. If you're replacing the banner on your webpage from banner.png, you can guarantee everyone will see your new banner by replacing it with banner2.png, rather than overwriting the old file. For our purposes, however, constantly renaming the story.txt file everytime we make a small change is very tedious. Manually clearing the cache is much faster, especially when set up in dev tools.
+
+If you're uploading a game update to itch, it will reload all your assets for you and anyone who visits, solving any caching problems. If you're uploading to another website, leave a note to hit ctrl + F5 or shift + F5  (reload, and clear cache) whenever you drop a new update, just in case.
+
+
+==== BEGINNER GUIDE
+Now that your local server is set up, and VT:S is running correctly, we can start looking at making a proper game with your own visuals, sound, and characters. This will require you to make adjustments to some JSON, but this is very easy to do.
+
+== ADDING NEW ASSETS
+VT:S can support images, sounds, and videos to show in your game. To show them, they need to be added as assets for VT:S to load in.
+
+Open assets.js. In here are several JSONs to hold images, videos, music, and characters. For now we can ignore the SPEAKERS object and just focus on the first three.
+
+Each asset JSON holds a new asset per line. The lines are setup as such:
+
+    AssetAlias: "path/to/asset.png"
+
+If you're adding a new line, you must add a comma at the end of the previous line. The final line of the JSON does not need a comma.
+
+    AssetAlias: "path/to/asset.png",
+    AssetAlias2: "path/to/asset2.png"
+
+The asset alias is used to call the image in story.txt, so it's recommended to keep aliases short to make typing easier. An alias must be a single word. You cannot have two aliases that share a name.
+
+VT:S will read a path with no starting slash from the VT:S project folder root. In our example, AssetAlias points to a png file called "asset" that's in the folder "to", which is in the folder "path", and this path is at the root of the project folder. Because paths are defined by the user, assets can, technically, be saved anywhere in the VT:S project file. However, it's highly recommended that you stick them in folders to keep your files organised and easily findable. How you choose to organise them is up to you.
+
+Explorer, by default, doesn't show you file extensions, and file extensions must be included in the path for VT:S to be able to read them. If you don't remember what you saved your file as, you have no way of knowing what kind of extension it has. To show them in Explorer, click "View" on the top ribbon. Towards the right is a checkbox for "File name extensions". Turn this on. 
+
+= NAMING CONVENTIONS
+You might notice the naming convention of aliases. These are holdovers from VT:ADV, where BG_ and FG_ would be read as specific tags. However, keeping this convention lets you easily see which images are for the background and which are for sprites. Aliases don't have to be in all caps, but doing so helps them look distinct from regular sentences. It's recommended to use a similar naming convention for your own projects, but this is ultimately up to you.
+
+The exception to this are the MUSIC assets. These aliases must start with MUS_ or SFX_ for VT:S to parse them properly.
+
+= DELETING ASSETS
+If you do not use an asset in your game, removing them from the JSON is encouraged as VT:S will skip loading them. If your game has no videos, for example, don't delete the VIDs object outright as this will cause errors. Simply delete everything inside the curly brackets and leave the obejct as is.
+
+== ADDING NEW CHARACTERS
+Going back to assets.js, our characters are set here as well in the SPEAKERS object. The lines are setup as such:
+
+    CharacterAlias: {name: "character name", colour: "#hexcolour"}
+
+You can add new characters in the same manner as you would an asset.
+
+== SCRIPTING 
+VT:S is built off the Videotome scripting language (VSL), which is designed to be very quick and easy to write in. All VSL is written in the story.txt file.
+
+As we saw above, writing a line of VSL that's just text will show some text on screen, with no other modifiers. If you would like to start showing assets and character names on screen, you need to make use of tags:
+
+    SFX_BOOM - A line that has a tag. There can be any number of tags before the hyphen.
+
+Tags are the backbone of VSL. These are written at the start of a line, and are separated from the main text by a hyphen surrounded by spaces. VT:S will not display any of the text before the hyphen on screen. 
+
+== MAKING CHARACTERS SPEAK
+To make a character speak, we need to get the character alias we set up in assets.js, and use it as a tag.
+
+From the default project, we have two characters of emily and miku. To make either of them speak, take the alias, and turn it into a tag by putting an exclamation mark at the end.
+
+    E! - emily says a line.
+    M! - and now miku says a line!
+
+As these are tags you'll usually be writing the most frequently, it's highly recommended that you make character aliases as short as possible.
+
+While all other tags don't care about what order they're in, the character tag must be the final one on a line.
+
+    SFX_BOOM E! - woah, what was that?
+
+== CANVAS LAYERS
+Before we start looking at assets, we need to discuss how VT:S renders assets and text.
+
+VT:S has 4 layers that it uses for rendering. These are, from top to bottom, named as:
+
+    text
+    front2
+    front
+    back
+
+The back layer is recommended to use for backgrounds and set dressing. Any assets you add on the above layers will always appear in front of it.
+
+The front layer is recommended to use for sprites and things you want to clear easily off the background.
+
+The front2 layer is invisible. It's used exclusively for animations. To find out more, read the documentation on the ANIM tag.
+
+The text layer is where all text is rendered. It's possible to add assets to the text layer, but this is not recommended. As the text layer is handled exclusively by the VT:S text renderer and clears on every new screen, unexpected behaviour may occur.
+
+== USING IMAGES
+To place an image on a layer, we can make use of the IMAGE tag. This is used as such:
+
+    IMAGE:ImageAlias:layer:x:y - 
+
+x and y are coordinates. 0,0 is the top left corner of the screen. Adding x will move the image over to the right, and adding y will move the image down.
+
+From the default project, we have several images we can use. We can start by adding Miku on the front layer, at x 250 and y 20:
+
+    IMAGE:FG_MIKU:front:350:20 - wow! it's miku!
+
+You can also use multiple IMAGE tags on the same layer. These will apply images in order from left to right.
+
+    IMAGE:FG_MIKU:front:50:20 IMAGE:FG_MIKU:front:90:0 IMAGE:FG_MIKU:front:100:50 - now there's THREE of them!!!
+
+It's possible to set fullscreen backgrounds with the IMAGE tag as well, by doing the following:
+
+    IMAGE:BG_GALLEY:back:0:0 - Now we're in the galley.
+
+However, VT:S has a shorthand tag for backgrounds specifically. You will get the same outcome by doing this:
+
+    BG:BG_GALLEY - Now we're in the galley.
+
+This is doing the exact same thing code-wise as the IMAGE tag above, but with less text to type out.
+
+== USING AUDIO
+As mentioned, all audio assets start with MUS_ or SFX_. Using an audio asset is as simple as copying over the alias as a tag.
+
+    SFX_KAZOO F! - Surprise!
+    MUS_PARTY G! - Let's start the party!
+
+SFX assets will play once, and MUS assets will loop indefinitely. The easiest way to stop playing music is to set up a blank audio file.
+
+    MUS_STOP SFX_RECORDSCRATCH - I turn the music off, furious.
+
+
+==== INTERMEDIATE GUIDE
+After getting a handle on the above, you can set up a basic, linear story with assets and speaking characters. Now we can start looking at adding choices, and bringing branching outcomes into our stories.
+
+== MOVING BETWEEN CHAPTERS
+Currently, we only have the chapter START in our story. We can add more chapters and start moving between them using tags. Multiple chapters are set up similarly to our START chapter:
+
+    CHAPTER1
+    Here's the first chapter.
+    Some stuff happens in here.
+    ###
+    CHAPTER2
+    Now it's the second chapter.
+    More stuff happens in here.
+    ###
+
+Chapter names must be a single word. Make sure that chapter names in story.txt don't have blank spaces after them, as VT:S will not recognise them.
+
+To move between chapters, the GOTO tag can be used as such:
+
+    GOTO:ChapterName - 
+
+And in practice looks like this:
+
+    CHAPTER1
+    Here's the first chapter.
+    GOTO:CHAPTER2 - Some stuff happens in here.
+    ###
+    CHAPTER2
+    Now it's the second chapter.
+    More stuff happens in here.
+    ###
+
+= AUTOSAVING
+If you'd like the game to autosave at a specific chapter, add _SAVE onto the end of a chapter name.
+
+== CHOICES
+Now that we have some chapters we can jump to, we can now start introducing dialogue choices into our game.
+
+The important thing about choices in VT:S is that they do not pause gameplay. It is possible to click through a choice, progress through the chapter, and the choice will persist until a REMOVE tag is hit.
+
+To start introducing branching and choices to our game, we need to make use of the CHOICE tag:
+
+    CHOICEX:[choice label]:ChapterName - 
+
+Here, X is the id of the choice, as an int. This has no bearing on the order the choice appears in the list, and is instead used for identification for removing choices:
+
+    REMOVE:X - 
+
+Because of this, choice ids need to be unique so conflicts don't occur:
+
+    CHOICE1:[yes]:AnswerYes CHOICE2:[no]:AnswerNo - This is a valid choice setup and will work as intended.
+    CHOICE1:[maybe]:AnswerMaybe - However, this will cause issues as 1 is already in use. It must be REMOVEd before 1 can be used again.
+
+    CHOICE1:[yes]:AnswerYes CHOICE1:[no]:AnswerNo CHOICE:[maybe]:AnswerMaybe - This is not a valid choice setup, and the final choice will not function.
+
+You can make a lot of clever use of VT:S's non-blocking choices, such as below:
+
+    CHAPTER6
+    CHOICE1:[Go outside]:CHAPTER6_Outside - Should I go outside?
+    I wonder, I wonder...
+    REMOVE:1 - Nah. Let's stay inside today.
+    Now what should I do?
+    [...]
+    ###
+    CHAPTER6_Outside
+    BG:OUTSIDE - Ah, what a lovely day...
+    [...]
+    ###
+
+By default, all choices are cleared when a GOTO is hit:
+
+    CHAPTER3
+    CHOICE1:[Follow]:FollowPerson - Should I follow them?
+    Hmm...
+    GOTO:GoHome - No. I decide not to.
+    ###
+
+= FORCING A CHOICE
+If you'd like a player to be forced to make a choice and not progress until they do, simply put choices on the final line of a chapter. 
+
+    CHOICE1:[yes]:AnswerYes CHOICE2:[no]:AnswerNo - Do you agree?
+    ###
+
+== BRANCHING BASED ON VARIABLES
+Branching by player choices is one of the easiest ways to add interactivity into your story. If you want to do more complex things, or call back to things the player saw earlier, you can start to include and use variables.
+
+Variables are made and set with the SET tag:
+
+    SET:variableName:value - 
+
+A variable name must be one word. A value can be anything from a string to a number.
+
+These can then be checked using the CHECK tag:
+
+    CHECK:variable:value:command:ChapterName:ChapterName - 
+
+Here, the first chapter name is the true outcome, and the second is the false. The commands are as follows:
+
+    eq - Equals
+    gt - Greater than
+    lt - Less than
+    gte - Greater than or equal to
+    lte - Less than or equal to
+
+The most common use of this is for checking if you reached a certain point in the game:
+
+    GetApples
+    GOTO:AppleCheck SET:haveApples:true - I got the apples!
+    ###
+    NoApples
+    GOTO:AppleCheck - Oh no, I don't think this is the right way...
+    ###
+    AppleCheck
+    Let's see what she says.
+    CHECK:haveApples:true:eq:AppleSuccess:AppleFailure A! - Did you get the apples for me?
+    ###
+    AppleSuccess
+    A! - Yes! That's it!
+    ###
+    AppleFailure
+    A! - Now I can't make my delicious apple pie. How sad...
+    ###
+
+== USER-DEFINED VARIABLES
+If you would like the player to input a string to later use as a variable, the INPUT tag can be used:
+
+    INPUT:variableName:limit - 
+
+At an INPUT, the game pauses, and the player cannot proceed until they enter something. The limit is an int that makes sure the input length never goes higher than it.
+
+= PRINTING VARIABLES
+The most common use for user inputs is for the player to input their name. It's possible to print variables by surrounding them with $ in text:
+
+    INPUT:playerName:20 S! - Say, could you tell me your name?
+    S! - Nice to meet you, $playerName$!
+
+
+==== TAG LIST
+With all this, you can create a pretty swanky game with player-driven choices and branching endings. Now you can start looking at everything else possible with VT:S. Below is documentation for all tags available to use in VSL. Have fun!
+
+= CHARACTER, alias! 
+Character tags are defined in SPEAKERS in assets.js. To use the tag, write the alias followed by an exclamation point. This alias can be whatever you want, and does not have to be the same as the character name.
+
+    B: {name: "Barry, 63", colour: "green"}
+    B! - I'm a character with the alias "B". From the asset file, my character text that will show is Barry, 63 in the colour green.
+
+The character tag is the only tag that cares about what order it's in. No matter how many tags you have, the character tag must be the final one. 
+
+    IMG:FG_MIKU:front:100:200 MUS_SEKAI MikuHatsune! - This is a valid tag setup. All tags should execute correctly.
+    E! BG:LOUNGE - This is not a valid tag setup. This may throw errors and cause unexpected behaviour.
+
+If you do not define a colour for your character, a default colour will be used.
+
+    J: {name: "Jimmy"}
+    J! - Jimmy speaking. My name will show up in the default colour, which is red in the default project.
+
+= CUSTOM JS, FUNC:[javascript]]
+Runs custom javascript. Infinitely powerful if you know what you're doing.
+
+    FUNC:[alert("BOO!");]]  J! - GET SCARED!!!
+    J! - Got you, didn't I?
+
+I highly recommend breaking out more complex javascript into its own function to keep things tidy. You can put your new function at the bottom of code.js.
+
+    P! - Not when I shift into MAXIMUM OVERDRIVE!
+    FUNC:[goFast();]] P! - HIYAAH!!!
+
+    function goFast() {
+        // i knew i should have gotten the turbo...
+    }
+
+Take care with the double ]] at the end of the tag, otherwise the tag will not be read.
+
+    FUNC:[alert("BOO!");]  J! - GET SCARED!!!
+    J! - Huh? Nothing happened?
+
+= CUSTOM JS, FUNCDELAY:[javascript]]
+Functionally the same as FUNC, but runs the js as the player leaves the line rather than as they reach it.
+
+    FUNCDELAY:[alert("BOO!");]]  B! - I think something's about to happen...
+    B! - AHH!!! EEEK!!!
+
+= AUTOPROGRESSION, AUTO:number:speed
+Autoplays a specified number of lines, at a specified speed, when reached.
+
+    Time to autoplay some lines!
+    AUTO:3:1000 - Three,
+    two,
+    one... done!
+
+The player cannot progress normally when auto progression is running.
+
+For sanity's sake, progression made with AUTO is called auto progression, in contrast to autoplay which is toggled by the player. Autoplay is paused when auto progression is running, and resumes when it finishes.
+
+= LAYER TRANSITION, TRANS:[name]:layer:speed
+Takes the current layer, caches it, and then applies a transition effect to the cache. The cache appears on top of the specified layer, and gives the appearance of it blending into something new. During a transition, the player cannot progress to the next screen until it finishes.
+
+Currently, there's only one pre-coded transition effect, which is "scatter". This is backported from Videtome Heartbreak.
+
+You can call the tag at random, but it will have no apparent effect.
+
+    BG:BG_ROOM - Here's a bg!
+    TRANS:[scatter]:back:10 - This is now transitioning...
+    But we didn't see anything.
+
+To use as intended, set an asset on the layer you're transitioning.
+
+    BG:BG_ROOM - Here's a bg!
+    TRANS:[scatter]:back:10 BG:BG_KITCHEN - This is now transitioning...
+    Wow! Somewhere new!
+
+Transitions are not limited to effects with js. If you input a custom name, VT:S will take this as a css class. This will apply the class for the duration of the transition and then remove it.
+
+With this, you can do simple css transitions...
+
+    .transitionFade {
+    opacity:0;
+    transition-property:opacity;
+    }
+
+    TRANS:[transitionFade]:back:1000 BG:BG_KITCHEN - Time to fade away.
+
+Or, do something more complex with animations.
+
+    .transitionCircleWipe {
+    animation-name:circleWipe;
+    }
+    @keyframes circleWipe {
+    from {clip-path: circle(100% at 50% 50%);}
+    to {clip-path: circle(0% at 50% 50%);}
+    }
+
+    TRANS:[transitionCircleWipe]:back:2000 BG:BG_KITCHEN - Circle time!
+
+= STATUS BOX, STATUS:[html]]
+Adds whatever HTML you wish into the status box in the top right.
+
+    STATUS:[<span style="font-family:serif !important;color:blue;">blue serif text here</span><br><span style="color:red;font-family:sans-serif !important;font-weight:900;">red sans serif bold text on a new line</span><br><img src="images/FG_MIKU.png"><br>miku]] - abomination of a status box
+
+Take care with the double ]] at the end of the tag, otherwise the tag will not be read.
+
+= REMOVE CONTENT, CLEAR...
+There are several tags available for clearing content on layers and context boxes.
+
+    CLEARSTATUS - Bye status box!
+
+CLEARLAYER can clear one layer.
+    
+    CLEARLAYER:front - Bye Miku...
+
+A shorthand tag for clearing all layers exists as CLEARSCREEN.
+
+    CLEARSCREEN - oh god i'm in the void
+
+These run before any assets are set, meaning they won't clear away new ones.
+
+    CLEARSCREEN BG:BG_KITCHEN - I'm in the kitchen! Awesome!
+
+= DRAW RECTANGLES, RECT:layer:[#colour]:x:y:width:height
+Draws a rectangle at a specified point on a specified layer, with specified fill.
+
+    RECT:front:[green]:50:50:100:100 - And now there's a green square in the top left corner.
+
+Multiple rectangles can be drawn on the same line. 
+
+    RECT:front:[green]:50:50:100:100 RECT:front:[red]:0:200:200:300 RECT:front:[blue]:400:100:500:100 - so many shapes and colours!
+
+= PLACE IMAGES, IMAGE:imageAlias:layer:x:y
+Places an image at a specified point on a specified layer.
+
+    IMAGE:FG_MIKU:front:300:50 - Miku time!
+
+Multiple images can be placed on the same line. 
+
+    IMAGE:FG_MIKU:front:50:20 IMAGE:FG_MIKU:front:90:0 IMAGE:FG_MIKU:front:100:50 - now there's THREE of them!!!
+
+RAND can be passed into x and y to place an image in a random position.
+
+    IMAGE:FG_MIKU:front:RAND:RAND - Where will Miku be? Who knows!
+
+A shorthand tag exists to do the following:
+
+    IMAGE:BG_GALLEY:back:0:0 - Now we're in the galley.
+    BG:BG_GALLEY - Now we're in the galley.
+
+= PLACE VIDEOS, VID:videoAlias:layer:x:y
+Places a video at a specified point on a specified layer.
+
+    VID:VID_CAR:front:100:50 - Beep beep!
+    
+RAND can be passed into x and y to place a video in a random position.
+
+    VID:VID_CAR:front:RAND:RAND - where did you park the fucking car
+
+Multiple videos can be placed on the same line.
+
+    VID:VID_CAR:front2:100:50 VID:VID_CARCRASH:front:100:50 -  uh oh
+
+However, only one video will play on a layer at a time. If you place a second video on a layer, the first will pause at whatever frame it's on, and the second will play as normal.
+
+The same will happen if you place an image on a layer with a video.
+
+A shorthand tag exists to do the following:
+
+    VID:VID_BEACH:back:0:0 - We're at the beach.
+    VIDBG:VID_BEACH - We're at the beach.
+
+I highly recommend saving all videos as webm. This is the most widely supported and compressible video format for web, and it also allows transparency.
+
+= ANIMATE FRONT LAYER, ANIM:command
+Animates the two front layers, toggling visibility between them for simple 2 frame animations. Valid commands are PLAY and STOP.
+
+At the end of an animation, the front layer will go back to being visible, and front2 will be invisible.
+
+    ANIM:PLAY - I sure hope nothing bad happens!
+    IMAGE:FG_CAR:front2:100:50 IMAGE:FG_CARCRASH:front:100:50 -  uh oh
+    ANIM:STOP - I'm sure that will buff out.
+
+= PAN LAYER ACROSS, PAN:layer:[x]:[y]:speed
+Pans a layer across a specified amount at a specified speed.
+
+Untested. Uses the sourceback canvas for reasons I do not know.
+
+= ZOOM IN LAYER, ZOOM:layer:[x]:[y]:speed
+Zooms a layer in a specified amount at a specified speed.
+
+Untested. Uses the sourceback canvas for reasons I do not know.
+
+= TURN OFF NEW LINE SOUND, SILENT:command
+Makes the new line sound silent. Commands are TRUE and FALSE.
+
+= SET NEW VARIABLES OR OVERWRITE, SET:variable:value
+Sets a variable to a specified value.
+
+    SET:hasRock:true - On the ground, I see an interesting rock, and pick it up.
+
+= MANIPULATE VARIABLES, MATH:variable:command:number
+Manipulate variables with basic operations.
+
+Commands are: 
+ADD - Addition
+SUB - Subtraction
+MUL - Multiplication
+DIV - Division
+
+    MATH:coins:ADD:1 F! - For making it here, I'll give you a shiny coin.
+    F! - How many do you have now? $coins$? That's pretty good!
+
+= LINE-LEVEL CONDITIONALS, CON:variable:command:value && {true string|false string}
+Replace a part of the line with one of two strings based on the outcome of a variable comparison.
+
+Commands are:
+eq - Equals
+gt - Greater than
+lt - Less than
+gte - Greater than or equal to
+lte - Less than or equal to
+
+    CON:jimAgrees:eq:true J! - Do I agree? {Yes|No}!
+    // if jimAgrees is true:
+    Do I agree? Yes!
+    // else:
+    Do I agree? No!
+
+Multiple bracket groups can be used on the same line. All of them will take the same variable comparison.
+
+    CON:trans:eq:true J! - Yeah, {he|she}'s running late. {He|She}'ll be here in a few minutes. 
+
+If you just want something to appear if a comparison is true, you can leave the second string empty.
+
+    CON:apples:gt:5 D! - We have $apples$ apples now.{ That's almost too many!|}
+
+You can do the same in reverse if you want something to appear if a comparison is false.
+
+    CON:relationship:gt:10 B! - Well...{| I don't think we're that close.}
+
+= GO TO NEW CHAPTER, GOTO:ChapterName
+Changes next chapter of content to load when reached.
+
+    GOTO:NewRoom - Alright, let's head over there.
+    ###
+    NewRoom
+    Hey, here we are!
+    ###
+
+Make sure that chapter names in story.txt don't have blank spaces after them, as VT:S will not recognise them.
+
+= GO TO NEW CHAPTER BASED ON VARIABLE, CHECK:variable:value:command:ChapterName:ChapterName
+A GOTO that changes chapter based on the outcome of a variable comparison. First chapter name is a true outcome, and second is a false outcome. 
+
+Commands are:
+eq - Equals
+gt - Greater than
+lt - Less than
+gte - Greater then or equal to
+lte - Less than or equal to
+
+    CHECK:haveApples:3:gt:AppleSuccess:AppleFailure A! - Did you get the apples for me?
+    ###
+    AppleSuccess
+    A! - Yes! That's how many I need!
+    ###
+    AppleFailure
+    A! - That's not enough for my delicious apple pie. How sad...
+    ###
+
+= ADD DIALOGUE CHOICE, CHOICE#:[choice label]:ChapterName
+Changes to specified chapter when selected.
+
+Here, # is the id of the choice, as an int. This has no bearing on the order the choice appears in the list, and is instead used for identification for removing choices.
+
+Because of this, choice ids need to be unique so conflicts don't occur:
+
+    CHOICE1:[yes]:AnswerYes CHOICE2:[no]:AnswerNo - This is a valid choice setup and will work as intended.
+    CHOICE1:[maybe]:AnswerMaybe - However, this will cause issues as 1 is already in use. It must be REMOVEd before 1 can be used again.
+
+    CHOICE1:[yes]:AnswerYes CHOICE1:[no]:AnswerNo CHOICE:[maybe]:AnswerMaybe - This is not a valid choice setup, and the final choice will not function.
+
+By default, all choices are cleared when a GOTO or CHECK is hit.
+
+= REMOVE DIALOGUE CHOICE, REMOVE:X
+Removes a choice based on its id.
+
+    CHOICE1:[Go outside]:GoOutside - Should I go outside?
+    I wonder, I wonder...
+    REMOVE:1 - Nah. Let's stay inside today.
+    Now what should I do?
+
+A shorthand tag exists to remove all choices.
+
+    REMOVEALL - No more choices! Shoo! All of you!
+
+PLAY SOUNDS, MUS_ or SFX_
+Plays looping music or SFX. Must be named correctly in assets.js.
+
+    SFX_KAZOO F! - Surprise!
+    MUS_PARTY G! - Let's start the party!
+
+SFX assets will play once, and MUS assets will loop indefinitely. The easiest way to stop playing music is to set up a blank audio file.
+
+    MUS_STOP SFX_RECORDSCRATCH - I turn the music off, furious.
+
+I highly recommend saving all audio as ogg. This is the most widely supported and compressible audio format for web, and allows looping without gaps.
+
+= CHANGE SOUND VOLUME, MUSVOL:[float] or SFXVOL:[float]
+Changes volume of music and SFX respectively. Takes a float between 0 and 1, and is multiplied by the volume set by the player.
+
+    God, I can't focus today...
+    MUSVOL:[0.2] - I turn down the radio. It doesn't seem to help much.
+
+= PLAYER TEXT INPUT, INPUT:variable:limit
+Opens an input for the player to type in a value, which is then saved to a specific variable. Limit stops the input going over that many characters.
+
+    INPUT:playerName:20 S! - Say, could you tell me your name?
+    S! - Nice to meet you, $playerName$!
+
+At an INPUT, the game pauses, and the player cannot proceed until they enter something. 
+
+As VT:S does not test what kind of data the player inputs, it's highly recommended to only use INPUT for situations like name entries over things like number inputs, for now.
+
+= TEXT STYLING, POS:x:y:endPosition or COL:[#colour] or FONT:[font name] or SIZE:size or LINE:lineheight
+Change how the text is displayed. Text styling persists after being set once.
+
+    POS:100:100:64 - Let's start by putting you near the top.
+    COL:[blue] - And now you're blue!
+    FONT:[cursive] - Did you know the default cursive font is comic sans?
+    SIZE:30 - And now we can be BIG!
+    LINE:30 - But if you have big text and a lot of words, you'll want to increase your line height since everything will overlap.
+
+POS has additional tags of POSX, POSY, and POSEND, to individually control the x, y, and end position respectively. 
+
+    POSY:50 - Now I'm at the top of the screen!
+    But, my x position will stay at the default.
+    POSY:70 PERSIST:TRUE - This is very useful for making paragraphs.
+    POSY:90 - Like this!
+
+A text tag can be reset if you pass RESET into it.
+
+    POS:0:0:64 COL:[red] - So we're red in the corner of the screen...
+    POS:0:RESET:64 - But now the Y value is the default!
+    COL:[RESET] - Now the colour's back to normal.
+
+RAND can be passed into the POS x and y for a random location. 
+
+    POS:RAND:RAND:64 - I'm in a random location!
+    POSX:RAND - Now my Y position is the same as whatever it was before, but my X is something random again!
+
+All text styling can be reset with RESETTEXT.
+
+    RESETTEXT - Alright, fun's over. Back to normal.
+
+= KEEP TEXT ON SCREEN, PERSIST:command
+Force the text layer to not clear on progression, keeping text from previous screens around. Commands are TRUE and FALSE.
+
+    Let's keep the text around.
+    PERSIST:TRUE - So this will just overlap itself at the default position...
+    POS:100:50:64 - But you can start doing things like this!
+    POS:100:80:64 - You can have a bunch of lines on screen at once, this way.
+    PERSIST:FALSE - Alright, that's cleared now.
+
+
+==== ADVANCED GUIDE
+With a good handle on making VT:S games, you can start to use more complicated functions and customise the engine.
+
+== CONFIG
+Almost all hardcoded variables have been pulled out into either CONFIG or DEFAULT in config.js. If you don't set something with a tag, these are the values that VT:S will use. If you reset something with a tag, it will be reset to these values. 
+
+All DEFAULT variables are safe to change during runtime, if you so wish.
+
+CONFIG are variables that are /not/ designed to be adjusted during runtime. Any changes made to these may cause unexpected behaviour.
+
+Most settings in here are self explanatory. The ones that aren't are explained below.
+
+= SMOOTH FONTS
+By default, VT:S has font rendering that is sharp and tries to render pixel-exact. This is good for pixel fonts, but can make other kinds of fonts hard to read. Toggling fontSmoothing on turns off the pixel-exact rendering.
+
+= AUTOSAVE SETTINGS
+By default, VT:S will autosave whenever it hits a chapter name that ends in _SAVE. Toggling autosaveAll means that it will save whenever it hits any new chapter.
+
+= AUTOPLAY SETTINGS
+Autoplay changes speed depending on how many characters in a line there are. The minimum characters it starts counting this at, and the maximum, can be set with autoplayMinLineLength and autoplayMaxLineLength.
+
+At the minimum line length, speed is multiplied by a base multiplier value, autoplayBaseMult. At the max line length, speed is multiplied by a max multiplier value, autoplayMaxMult. For line lengths between the min and max line length, a number between these values relative to the line length is used.
+
+Notably, this is scalar with the speed the player sets autoplay. For example: on the fastest speed, a line of 10 characters will advance after 1000ms, and 200 characters will advance after 2000ms. On the slowest speed, a line of 10 characters will advance after 3000ms, and 200 characters will advance after 8000ms.
+
+If autoplayBaseMult and autoplayMaxMult rate are the same, autoplay will not scale with the amount of characters in a line.
+
+= AUTO REMOVING CHOICES
+removeChoiceAtBlockEnd is a toggle that does not automatically remove the choice window when we hit a GOTO or CHECK tag, allowing choices to carry over into new chapters. This is a toggle that can quickly get unruly and requires manual use of REMOVE, but if used correctly can do very powerful things with non-blocking choices.
+
+Extensive testing is recommended when using this toggle.
