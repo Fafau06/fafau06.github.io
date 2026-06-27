@@ -37,7 +37,7 @@ var DEFAULT =
 
     speakerLeftOffset: 35,
     speakerTopOffset: 100,
-    speakerEndpos: 1, 
+    speakerEndpos: 1000, 
     speakerColour: "red", 
 
     messagelogMax: 20,
