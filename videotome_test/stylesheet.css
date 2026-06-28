@@ -395,6 +395,9 @@ canvas
 #text
 {
   z-index: 4;
+  animation:
+    typing 1.5s steps(25, end)
+  infinite;
 }
 #front
 {
@@ -435,4 +438,10 @@ canvas
 {
   from {clip-path: circle(100% at 50% 50%);}
   to {clip-path: circle(0% at 50% 50%);}
+}
+
+@keyframes typing
+{
+  from {width: 0}
+  to {width: 100%}
 }
