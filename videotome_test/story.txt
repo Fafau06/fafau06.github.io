@@ -18,7 +18,7 @@ Holding my chin, she kissed my silicone lips, I never knew that a human’s mout
 GOTO:SCENE_ONE
 ###
 SCENE_ONE
-BG:BG_BEDROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - \0
+BG:BG_BEDROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 -  
 As far as I knew, Anabelle didn’t go to school.
 But she would leave the house sometimes, coming back with fan-made magazines or manga of that same show, “Please Give Me A Miracle!”, usually abbreviated to “KiseChou” to add it to her massive collection.
 Anyone who stepped into the house would instantly know how much of a fan she was, there was merchandise everywhere, figures on the shelves, plushies on the sofa, the small apartment was filled with it, no, more specifically, the whole apartment was filled with me, with Luciella.
