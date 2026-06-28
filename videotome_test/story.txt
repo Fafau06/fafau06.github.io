@@ -1,5 +1,5 @@
 START
-CHOICE1:[Chapter 8]:SCENE_EIGHT CHOICE2:[Chapter 15]:SCENE_FIFTEEN - Select Chapter
+CHOICE1:[Chapter 1]:SCENE_ONE CHOICE2:[Chapter 2]:SCENE_TWO CHOICE3:[Chapter 3]:SCENE_THREE CHOICE4:[Chapter 4]:SCENE_FOUR CHOICE5:[Chapter 5]:SCENE_FIVE CHOICE6:[Chapter 6]:SCENE_SIX CHOICE7:[Chapter 7]:SCENE_SEVEN CHOICE8:[Chapter 8]:SCENE_EIGHT CHOICE9:[Chapter 9]:SCENE_NINE CHOICE10:[Chapter 10]:SCENE_TEN CHOICE11:[Chapter 11]:SCENE_ELEVEN CHOICE12:[Chapter 12]:SCENE_TWELVE CHOICE13:[Chapter 13]:SCENE_THIRTEEN CHOICE14:[Chapter 14]:SCENE_FOURTEEN CHOICE15:[Chapter 15]:SCENE_FIFTEEN CHOICE16:[Chapter 16]:SCENE_SIXTEEN CHOICE17:[Chapter 17]:SCENE_SEVENTEEN CHOICE18:[Chapter 18]:SCENE_EIGHTEEN CHOICE19:[Chapter 19]:SCENE_NINETEEN CHOICE20:[Chapter 20]:SCENE_TWENTY - Select Chapter
 CLEARSCREEN BG:BG_BLACK - Zppt.
 BG:BG_BRUTALISTLONG IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 MUS_DTEST - There was the sound of the dress getting zipped up from the back as Anabelle dressed me up when I felt something strange.
 It was my fingers, slowly curling. 
@@ -36,7 +36,7 @@ A! - But now you’re here, at home with me every single day, I couldn’t be ha
 GOTO:SCENE_TWO
 ###
 SCENE_TWO
-BG:BG_LIVINGROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
+BG:BG_LIVINGROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - 
 I wonder when it was that I started to distance myself away from Luciella.
 It felt like the “Luciella” that was me and the “Luciella” that was fighting monsters on the screen were two separate people, I was Luciella but I also was not, there was such a feeling growing in my head, long before I felt my fingers move.
 And yet Anabelle treated us the same.
@@ -551,8 +551,7 @@ When Anabelle tilted my chin up to face her, it was like a shadow fell over her 
 It thoroughly terrified me.
 A! - I'm not going to accept anything else.
 My knees felt weak.
-L! - Okay. I… understand.
-GOTO:SCENE_TEN
+GOTO:SCENE_TEN L! - Okay. I… understand.
 ###
 SCENE_TEN
 BG:BG_COMPROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
