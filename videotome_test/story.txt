@@ -573,8 +573,7 @@ When I thought about it like that, it was all so limiting.
 Sometimes when Anabelle was sleeping, I would take off my clothes and look at myself.
 Turning myself this way and that, staring at the body that I had only recently started feeling.
 Staring at Luciella's body and feeling so…
-Disconnected.
-GOTO:SCENE_ELEVEN
+GOTO:SCENE_ELEVEN - Disconnected.
 ###
 SCENE_ELEVEN
 BG:BG_BEDROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
@@ -639,8 +638,7 @@ My heart was squeezed taut.
 This wasn't what I really wanted to do…
 But I stood up, put on my clothes, kept the lube, and returned to the sketchbook.
 My pencil hovered over the page.
-Then, I started to draw.
-GOTO:SCENE_TWELVE
+GOTO:SCENE_TWELVE - Then, I started to draw.
 ###
 SCENE_TWELVE
 BG:BG_LIVINGROOM IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
@@ -654,8 +652,8 @@ A! - Do you like it? After spending so much time drawing over the last few weeks
 L! - Mm! It's been really fun.
 Anabelle smiled happily, throwing her arms around my neck.
 A! - Hehe… I'm glad… So you can do it if you want to.
-I knew it, you were Luciella all along.
-You were just trying to trick me, right?
+A! - I knew it, you were Luciella all along.
+A! - You were just trying to trick me, right?
 When I turned around, she was looking at me with those shining eyes.
 But there was a hard edge now, something dark circling her irises.
 L! - Yeah.
@@ -666,8 +664,7 @@ But I had to force them out.
 L! - I was just playing around.
 A! - Hah! I knew it! You're just too good, I was worried.
 I laughed with her, there was nothing else I could do.
-When I looked back at the half drawn eye, I felt sick.
-GOTO:SCENE_THIRTEEN
+GOTO:SCENE_THIRTEEN - When I looked back at the half drawn eye, I felt sick.
 ###
 SCENE_THIRTEEN
 BG:BG_BLACK IMAGE:FG_DIAOVER:front:0:0 TRANS:[transitionFade]:back:1000 AUTO:1:1000 - U+0020
@@ -688,10 +685,9 @@ If I was anything else… Anabelle would be scary again.
 A shiver ran down my spine.
 But when I looked at Luciella’s magical girl clothes, in a pile on the floor, and knowing that I had to put them on…
 I averted my eyes and stared at my wet fingers.
-This small act of rebellion had to satisfy me for now.
-GOTO:SCENE_FOURTEEN
+GOTO:SCENE_FOURTEEN - This small act of rebellion had to satisfy me for now.
 ###
-SCENE_FOURTEEN"
+SCENE_FOURTEEN
 BG:BG_LIVINGROOM TRANS:[transitionFade]:back:1000 - U+0020
 The sky was starting to brighten and I quickly pulled my panties up, zipping up my dress and lying down, pretending to be resting.
 Several weeks of this had passed and I had gotten very good at drawing, and equally good at pretending.
@@ -943,10 +939,9 @@ Just like that, it ended.
 My body shook as I hugged my knees.
 I had to wash her cum out of me.
 I had to scrub my blackened body clean of her fingerprints.
-Getting up slowly, my head blanking, I staggered to the bathroom.
-"GOTO:SCENE_SIXTEEN
+GOTO:SCENE_SIXTEEN - Getting up slowly, my head blanking, I staggered to the bathroom.
 ###
-SCENE_SIXTEEN"
+SCENE_SIXTEEN
 BG:BG_BATHROOM TRANS:[transitionFade]:back:1000 - U+0020
 Sha…
 The water fell hard and fast, the cold freezing.
@@ -968,10 +963,9 @@ Supporting myself with knobs for hot and cold water, I got up
 Stumbling out of the bathroom, I dripped water onto the floor until I found the towel, wiping myself dry.
 Having showered, being somewhat dry, I felt the slightest, just the slightest, bit better compared to when I was still inside that room.
 I didn't want to go back there.
-I hung the towel back on the rack, then walked slowly to the living room.
-"GOTO:SCENE_SEVENTEEN
+GOTO:SCENE_SEVENTEEN - I hung the towel back on the rack, then walked slowly to the living room.
 ###
-SCENE_SEVENTEEN"
+SCENE_SEVENTEEN
 BG:BG_LIVINGROOM TRANS:[transitionFade]:back:1000 - U+0020
 I collapsed on the sofa, curled up in a fetal position as I squeezed a pillow to my chest.
 Thoroughly exhausted, I fell into a fitful sleep.
@@ -1013,9 +1007,9 @@ That was the worst part.
 A! - Luciella…
 Then she paused, like she couldn't continue stand using that name anymore.
 She continued in a soft voice.
-CHOICE1:[I love her]:### SCENE_SEVENTEEN_A CHOICE2:[I don't love her]:### SCENE_SEVENTEEN_A A! - Do you love me?
-"###
-SCENE_SEVENTEEN_A"
+CHOICE1:[I love her]:SCENE_SEVENTEEN_A CHOICE2:[I don't love her]:SCENE_SEVENTEEN_A A! - Do you love me?
+###
+SCENE_SEVENTEEN_A
 L! - What… why…?
 Was this a trick question?
 What was she saying suddenly?
@@ -1060,10 +1054,9 @@ Drawings that perfectly emulated Luciella artstyle.
 I didn't get upset about it.
 I didn't feel anything at all.
 And I couldn't get upset even at that.
-There was just a quiet, growing sense of despair.
-"GOTO:SCENE_EIGHTEEN
+GOTO:SCENE_EIGHTEEN - There was just a quiet, growing sense of despair.
 ###
-SCENE_EIGHTEEN"
+SCENE_EIGHTEEN
 BG:BG_BEDROOM TRANS:[transitionFade]:back:1000 - U+0020
 L! - Anabelle…
 I walked into the bedroom after waking up, I had slept on the sofa, unable to sleep in that room anymore.
@@ -1174,10 +1167,9 @@ Anabelle reached her arms out, wrapping her hands around my legs and pulling me 
 But I wasn’t going to let her get what she wanted anymore, I couldn’t forsake myself any longer.
 Swinging my legs wildly, one of them hit their mark, connecting with her chest.
 A! - Guh!
-She let go of me and I grabbed my chance, ditching my clothes on the floor and running to the bathroom.
-"GOTO:SCENE_NINETEEN
+GOTO:SCENE_NINETEEN - She let go of me and I grabbed my chance, ditching my clothes on the floor and running to the bathroom.
 ###
-SCENE_NINETEEN"
+SCENE_NINETEEN
 BG:BG_BATHROOM TRANS:[transitionFade]:back:1000 - U+0020
 Bang!
 I slammed the door shut behind me, locking it shut before I fell to the floor, heaving.
@@ -1291,10 +1283,9 @@ I faced the mirror, carefully using the scissors to ensure that my hair was arou
 Finally, when I was done, I looked up and stared at my reflection, at my chin-length hair.
 L! - Anabelle… she would be so mad.
 But I wasn't scared anymore.
-Any kind of reaction she had, I would face her head on.
-"GOTO:SCENE_TWENTY
+GOTO:SCENE_TWENTY - Any kind of reaction she had, I would face her head on.
 ###
-SCENE_TWENTY"
+SCENE_TWENTY
 BG:BG_BEDROOM TRANS:[transitionFade]:back:1000 - U+0020
 After sweeping up all the hair and throwing it away, I sneaked into the bedroom to pick my clothes up from the floor.
 But Anabelle wasn't in the room.
@@ -1357,10 +1348,9 @@ A! - You'll get tired of this nonsense soon, and then you'll come back to me.
 But for all her taunts, when she sat down again, there was a vaguely anxious quality to her.
 L! - Just you wait.
 I muttered under my breath.
-L! - I'll make you eat your words.
-"GOTO:SCENE_TWENTYONE
+GOTO:SCENE_TWENTYONE L! - I'll make you eat your words.
 ###
-SCENE_TWENTYONE"
+SCENE_TWENTYONE
 BG:BG_LIVINGROOM TRANS:[transitionFade]:back:1000 - U+0020
 I said that but I didn't know how to start or what to do.
 What made up a self?
@@ -1388,7 +1378,6 @@ Those instances counted as rape, right?
 She made me feel so…
 I didn't have the words.
 I wanted to scrub myself clean but if I took my clothes off it felt like I would die.
-Tired… I was so tired.
 BG:BG_LIVINGROOM TRANS:[transitionFade]:back:1000 - U+0020
 When I woke up, the sun was high in the sky, lighting up the entire room.
 Swinging my legs over the edge of the sofa, I was about to get up when I saw her.
@@ -1426,10 +1415,9 @@ What was she keeping inside all this while?
 Intrigue kept me rooted.
 Anabelle shifted a little in her sleep.
 Tears dripped down her face silently.
-I watched her silently all the way until she woke up.
-"GOTO:SCENE_TWENTYTWO
+GOTO:SCENE_TWENTYTWO - I watched her silently all the way until she woke up.
 ###
-SCENE_TWENTYTWO"
+SCENE_TWENTYTWO
 BG:BG_KITCHEN TRANS:[transitionFade]:back:1000 - U+0020
 Anabelle scooped cereal into her mouth and I joined her at the dining table, pulling the chair out gingerly.
 L! - You were crying in your sleep.
@@ -1574,42 +1562,41 @@ A! - What… why is this happening?
 That pleading expression, I had never seen it before.
 Was she looking at me for help?
 How shameless.
-CHOICE1:[Help her]:### SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:### SCENE_TWENTYTWO_B - How pitiful.
-"###
-SCENE_TWENTYTWO_A"
+CHOICE1:[Help her]:SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:SCENE_TWENTYTWO_B - How pitiful.
+###
+SCENE_TWENTYTWO_A
 I sighed, pulling my hands away.
 I hated this but…
 GOTO:SCENE_TWENTYTHREE L! - We should talk in the living room instead of across the table like this.
-"###
-SCENE_TWENTYTWO_B"
+###
+SCENE_TWENTYTWO_B
 I hesitated.
-CHOICE1:[Help her]:### SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:### SCENE_TWENTYTWO_C - She was squeezing my hands in hers
-"###
-SCENE_TWENTYTWO_C"
+CHOICE1:[Help her]:SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:SCENE_TWENTYTWO_C - She was squeezing my hands in hers
+###
+SCENE_TWENTYTWO_C
 A! - Luciella, please…
 She let go for a brief moment to wipe away her tears.
-"CHOICE1:[Help her]:### SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:### SCENE_TWENTYTWO_D
- A! - I can't figure this out on my own."
-"###
-SCENE_TWENTYTWO_D"
+CHOICE1:[Help her]:SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:SCENE_TWENTYTWO_D - A! - I can't figure this out on my own.
+###
+SCENE_TWENTYTWO_D
 The more I looked at her, the more she was like a child.
 Confused.
 Scared.
 I hated it so much.
 Why could she suddenly play the victim?
 What gave her the right…!
-CHOICE1:[Help her]:### SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:### SCENE_TWENTYTWO_E - But those eyes were so genuinely lost.
-"###
-SCENE_TWENTYTWO_E"
+CHOICE1:[Help her]:SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:SCENE_TWENTYTWO_E - But those eyes were so genuinely lost.
+###
+SCENE_TWENTYTWO_E
 Could I really leave her like this?
 What would happen if I did?
-I…
-"###
-SCENE_TWENTYTWO_F"
-CHOICE1:[Help her]:### SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:### SCENE_TWENTYTWO_F - ...
-"GOTO:SCENE_TWENTYTHREE
+CHOICE1:[Help her]:SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:SCENE_TWENTYTWO_F - I...
 ###
-SCENE_TWENTYTHREE"
+SCENE_TWENTYTWO_F
+CHOICE1:[Help her]:SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:SCENE_TWENTYTWO_F - ...
+GOTO:SCENE_TWENTYTHREE
+###
+SCENE_TWENTYTHREE
 BG:BG_LIVINGROOM TRANS:[transitionFade]:back:1000 - U+0020
 We sat down on the sofa, Anabelle sitting down uncertainly next to me.
 Just to get things straight, you want me to stay, right?
@@ -1871,10 +1858,9 @@ It was just too difficult to be in the same space as her all of a sudden, when s
 There was something about her eyes, something about her expression, it was just so defeated.
 And it couldn't help but anger me, why could she play the victim, why, when she had caused me so much hurt?
 And yet, I felt so sorry for her that there was an ache in my chest.
-When I turned around to look at her, she was still staring blankly into space.
-"GOTO:SCENE_TWENTYFOUR
+GOTO:SCENE_TWENTYFOUR - When I turned around to look at her, she was still staring blankly into space.
 ###
-SCENE_TWENTYFOUR"
+SCENE_TWENTYFOUR
 BG:BG_BEDROOM TRANS:[transitionFade]:back:1000 - U+0020
 The moment I walked in, I closed the door and fell to the floor.
 L! - Hah… ha… ah…
@@ -1968,10 +1954,9 @@ Really good.
 Hesitantly taking a step towards the mirror, I looked at myself and gasped.
 Everything fit so perfectly, happiness enveloped me in its warm arms.
 I could look at myself now and actually feel happy at what I saw in the mirror.
-It filled me with joy.
-"GOTO:SCENE_TWENTYFIVE
+GOTO:SCENE_TWENTYFIVE - It filled me with joy.
 ###
-SCENE_TWENTYFIVE"
+SCENE_TWENTYFIVE
 BG:BG_LIVINGROOM TRANS:[transitionFade]:back:1000 - U+0020
 Anabelle wasn't on the sofa anymore.
 Maybe she went out.
