@@ -395,9 +395,6 @@ canvas
 #text
 {
   z-index: 4;
-  animation:
-    typing 1.5s steps(25, end)
-  infinite;
 }
 #front
 {
