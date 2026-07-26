@@ -10,6 +10,29 @@
 #   sort_field: 'date'
 #   sort_reverse: true
 
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Absurdia Abode"
+title_separator          : "-"
+name                     : &name "Fafau06"
+description              : &description "Care-Vamme Sinte Mana Ana Tece-Símen"
+url                      : https://fafau06.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "fafau06/fafau06.github.io"
+teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 160
+future                   : true
+read_more                : "enable" # if enabled, adds "Read more" links to excerpts
+talkmap_link             : false #change to true to add
+
 # jekyll-paginate configuration
 paginate:            5
 
@@ -20,9 +43,9 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Lagrange'
-description:	       'a minimalist Jekyll theme'
-author:              'Paul Le'
+title:		           'Absurdia Abode'
+description:	       'Care-Vamme Sinte Mana Ana Tece-Símen'
+author:                'Fafau06'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 feed:
