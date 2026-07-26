@@ -2,32 +2,39 @@
   Base
 */
 
-body {
+body
+{
   font-family: $serif-font-family;
   font-size: 18px;
   color: $body-color;
   line-height: 1.75rem;
 }
 
-@media (max-width: $elements-responsive-width) {
-  body {
+@media (max-width: $elements-responsive-width)
+{
+  body
+  {
     font-size: 14px;
     line-height: 1.5rem;
   }
-  body h1 {
+  body h1
+  {
     font-size: 1.5rem;
   }
 }
 
-h1{
+h1
+{
   font-size: 2rem;
 }
 
-h1 a {
+h1 a
+{
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6
+{
   font-family: $sans-serif-font-family;
   color: $dark-gray-color;
 }
@@ -36,17 +43,22 @@ a
 {
   text-decoration: underline;
   color: $dark-gray-color;
-  outline-color: transparent;
-  text-decoration: none;
-  border-bottom: 2px solid #0078D7;
 }
 
 a:hover
 {
   color: $link-color;
+  border-bottom: none;
 }
 
-a[href^="http"]::after
+.content-post a
+{
+  outline-color: transparent;
+  text-decoration: none;
+  border-bottom: 2px solid #0078D7;
+}
+
+.content-post a[href^="http"]::after
 {
     content: "";
     display: inline-block;
