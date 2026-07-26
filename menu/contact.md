@@ -5,6 +5,7 @@ permalink: /contact
 ---
 
 Feel free to send memes to me in:
+
 | Platform | Username |
 | :-------------------: | :-------------------: |
 | Discord | @fafau06 |
