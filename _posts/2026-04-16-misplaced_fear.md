@@ -13,6 +13,8 @@ The younger girl tightened her grip on the arm of the older girl whose complexio
 
 "Are... we sure we're going the right way?" the young girl asked.
 
+"Hm."
+
 "R-really...? But how do you know?"
 
 The older girl took a step forward without looking at the girl behind her, "I don't," she said, "but if you keep fearing something that isn't there, you'll never get anywhere."
@@ -34,7 +36,7 @@ The young girl, while struggling to understand all this, gave a little nod and w
 They walked silently through the corridor.
 
 
-====
-Image taken by, and modified with permission from: [DrunkCrunkFranken](https://bsky.app/profile/drunkcrunkfranken.bsky.social)
-Written at 4am while being sleep deprived
+====<br>
+Image taken by, and modified with permission from: [DrunkCrunkFranken](https://bsky.app/profile/drunkcrunkfranken.bsky.social)<br>
+Written at 4am while being sleep deprived<br>
 ====
