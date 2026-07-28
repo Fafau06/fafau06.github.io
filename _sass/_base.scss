@@ -51,14 +51,14 @@ a:hover
   border-bottom: none;
 }
 
-article a
+article.content-post a
 {
   outline-color: transparent;
   text-decoration: none;
   border-bottom: 2px solid #0078D7;
 }
 
-article a[href^="http"]::after
+article.content-post a[href^="http"]::after
 {
     content: "";
     display: inline-block;
