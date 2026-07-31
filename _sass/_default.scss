@@ -2,20 +2,24 @@
   Site container
 */
 
-.container {
+.container
+{
   margin-left: auto;
   margin-right: auto;
   width: 615px;
 }
 
-.content-container {
+.content-container
+{
   margin-bottom: 4rem;
 }
 
 /*48em*/
 
-@media (max-width: $container-responsive-width) {
-  .container {
+@media (max-width: $container-responsive-width)
+}
+  .container
+  {
     width: 90vw;
   }
 }
@@ -24,61 +28,75 @@
   Header
 */
 
-.header {
+.header
+{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-bottom: 4rem;
   font-family: $sans-serif-font-family;
 }
 
-.header a:hover {
+.header a:hover
+{
   color:black;
 }
 
-.header-title a {
+.header-title a
+{
   font-size: 2rem;
   text-decoration: none;
   color: $body-color;
 }
 
-.header-subtitle {
+.header-subtitle
+{
+  font-style: italic;
   color: $light-gray-color;
+  word-spacing: 0.4px;
 }
 
 /*
   Menu
 */
 
-.menu {
+.menu
+{
   padding-top: 0.5rem;
   display: block;
 }
 
-.menu-content {
+.menu-content
+{
   float: left;
 }
 
-.menu-content a {
+.menu-content a
+{
   color: $light-gray-color;
   font-size: 1rem;
   padding-right: 10px;
 }
 
-.social-icons {
+.social-icons
+{
   float: right;
 }
 
-.social-icons a {
+.social-icons a
+{
   color: $light-gray-color;
   font-size: 1rem;
 }
 
-@media (max-width: $elements-responsive-width) {
-  .social-icons {
+@media (max-width: $elements-responsive-width)
+{
+  .social-icons
+  {
     float: left;
     padding-top: 0px;
   }
-  .menu-content {
+  .menu-content
+  {
     margin-bottom: 5px;
   }
 }
@@ -87,23 +105,27 @@
   Footer
 */
 
-.footer {
+.footer
+{
   color: $light-gray-color;
   text-align: center;
   margin: 2rem;
 }
 
-.footer a {
+.footer a
+{
   color: $light-gray-color;
   padding: 10px;
   text-decoration: none;
 }
 
-.footer a:hover {
+.footer a:hover
+{
   color: $dark-gray-color;
 }
 
-.footer-description {
+.footer-description
+{
   display: block;
   margin-top:3px;
   margin-bottom: 1rem;
