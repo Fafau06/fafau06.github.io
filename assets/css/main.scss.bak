@@ -5,7 +5,6 @@ $sans-serif-font-family: "IBM Plex Sans", sans-serif;
 $serif-font-family:      "IBM Plex Serif", Georgia, "Times New Roman", serif;
 $code-font-family:       "IBM Plex Mono", monospace;
 
-$body-bg:				 #FFF4DD
 $body-color:             #003764;
 $link-color:             #0078D7;
 

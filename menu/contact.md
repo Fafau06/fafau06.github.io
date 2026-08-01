@@ -10,3 +10,5 @@ Platform | Username
 :-------------------: | :-------------------:
 Discord | @fafau06
 Email | fafau0639@gmail.com
+
+<textarea name="message" placeholder="Enter your message here"></textarea>

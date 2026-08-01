@@ -4,24 +4,24 @@
 
 .container
 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 615px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 615px;
 }
 
 .content-container
 {
-  margin-bottom: 4rem;
+	margin-bottom: 4rem;
 }
 
 /*48em*/
 
 @media (max-width: $container-responsive-width)
-}
-  .container
-  {
-    width: 90vw;
-  }
+{
+	.container
+	{
+		width: 90vw;
+	}
 }
 
 /*
@@ -30,29 +30,33 @@
 
 .header
 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin-bottom: 4rem;
-  font-family: $sans-serif-font-family;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin-bottom: 4rem;
 }
 
 .header a:hover
 {
-  color:black;
+	color:black;
 }
 
 .header-title a
 {
-  font-size: 2rem;
-  text-decoration: none;
-  color: $body-color;
+	font-size: 2.78rem;
+	text-decoration: none;
+	color: $body-color;
+	font-style: bold;
+	font-family: $sans-serif-font-family;
 }
 
 .header-subtitle
 {
-  font-style: italic;
-  color: $light-gray-color;
-  word-spacing: 0.4px;
+	font-family: $serif-font-family;
+	font-style: italic;
+	color: $light-gray-color;
+	word-spacing: 0.4px;
+	font-stretch: -5%;
+	font-kerning: -5%;
 }
 
 /*
@@ -61,44 +65,44 @@
 
 .menu
 {
-  padding-top: 0.5rem;
-  display: block;
+	padding-top: 0.5rem;
+	display: block;
 }
 
 .menu-content
 {
-  float: left;
+	float: left;
 }
 
 .menu-content a
 {
-  color: $light-gray-color;
-  font-size: 1rem;
-  padding-right: 10px;
+	color: $light-gray-color;
+	font-size: 1rem;
+	padding-right: 10px;
 }
 
 .social-icons
 {
-  float: right;
+	float: right;
 }
 
 .social-icons a
 {
-  color: $light-gray-color;
-  font-size: 1rem;
+	color: $light-gray-color;
+	font-size: 1rem;
 }
 
 @media (max-width: $elements-responsive-width)
 {
-  .social-icons
-  {
-    float: left;
-    padding-top: 0px;
-  }
-  .menu-content
-  {
-    margin-bottom: 5px;
-  }
+	.social-icons
+	{
+		float: left;
+		padding-top: 0px;
+	}
+	.menu-content
+	{
+		margin-bottom: 5px;
+	}
 }
 
 /*
@@ -107,29 +111,29 @@
 
 .footer
 {
-  color: $light-gray-color;
-  text-align: center;
-  margin: 2rem;
+	color: $light-gray-color;
+	text-align: center;
+	margin: 2rem;
 }
 
 .footer a
 {
-  color: $light-gray-color;
-  padding: 10px;
-  text-decoration: none;
+	color: $light-gray-color;
+	padding: 10px;
+	text-decoration: none;
 }
 
 .footer a:hover
 {
-  color: $dark-gray-color;
+	color: $dark-gray-color;
 }
 
 .footer-description
 {
-  display: block;
-  margin-top:3px;
-  margin-bottom: 1rem;
-  color: $light-gray-color;
-  font-family: $sans-serif-font-family;
-  font-size:0.8rem;
+	display: block;
+	margin-top:3px;
+	margin-bottom: 1rem;
+	color: $light-gray-color;
+	font-family: $sans-serif-font-family;
+	font-size:0.8rem;
 }
