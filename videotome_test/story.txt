@@ -1594,19 +1594,19 @@ CHOICE1:[Help her]:SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:SCENE_TWENTYTWO_F 
 ###
 SCENE_TWENTYTWO_F
 CHOICE1:[Help her]:SCENE_TWENTYTWO_A CHOICE2:[Don't help her]:SCENE_TWENTYTWO_F - ...
-GOTO:SCENE_TWENTYTHREE
+"GOTO:SCENE_TWENTYTHREE
 ###
-SCENE_TWENTYTHREE
+SCENE_TWENTYTHREE"
 BG:BG_LIVINGROOM TRANS:[transitionFade]:back:1000 - U+0020
 We sat down on the sofa, Anabelle sitting down uncertainly next to me.
-Just to get things straight, you want me to stay, right?
+L! - Just to get things straight, you want me to stay, right?
 She nodded.
-Don't die… I don't want you to die…
-Okay. Then I won't.
+A! - Don't die… I don't want you to die…
+L! - Okay. Then I won't.
 Hands in her lap, head looking down, Anabelle looked so… sad.
 I reached out towards her, then drew my hand away.
-Do… do you care about me? Or not?
-Be honest, Anabelle.
+L! - Do… do you care about me? Or not?
+L! - Be honest, Anabelle.
 I…
 I don't… know…
 Anabelle fiddled with her hands, thinking.
@@ -1614,230 +1614,230 @@ How could something this simple prove so difficult for her?
 It drove a stake through my heart.
 But I had to be patient, we were finally getting somewhere.
 So I waited, looking at her all the while.
-I think I care…
-I mean… I must… right?
-Logically speaking… if I don't want you to be gone…
-If I don't care then, none of this would matter… or hurt this much.
-I… ugh…
+A! - I think I care…
+A! - I mean… I must… right?
+A! - Logically speaking… if I don't want you to be gone…
+A! - If I don't care then, none of this would matter… or hurt this much.
+A! - I… ugh…
 Her right hand was gripped in her left.
 Her jaw was clenched.
-I don't want to care… about you.
-About someone who stole my Luciella away…
+A! - I don't want to care… about you.
+A! - About someone who stole my Luciella away…
 I had to be calm.
 I continued, my tone as even as before.
 Even though… my empathy was waning.
-So why do you care? What makes you care?
+L! - So why do you care? What makes you care?
 The problem underlying all of this was the key to everything.
 I just had to figure it out.
-I…
+A! - I…
 Her voice lowered even further.
-I need you to keep me company.
-I need to know… that there's a living, or kind of living, presence…
-Even if you don't do what I say… even if you're not Luciella…
-You're just someone wearing her skin but you're… here.
-I've been missing something like this all the while…
-I miss…
-Uuhgg…
+A! - I need you to keep me company.
+A! - I need to know… that there's a living, or kind of living, presence…
+A! - Even if you don't do what I say… even if you're not Luciella…
+A! - You're just someone wearing her skin but you're… here.
+A! - I've been missing something like this all the while…
+A! - I miss…
+A! - Uuhgg…
 It was as though she was forcing the words out with everything she had, holding her head like it hurt.
-I miss her…
+A! - I miss her…
 Anabelle finally said softly, tears dripping onto her clothes.
 Curiosity overtook all of my other emotions.
-Who… is “her”?
+L! - Who… is “her”?
 She took a deep, shuddering breath.
-She's my… ex-girlfriend.
-We lived here… together.
-That was before you.
-But she… and I… aaahhggg…
-I don't want to talk about this, I don't want to think about this.
+A! - She's my… ex-girlfriend.
+A! - We lived here… together.
+A! - That was before you.
+A! - But she… and I… aaahhggg…
+A! - I don't want to talk about this, I don't want to think about this.
 She hugged her knees to her chest.
-Don't make me think about her…
-I've been doing so good all this time…
-I can't believe she's back in my thoughts again… haha….
-What a joke.
+A! - Don't make me think about her…
+A! - I've been doing so good all this time…
+A! - I can't believe she's back in my thoughts again… haha….
+A! - What a joke.
 Anabelle turned to face me suddenly.
-I've been bad, I've been selfish and even after all that I still can't bring myself to love you.
-I can't love you but I don't want you to leave.
-Isn't that just horrible?
-Am I not just horrible?
-Why can't I let you go? Why can't I let her go?
-My memories… my pain and hate, why can't I let them go?
-I don't understand…
+A! - I've been bad, I've been selfish and even after all that I still can't bring myself to love you.
+A! - I can't love you but I don't want you to leave.
+A! - Isn't that just horrible?
+A! - Am I not just horrible?
+A! - Why can't I let you go? Why can't I let her go?
+A! - My memories… my pain and hate, why can't I let them go?
+A! - I don't understand…
 As though in desperation, as though without anywhere else to go, her tears flowed frantically.
 She wiped them away harshly.
-And I keep crying and crying, I don't change, nothing changes.
-I'm weak, I'm horrible and gross.
-Maybe I should just allow you to die.
-Maybe I should just be alone again, playing house all by myself.
+A! - And I keep crying and crying, I don't change, nothing changes.
+A! - I'm weak, I'm horrible and gross.
+A! - Maybe I should just allow you to die.
+A! - Maybe I should just be alone again, playing house all by myself.
 She laughed bitterly.
-Maybe I deserve that.
+A! - Maybe I deserve that.
 I reached my hands out this time, pressing her hands into mine.
-You don't…
+L! - You don't…
 Probably.
-I can't say that I like you. No, with everything that you've done, I hate you too.
-You've caused me so so so much pain.
+L! - I can't say that I like you. No, with everything that you've done, I hate you too.
+L! - You've caused me so so so much pain.
 Even now, holding her hands on my own accord made them shake, I wanted to pull them away so badly.
 In spite of that, I had to get my point through.
-But giving up now just puts a definite stop on everything.
-That's why I'm not going to put a definite stop on my life together.
-We can… figure things out, right?
-Nothing about all this is ideal.
-But maybe we can get there… at least a little.
-I will never forgive you.
-But things can't continue like this either.
+L! - But giving up now just puts a definite stop on everything.
+L! - That's why I'm not going to put a definite stop on my life together.
+L! - We can… figure things out, right?
+L! - Nothing about all this is ideal.
+L! - But maybe we can get there… at least a little.
+L! - I will never forgive you.
+L! - But things can't continue like this either.
 Anabelle drew her hands away.
-How can you still be this strong?
-I feel like… such a child.
+A! - How can you still be this strong?
+A! - I feel like… such a child.
 She dropped her head into her hands.
 There was a long period of silence, filled up only by her sobs.
-I… loved a girl once.
-She lifted her head, staring down at her clothes once again.
-Drawing a shaky breath, she continued.
-Her family situation wasn't exactly great, she was the one that suggested running away first.
-I was… frustrated… with everything.
-My body sickened me, I felt nauseated every time I had to put on my uniform for school.
-My parents weren't any better, it's just clothes, they told me, go to school. They didn't understand at all.
-Even when I did go to school, I couldn't fit in, I didn't have friends, I didn't have anything.
-And she…
-She was the light in my life, the only thing that took me away.
-Not just that, she loved me as a girl… being with her was the only time that I felt like a girl.
-Forever… she promised me forever.
+A! - I… loved a girl once.
+A! - She lifted her head, staring down at her clothes once again.
+A! - Drawing a shaky breath, she continued.
+A! - Her family situation wasn't exactly great, she was the one that suggested running away first.
+A! - I was… frustrated… with everything.
+A! - My body sickened me, I felt nauseated every time I had to put on my uniform for school.
+A! - My parents weren't any better, it's just clothes, they told me, go to school. They didn't understand at all.
+A! - Even when I did go to school, I couldn't fit in, I didn't have friends, I didn't have anything.
+A! - And she…
+A! - She was the light in my life, the only thing that took me away.
+A! - Not just that, she loved me as a girl… being with her was the only time that I felt like a girl.
+A! - Forever… she promised me forever.
 As Anabelle continued speaking, her voice grew more and more monotone.
 It was like she was speaking from somewhere far away, somewhere detached from herself.
-Hand in hand, smiling faces, we ran away. Left everything behind.
-It was hard at first, we were homeless for a while.
-But we managed to get jobs somewhere, somehow.
-FnB, convenience stores, packing at warehouses, we both worked at whenever would accept us.
-And maybe because my parents didn't want to leave me for dead but whatever it was, they would send me an allowance sometimes, so that helped us a lot.
-And eventually, we had enough for this, for a house.
-That was huge, we were happy.
+A! - Hand in hand, smiling faces, we ran away. Left everything behind.
+A! - It was hard at first, we were homeless for a while.
+A! - But we managed to get jobs somewhere, somehow.
+A! - FnB, convenience stores, packing at warehouses, we both worked at whenever would accept us.
+A! - And maybe because my parents didn't want to leave me for dead but whatever it was, they would send me an allowance sometimes, so that helped us a lot.
+A! - And eventually, we had enough for this, for a house.
+A! - That was huge, we were happy.
 Anabelle paused, and sighed.
-So where did it start to go wrong?
-I spent so long thinking about that, what exactly was the turning point?
-But I never did figure it out.
-Maybe it was when her mom started to beg for her to come home.
-Maybe it was when she started to dread going to work.
-Maybe it was when she started wondering what the point of all this was.
-Maybe it was when she started having regrets.
-I couldn't understand. I didn't regret anything. I was happy as long as she was by my side.
-She was too, right?
-But it was different… she slowly…
+A! - So where did it start to go wrong?
+A! - I spent so long thinking about that, what exactly was the turning point?
+A! - But I never did figure it out.
+A! - Maybe it was when her mom started to beg for her to come home.
+A! - Maybe it was when she started to dread going to work.
+A! - Maybe it was when she started wondering what the point of all this was.
+A! - Maybe it was when she started having regrets.
+A! - I couldn't understand. I didn't regret anything. I was happy as long as she was by my side.
+A! - She was too, right?
+A! - But it was different… she slowly…
 Anabelle was quivering.
 I couldn't tell if it was from sadness, fear of anger.
-Mood swings. She got unstable, and unhappy.
-And then she started to blame me.
-She said that I was the reason that we were in this situation.
-She said that she wanted to go back home.
-But how was I supposed to let her go?
-Her house wasn't a safe place, to say the least.
-Her mom was abusive and codependent, I could talk about that part all day long but that's not the point.
-I could let her go back there.
-She wouldn't want to ever leave if she went back.
-She would suffer more.
-I tried to tell this to her, I really did.
-But she… started to attack me, hit all of my weak spots.
-Said that she didn't know why she was with a tranny. That she would rather be with an actual girl.
-She told me that I would never be a real girl.
-We had several physical fights after that, they always ended in crying and apologising.
-She always said that she was sorry, that she wouldn't do it again.
-I learned at this point that her apologies didn't hold water.
-But… I still loved her, no, I needed her.
-I had no one else. I had nothing else.
-She was the only thing keeping me going.
-Even if she was unstable, even if she insulted me, as long as I could help her, as long as I could be there for her, things would be okay.
-But then…
-Then… amidst everything, something happened.
-Aaahhgg…
+A! - Mood swings. She got unstable, and unhappy.
+A! - And then she started to blame me.
+A! - She said that I was the reason that we were in this situation.
+A! - She said that she wanted to go back home.
+A! - But how was I supposed to let her go?
+A! - Her house wasn't a safe place, to say the least.
+A! - Her mom was abusive and codependent, I could talk about that part all day long but that's not the point.
+A! - I could let her go back there.
+A! - She wouldn't want to ever leave if she went back.
+A! - She would suffer more.
+A! - I tried to tell this to her, I really did.
+A! - But she… started to attack me, hit all of my weak spots.
+A! - Said that she didn't know why she was with a tranny. That she would rather be with an actual girl.
+A! - She told me that I would never be a real girl.
+A! - We had several physical fights after that, they always ended in crying and apologising.
+A! - She always said that she was sorry, that she wouldn't do it again.
+A! - I learned at this point that her apologies didn't hold water.
+A! - But… I still loved her, no, I needed her.
+A! - I had no one else. I had nothing else.
+A! - She was the only thing keeping me going.
+A! - Even if she was unstable, even if she insulted me, as long as I could help her, as long as I could be there for her, things would be okay.
+A! - But then…
+A! - Then… amidst everything, something happened.
+A! - Aaahhgg…
 Anabelle ran her hands through her hair.
-We were… we were having sex.
-And suddenly she stopped. She said that she couldn't anymore.
-She didn't want to stay with me anymore…
-She said that I was too clingy, too overbearing, that my love for her was too much, she cried as she said that she rather I hated her.
-How could she say such things? After everything that we had been through together?
-I was so overwhelmed with rage, grief, my emotions were spinning.
-And then I… in my anger…
+A! - We were… we were having sex.
+A! - And suddenly she stopped. She said that she couldn't anymore.
+A! - She didn't want to stay with me anymore…
+A! - She said that I was too clingy, too overbearing, that my love for her was too much, she cried as she said that she rather I hated her.
+A! - How could she say such things? After everything that we had been through together?
+A! - I was so overwhelmed with rage, grief, my emotions were spinning.
+A! - And then I… in my anger…
 Anabelle covered her face with her hands.
 Her voice was barely a whisper.
-I pushed her back onto the bed.
-I raped her.
-I… she… I had the physical advantage, she could only struggle so much.
-The look on her face when it was over, her eyes were so hollow, it was like she died.
-It scared me, and I cried so much.
-Come back. I'm sorry, come back, please, I kept repeating those words through my tears.
+A! - I pushed her back onto the bed.
+A! - I raped her.
+A! - I… she… I had the physical advantage, she could only struggle so much.
+A! - The look on her face when it was over, her eyes were so hollow, it was like she died.
+A! - It scared me, and I cried so much.
+A! - Come back. I'm sorry, come back, please, I kept repeating those words through my tears.
 Anabelle herself looked like she was breaking.
 Her hands were back on her thighs, nails digging into her skin.
-Hahaha…
-What was I hoping for…
-She took her things and left the next day.
-She told me that no one would ever accept me, would ever love me again.
-I got depressed, I stopped working.
-And then I… bought Luciella shortly after.
-It was impossible to touch my body anymore.
-My sexual urges felt disgusting. I felt disgusting.
-It felt like I was better off dead.
-That must have been when my obsession for Luciella really…
-Luciella was real to me, she became what kept me alive.
-I woke up every day with her at my side, I would talk to her all the time, spending time with her every day became my new reason for living.
-Luciella… replaced her.
-I put everything, all my needs, all my wants, onto Luciella.
-That was the only way I could cope.
+A! - Hahaha…
+A! - What was I hoping for…
+A! - She took her things and left the next day.
+A! - She told me that no one would ever accept me, would ever love me again.
+A! - I got depressed, I stopped working.
+A! - And then I… bought Luciella shortly after.
+A! - It was impossible to touch my body anymore.
+A! - My sexual urges felt disgusting. I felt disgusting.
+A! - It felt like I was better off dead.
+A! - That must have been when my obsession for Luciella really…
+A! - Luciella was real to me, she became what kept me alive.
+A! - I woke up every day with her at my side, I would talk to her all the time, spending time with her every day became my new reason for living.
+A! - Luciella… replaced her.
+A! - I put everything, all my needs, all my wants, onto Luciella.
+A! - That was the only way I could cope.
 When Anabelle faced me, her tears had dried up.
-But then suddenly, you woke up.
-And you even said that you remembered everything.
-Of course I was overjoyed.
-All of my hopes and dreams were coming true.
-Luciella, she was here, she was real, she could move and talk to me like a real person.
-But then I realised that it wasn't Luciella who was in front of me.
-It was you.
-My world crumbled.
-What happened to Luciella?
-Who was it that I was spending time with? Did Luciella only exist in my imagination?
-That… couldn't be right.
-I didn't want that to be true, that couldn't be true.
-So I forced even more expectations onto you.
-It felt like my reality would break if you weren't Luciella.
-It felt like my reality was already cracking, fissures growing into deep chasms.
-This wasn't Luciella, this wasn't my Luciella.
-I was losing my mind.
-And finally, you discovered the clothes.
-Those were her clothes. I couldn't help but keep them.
-Something snapped in me that day, I had been trying not to think about her for three long years and suddenly she was right in my face again.
-Rage overtook everything.
-And then I… I…
+A! - But then suddenly, you woke up.
+A! - And you even said that you remembered everything.
+A! - Of course I was overjoyed.
+A! - All of my hopes and dreams were coming true.
+A! - Luciella, she was here, she was real, she could move and talk to me like a real person.
+A! - But then I realised that it wasn't Luciella who was in front of me.
+A! - It was you.
+A! - My world crumbled.
+A! - What happened to Luciella?
+A! - Who was it that I was spending time with? Did Luciella only exist in my imagination?
+A! - That… couldn't be right.
+A! - I didn't want that to be true, that couldn't be true.
+A! - So I forced even more expectations onto you.
+A! - It felt like my reality would break if you weren't Luciella.
+A! - It felt like my reality was already cracking, fissures growing into deep chasms.
+A! - This wasn't Luciella, this wasn't my Luciella.
+A! - I was losing my mind.
+A! - And finally, you discovered the clothes.
+A! - Those were her clothes. I couldn't help but keep them.
+A! - Something snapped in me that day, I had been trying not to think about her for three long years and suddenly she was right in my face again.
+A! - Rage overtook everything.
+A! - And then I… I…
 A complicated smile was stretching her features.
-I kept thinking about her, I kept thinking about what I was doing, I thought about so many things.
-I resented you, and I resented myself.
-There was no going back past that point.
-Luciella was gone. I knew it at that moment.
-I had killed Luciella. Only you were left.
-But I wanted to deny that reality so badly.
-There's no way that was true! Luciella was here! I could… I could see her and touch her…
-I continued imposing my impossible expectations onto you all the way until now, all the while knowing that I had killed the Luciella I had so loved.
-No, not just that, all the while knowing that she never existed.
-It was you inside of Luciella all along.
-Haha…
+A! - I kept thinking about her, I kept thinking about what I was doing, I thought about so many things.
+A! - I resented you, and I resented myself.
+A! - There was no going back past that point.
+A! - Luciella was gone. I knew it at that moment.
+A! - I had killed Luciella. Only you were left.
+A! - But I wanted to deny that reality so badly.
+A! - There's no way that was true! Luciella was here! I could… I could see her and touch her…
+A! - I continued imposing my impossible expectations onto you all the way until now, all the while knowing that I had killed the Luciella I had so loved.
+A! - No, not just that, all the while knowing that she never existed.
+A! - It was you inside of Luciella all along.
+A! - Haha…
 Anabelle laughed.
-I just needed to keep up the farce.
-I didn't know what else I could believe.
-I didn't know how I could bring myself to believe anything else.
-If Luciella was fake, if Luciella was just my delusions when…
-But… you know everything now.
-You… know it all now…
-I won’t force anything onto you anymore, there’s no more point.
+A! - I just needed to keep up the farce.
+A! - I didn't know what else I could believe.
+A! - I didn't know how I could bring myself to believe anything else.
+A! - If Luciella was fake, if Luciella was just my delusions when…
+A! - But… you know everything now.
+A! - You… know it all now…
+A! - I won’t force anything onto you anymore, there’s no more point.
 She looked away, averting her gaze, but I reached out my hand, tilting her head back to face me.
 I couldn't sort out the feelings inside of me.
 There were too many.
 Hate, sadness, relief, all fighting for space.
-Thank you, for telling me all of this.
-It must have been difficult all on your own.
+L! - Thank you, for telling me all of this.
+L! - It must have been difficult all on your own.
 Her tears flowed anew.
-It's been… so hard…
+A! - It's been… so hard…
 Anabelle's voice choked up and suddenly, she threw her arms around me.
 I stilled, skin crawling with disgust, but slowly, I hugged her back.
-It must have been.
+L! - It must have been.
 Anabelle sniffed, then let go of me.
-What do you want to do now?
-I… You… you can do whatever you want now…
-You want that, right?
+A! - What do you want to do now?
+A! - I… You… you can do whatever you want now…
+A! - You want that, right?
 She was suddenly so meek, so small, looking at me with those eyes…
 I was supposed to be happy about this.
 It was what I wanted all along.
@@ -1846,21 +1846,22 @@ I wasn't sure why but…
 It was uncomfortable.
 Almost creepy.
 I…
-I’ll think about it.
-But um… is it okay if I keep those clothes?
+L! - I’ll think about it.
+L! - But um… is it okay if I keep those clothes?
 Anabelle flinched almost.
 Then, she averted her eyes.
-You can, I have… no use for them.
-Okay. I’ll go and look for them.
-Yeah. I’ll… stay here… for a while.
+A! - You can, I have… no use for them.
+L! - Okay. I’ll go and look for them.
+A! - Yeah. I’ll… stay here… for a while.
 So I left her awkwardly, almost gladly, as I walked towards the bedroom.
 It was just too difficult to be in the same space as her all of a sudden, when she looked like that I couldn't…
 There was something about her eyes, something about her expression, it was just so defeated.
 And it couldn't help but anger me, why could she play the victim, why, when she had caused me so much hurt?
 And yet, I felt so sorry for her that there was an ache in my chest.
-GOTO:SCENE_TWENTYFOUR - When I turned around to look at her, she was still staring blankly into space.
+When I turned around to look at her, she was still staring blankly into space.
+"GOTO:SCENE_TWENTYFOUR
 ###
-SCENE_TWENTYFOUR
+SCENE_TWENTYFOUR"
 BG:BG_BEDROOM TRANS:[transitionFade]:back:1000 - U+0020
 The moment I walked in, I closed the door and fell to the floor.
 L! - Hah… ha… ah…
@@ -1954,9 +1955,10 @@ Really good.
 Hesitantly taking a step towards the mirror, I looked at myself and gasped.
 Everything fit so perfectly, happiness enveloped me in its warm arms.
 I could look at myself now and actually feel happy at what I saw in the mirror.
-GOTO:SCENE_TWENTYFIVE - It filled me with joy.
+It filled me with joy.
+"GOTO:SCENE_TWENTYFIVE
 ###
-SCENE_TWENTYFIVE
+SCENE_TWENTYFIVE"
 BG:BG_LIVINGROOM TRANS:[transitionFade]:back:1000 - U+0020
 Anabelle wasn't on the sofa anymore.
 Maybe she went out.
@@ -2142,25 +2144,111 @@ Biting my lip, I took the clothes down, putting them on the toilet seat.
 And now, my own clothes.
 Jacket, shirt, skirt.
 If I kept the tights on and wore fishnet gloves over my arms it should be okay.
-But then again… this was always what I told myself.
-"Put on the fishnet gloves.
-Take off the shirt.
-Take off the skirt. - "
-[Put on the fishnet gloves.]
+CHOICE1:[Put on the fishnet gloves.]:SCENE_TWENTYFIVE_A CHOICE2:[Take off the shirt]:SCENE_TWENTYFIVE_B CHOICE3:[[Take off the skirt]:SCENE_TWENTYFIVE_C - But then again… this was always what I told myself.
+
+
+###
+SCENE_TWENTYFIVE_A
 Holding the glove with my right hand, I slipped it up my left one underneath my jacket sleeve, doing the same for my right hand afterwards.
-This was by far the easiest out of everything.
-[Take off the shirt.]
+CHOICE1:[Take off the shirt]:SCENE_TWENTYFIVE_Ba CHOICE2:[[Take off the skirt]:SCENE_TWENTYFIVE_Ca - This was by far the easiest out of everything.
+###
+SCENE_TWENTYFIVE_Ba
 I held the bottom of my shirt and hesitated, hands trembling.
 But I gritted my teeth and yanked it over my head, grabbing the shirt with the sheer sleeves off the toilet seat and putting it on as fast as I could.
-Panting slightly, I put my hands on my knees and sighed.
-[Take off the skirt.]
+"CHOICE2:[[Take off the skirt]:SCENE_TWENTYFIVE_CaFin
+ - Panting slightly, I put my hands on my knees and sighed.
+###
+SCENE_TWENTYFIVE_BaFin
+I held the bottom of my shirt and hesitated, hands trembling.
+But I gritted my teeth and yanked it over my head, grabbing the shirt with the sheer sleeves off the toilet seat and putting it on as fast as I could.
+GOTO:SCENE_TWENTYFIVE_D - Panting slightly, I put my hands on my knees and sighed.
+###
+SCENE_TWENTYFIVE_Ca
 L! - Ah… uhhgg…
 But I pinched the zip between my fingers and squeezed my eyes shut, pulling it down.
 Zppt.
 Hurriedly, I snatched up the pants and pulled them on, avoiding looking at my bare skin.
 I had leggings so it was fine, it was all fine, I focused on that as I fumbled with the pant’s button.
-And then it was on, I never felt so relieved.
-[Continue once all of the options have been played.]
+CHOICE1:[Take off the shirt]:SCENE_TWENTYFIVE_BaFin - And then it was on, I never felt so relieved.
+###
+SCENE_TWENTYFIVE_CaFin
+L! - Ah… uhhgg…
+But I pinched the zip between my fingers and squeezed my eyes shut, pulling it down.
+Zppt.
+Hurriedly, I snatched up the pants and pulled them on, avoiding looking at my bare skin.
+I had leggings so it was fine, it was all fine, I focused on that as I fumbled with the pant’s button.
+GOTO:SCENE_TWENTYFIVE_D - And then it was on, I never felt so relieved.
+
+
+
+###
+SCENE_TWENTYFIVE_B
+I held the bottom of my shirt and hesitated, hands trembling.
+But I gritted my teeth and yanked it over my head, grabbing the shirt with the sheer sleeves off the toilet seat and putting it on as fast as I could.
+CHOICE1:[Put on the fishnet gloves]:SCENE_TWENTYFIVE_Ba CHOICE2:[[Take off the skirt]:SCENE_TWENTYFIVE_Bc  - Panting slightly, I put my hands on my knees and sighed.
+###
+SCENE_TWENTYFIVE_Bb
+I held the bottom of my shirt and hesitated, hands trembling.
+But I gritted my teeth and yanked it over my head, grabbing the shirt with the sheer sleeves off the toilet seat and putting it on as fast as I could.
+"CHOICE2:[[Take off the skirt]:SCENE_TWENTYFIVE_CbFin
+ - Panting slightly, I put my hands on my knees and sighed.
+###
+SCENE_TWENTYFIVE_BbFin
+I held the bottom of my shirt and hesitated, hands trembling.
+But I gritted my teeth and yanked it over my head, grabbing the shirt with the sheer sleeves off the toilet seat and putting it on as fast as I could.
+GOTO:SCENE_TWENTYFIVE_D - Panting slightly, I put my hands on my knees and sighed.
+###
+SCENE_TWENTYFIVE_Cb
+L! - Ah… uhhgg…
+But I pinched the zip between my fingers and squeezed my eyes shut, pulling it down.
+Zppt.
+Hurriedly, I snatched up the pants and pulled them on, avoiding looking at my bare skin.
+I had leggings so it was fine, it was all fine, I focused on that as I fumbled with the pant’s button.
+CHOICE1:[Take off the shirt]:SCENE_TWENTYFIVE_BbFin - And then it was on, I never felt so relieved.
+###
+SCENE_TWENTYFIVE_CbFin
+L! - Ah… uhhgg…
+But I pinched the zip between my fingers and squeezed my eyes shut, pulling it down.
+Zppt.
+Hurriedly, I snatched up the pants and pulled them on, avoiding looking at my bare skin.
+I had leggings so it was fine, it was all fine, I focused on that as I fumbled with the pant’s button.
+GOTO:SCENE_TWENTYFIVE_D - And then it was on, I never felt so relieved.
+
+
+
+
+
+###
+SCENE_TWENTYFIVE_C
+Ah… uhhgg…
+But I pinched the zip between my fingers and squeezed my eyes shut, pulling it down.
+Zppt.
+Hurriedly, I snatched up the pants and pulled them on, avoiding looking at my bare skin.
+CHOICE1:[Put on the fishnet gloves]:SCENE_TWENTYFIVE_Ca CHOICE2:[[Take off the shirt]:SCENE_TWENTYFIVE_Cb - I had leggings so it was fine, it was all fine, I focused on that as I fumbled with the pant’s button.
+###
+SCENE_TWENTYFIVE_Ca
+Holding the glove with my right hand, I slipped it up my left one underneath my jacket sleeve, doing the same for my right hand afterwards.
+CHOICE1:[[Take off the skirt]:SCENE_TWENTYFIVE_CbFin - This was by far the easiest out of everything.
+###
+SCENE_TWENTYFIVE_CaFin
+Holding the glove with my right hand, I slipped it up my left one underneath my jacket sleeve, doing the same for my right hand afterwards.
+GOTO:SCENE_TWENTYFIVE_D - This was by far the easiest out of everything.
+###
+SCENE_TWENTYFIVE_Cb
+I held the bottom of my shirt and hesitated, hands trembling.
+But I gritted my teeth and yanked it over my head, grabbing the shirt with the sheer sleeves off the toilet seat and putting it on as fast as I could.
+CHOICE2:[[Take off the skirt]:SCENE_TWENTYFIVE_CaFin - Panting slightly, I put my hands on my knees and sighed.
+###
+SCENE_TWENTYFIVE_CbFin
+I held the bottom of my shirt and hesitated, hands trembling.
+But I gritted my teeth and yanked it over my head, grabbing the shirt with the sheer sleeves off the toilet seat and putting it on as fast as I could.
+GOTO:SCENE_TWENTYFIVE_D - Panting slightly, I put my hands on my knees and sighed.
+
+
+
+
+###
+SCENE_TWENTYFIVE_D
 Somehow, miraculously, I managed to get dressed, to overcome the hurdle that was myself.
 With a sum of my energy depleted, I looked at myself in the mirror, fixing my hair.
 Okay.
@@ -2871,7 +2959,7 @@ L! - Though everything that I know is because of you.
 We sat in silence as the stations passed, I decided that I had to give her space to sit with her thoughts.
 And then, Anabelle stood up.
 A! - We’re here.
-[bg: the photo franken took with the utility pole]
+[bg: the photo franken took with the pavement]
 We left the train station and started walking again.
 Anabelle rubbed her arms as we walked, fidgeting at every traffic light we stopped at.
 It felt like the air around her was jittering from her anxiety.
@@ -3011,7 +3099,7 @@ Contrary to my expectations, we didn’t go back home after that.
 A! - I’ll show you somewhere that I go to sometimes.
 Was all that she said as she got up from the bench, starting to walk away.
 I quickly followed behind her.
-[bg: inside the train]
+[bg: inside the train (doors)]
 The train was more crowded now and we stood holding the handles, getting jostled around.
 Being around other people was strange, it was almost claustrophobic.
 L! - Where are we going?
