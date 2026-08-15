@@ -2178,25 +2178,19 @@ Zppt.
 Hurriedly, I snatched up the pants and pulled them on, avoiding looking at my bare skin.
 I had leggings so it was fine, it was all fine, I focused on that as I fumbled with the pant’s button.
 GOTO:SCENE_TWENTYFIVE_D - And then it was on, I never felt so relieved.
-
-
-
 ###
 SCENE_TWENTYFIVE_B
 I held the bottom of my shirt and hesitated, hands trembling.
 But I gritted my teeth and yanked it over my head, grabbing the shirt with the sheer sleeves off the toilet seat and putting it on as fast as I could.
 CHOICE1:[Put on the fishnet gloves]:SCENE_TWENTYFIVE_Ba CHOICE2:[[Take off the skirt]:SCENE_TWENTYFIVE_Bc  - Panting slightly, I put my hands on my knees and sighed.
 ###
-SCENE_TWENTYFIVE_Bb
-I held the bottom of my shirt and hesitated, hands trembling.
-But I gritted my teeth and yanked it over my head, grabbing the shirt with the sheer sleeves off the toilet seat and putting it on as fast as I could.
-"CHOICE2:[[Take off the skirt]:SCENE_TWENTYFIVE_CbFin
- - Panting slightly, I put my hands on my knees and sighed.
+SCENE_TWENTYFIVE_Ba
+Holding the glove with my right hand, I slipped it up my left one underneath my jacket sleeve, doing the same for my right hand afterwards.
+CHOICE1:[Take off the shirt]:SCENE_TWENTYFIVE_Ba CHOICE2:[[Take off the skirt]:SCENE_TWENTYFIVE_Ca - This was by far the easiest out of everything.
 ###
 SCENE_TWENTYFIVE_BbFin
-I held the bottom of my shirt and hesitated, hands trembling.
-But I gritted my teeth and yanked it over my head, grabbing the shirt with the sheer sleeves off the toilet seat and putting it on as fast as I could.
-GOTO:SCENE_TWENTYFIVE_D - Panting slightly, I put my hands on my knees and sighed.
+Holding the glove with my right hand, I slipped it up my left one underneath my jacket sleeve, doing the same for my right hand afterwards.
+GOTO:SCENE_TWENTYFIVE_D - This was by far the easiest out of everything.
 ###
 SCENE_TWENTYFIVE_Cb
 L! - Ah… uhhgg…
@@ -2204,7 +2198,7 @@ But I pinched the zip between my fingers and squeezed my eyes shut, pulling it d
 Zppt.
 Hurriedly, I snatched up the pants and pulled them on, avoiding looking at my bare skin.
 I had leggings so it was fine, it was all fine, I focused on that as I fumbled with the pant’s button.
-CHOICE1:[Take off the shirt]:SCENE_TWENTYFIVE_BbFin - And then it was on, I never felt so relieved.
+CHOICE1:[Take off the shirt]:SCENE_TWENTYFIVE_BaFin - And then it was on, I never felt so relieved.
 ###
 SCENE_TWENTYFIVE_CbFin
 L! - Ah… uhhgg…
@@ -2213,11 +2207,6 @@ Zppt.
 Hurriedly, I snatched up the pants and pulled them on, avoiding looking at my bare skin.
 I had leggings so it was fine, it was all fine, I focused on that as I fumbled with the pant’s button.
 GOTO:SCENE_TWENTYFIVE_D - And then it was on, I never felt so relieved.
-
-
-
-
-
 ###
 SCENE_TWENTYFIVE_C
 Ah… uhhgg…
@@ -2243,10 +2232,6 @@ SCENE_TWENTYFIVE_CbFin
 I held the bottom of my shirt and hesitated, hands trembling.
 But I gritted my teeth and yanked it over my head, grabbing the shirt with the sheer sleeves off the toilet seat and putting it on as fast as I could.
 GOTO:SCENE_TWENTYFIVE_D - Panting slightly, I put my hands on my knees and sighed.
-
-
-
-
 ###
 SCENE_TWENTYFIVE_D
 Somehow, miraculously, I managed to get dressed, to overcome the hurdle that was myself.
