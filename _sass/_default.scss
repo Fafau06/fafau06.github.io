@@ -53,10 +53,22 @@
 {
 	font-family: $serif-font-family;
 	font-style: italic;
-	color: $light-gray-color;
+	color: $body-color;
 	word-spacing: 0.4px;
 	font-stretch: -5%;
 	font-kerning: -5%;
+}
+
+@media (max-width: $container-responsive-width)
+{
+	.header-title a
+	{
+		font-size: 24px;
+	}
+	.header-subtitle
+	{
+		font-size: 18px;
+	}
 }
 
 /*
@@ -76,7 +88,7 @@
 
 .menu-content a
 {
-	color: $light-gray-color;
+	color: $body-color;
 	font-size: 1rem;
 	padding-right: 10px;
 }
@@ -88,7 +100,7 @@
 
 .social-icons a
 {
-	color: $light-gray-color;
+	color: $body-color;
 	font-size: 1rem;
 }
 
@@ -111,21 +123,21 @@
 
 .footer
 {
-	color: $light-gray-color;
+	color: $body-color;
 	text-align: center;
 	margin: 2rem;
 }
 
 .footer a
 {
-	color: $light-gray-color;
+	color: $body-color;
 	padding: 10px;
 	text-decoration: none;
 }
 
 .footer a:hover
 {
-	color: $dark-gray-color;
+	color: $snow;
 }
 
 .footer-description
