@@ -11,7 +11,7 @@ code
   padding: .25em .5em;
   font-size: .8rem;
   background-color: $code-background-color;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 pre
 {
@@ -25,6 +25,10 @@ pre
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
+  tab-width: 4;
+  overflow-x: auto;
+  border: 4px solid #6496B2;
+  border-radius: 4px;
   background-color: $code-background-color;
 }
 pre code
