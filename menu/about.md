@@ -4,10 +4,11 @@ title: About
 permalink: /about
 ---
 
+```
 Absurdia \əb-ˈsər-dē-ə\ — meaning a place that is absurd or irrational, one that does not follow the rules of logic or common sense.
 
 Abode \ə-ˈbōd\ — meaning a place to stay or live.
-
+```
 This blog is intended to be — and will always remain — a personal blog, and never a dedicated blog about “something” unless that something happens to be “me,” in which case the blog will be dedicated to that and only that.
 
 The root of the word “Absurdia” — that being the word "absurd" itself — does reflect the nature of the content I will post here; the things I write might be disconnected from or irrelevant to one another, but rest assured that the one thing you can safely entrust yourself to is the simple fact that they will all be written by me (ft. my own thoughts/views/opinions/nonsense).
@@ -16,7 +17,6 @@ That said, everything is best kept in moderation, even my own thoughts, for I al
 
 The name of the blog itself may be a tautology (“a place for a place of absurdity”), but it can also be taken to mean “a place in a place of absurdity.” Whichever way you choose to interpret it works for me — the meaning of what resides in it matters more than where it is.
 
-That said, enjoy your stay.
-
+That said, enjoy your stay.<br>
 
 Made using [Lagrange](https://github.com/LeNPaul/Lagrange) theme for [Jekyll](https://jekyllrb.com/)
