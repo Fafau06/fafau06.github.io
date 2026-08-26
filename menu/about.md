@@ -17,4 +17,4 @@ The name of the blog itself may be a tautology (“a place for a place of absurd
 
 That said, enjoy your stay.
 
-Made using [Lagrange](https://github.com/LeNPaul/Lagrange) theme for [Jekyll.](https://jekyllrb.com/)
+Made using [Lagrange](https://github.com/LeNPaul/Lagrange) theme for [Jekyll](https://jekyllrb.com/).
