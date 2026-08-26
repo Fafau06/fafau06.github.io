@@ -4,11 +4,11 @@
 
 body
 {
-  background-color: $body-bg;
-  font-family: $serif-font-family;
-  font-size: 18px;
-  color: $body-color;
-  line-height: 1.75rem;
+	background-color: $body-bg;
+	font-family: $serif-font-family;
+	font-size: 18px;
+	color: $body-color;
+	line-height: 1.75rem;
 }
 
 @media (max-width: $elements-responsive-width)
@@ -26,41 +26,42 @@ body
 
 h1
 {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 h1 a
 {
-  text-decoration: none;
+	text-decoration: none;
+	color: $body-color;
 }
 
 h1, h2, h3, h4, h5, h6
 {
-  font-family: $sans-serif-font-family;
-  color: $body-color;
+	font-family: $sans-serif-font-family;
+	color: $body-color;
 }
 
 a
 {
-  text-decoration: none;
-  color: $dark-gray-color;
+	text-decoration: none;
+	color: $body-color;
 }
 
 a:hover
 {
-  color: $link-color;
-  border-bottom: none;
+	color: $link-color;
+	border-bottom: none;
 }
 
 article.content-post a
 {
 	color: $body-color;
-  outline-color: transparent;
-  text-decoration: none;
-  border-bottom: 2px solid #0078D7;
+	outline-color: transparent;
+	text-decoration: none;
+	border-bottom: 2px solid #0078D7;
 	padding-left: 2px;
 	padding-right: 2px;
-  transition: 0.1s;
+	transition: 0.1s;
 }
 
 article.content-post a:visited
@@ -168,7 +169,7 @@ blockquote span
 
 hr
 {
-  border-top: 1px solid $extra-light-gray-color;
+  border-top: 1px solid $body-color;
 }
 
 /*
