@@ -37,7 +37,7 @@
 
 .header a:hover
 {
-	color:snow;
+	color: $link-color;
 }
 
 .header-title a
@@ -63,11 +63,11 @@
 {
 	.header-title a
 	{
-		font-size: 24px;
+		font-size: 22px;
 	}
 	.header-subtitle
 	{
-		font-size: 18px;
+		font-size: 16px;
 	}
 }
 
