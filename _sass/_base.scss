@@ -44,28 +44,13 @@ h1, h2, h3, h4, h5, h6
 a
 {
 	color: $body-color;
-	outline-color: transparent;
 	text-decoration: none;
-	border-bottom: 2px solid #0078D7;
 }
 
 a:hover
 {
 	color: $link-color;
 	border-bottom: none;
-}
-
-a[href^="http"]::after
-{
-    content: "";
-    display: inline-block;
-    width: 0.7em;
-    height: 0.7em;
-    margin-left: 0.25em;
-    margin-top: 0%;
-
-    background-size: 100%;
-    background-image: url("/assets/svg/link-out-black.svg");
 }
 
 article.content-post a
