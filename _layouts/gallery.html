@@ -2,7 +2,12 @@
 layout: default
 ---
 
-<div class="gallery">
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
+
+<!--<div class="gallery">
   {% for item in site.gallery %}
     <div class="gallery-item">
       <a href="{{ item.url | relative_url }}">
@@ -13,5 +18,5 @@ layout: default
       </a>
     </div>
   {% endfor %}
-</div>
+</div>-->
 <!-- stolen from https://ningxia233.github.io/ -->
