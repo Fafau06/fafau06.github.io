@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Through the Reflected Light"
-categories: logs
-tags: [documentation,changelog]
+categories: story
+tags: [story,fiction,shortstory,microfiction,nonfiction,writing]
 ---
 
 A faded photograph hung above the window sill. At a glance, the picture seemed to have captured a lost memory from some distant age — from a time that has long since passed. A young woman in a black dress holding a parasol was standing in a tall field of grass, further back in the image was a sea of green hills and a leafless tree that seemed distant only because time has declared it to be so.
