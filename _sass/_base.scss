@@ -169,7 +169,14 @@ blockquote span
 
 hr
 {
-  border-top: 1px solid $body-color;
+	height: 2px;
+	border-width: 0;
+	color: $body-color;
+}
+
+hr.article
+{
+	width: 50%;
 }
 
 /*
