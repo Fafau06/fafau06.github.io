@@ -53,6 +53,11 @@ a:hover
 	border-bottom: none;
 }
 
+article.content-post hr
+{
+	width: 50%;
+}
+
 article.content-post a
 {
 	color: $body-color;
@@ -172,11 +177,6 @@ hr
 	height: 2px;
 	border-width: 0;
 	color: $body-color;
-}
-
-hr.article
-{
-	width: 50%;
 }
 
 /*
