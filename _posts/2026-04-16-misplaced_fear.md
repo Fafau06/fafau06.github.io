@@ -34,9 +34,6 @@ She turned around and looked at the face of the younger girl, "you'll never be l
 The young girl, while struggling to understand all this, gave a little nod and whispered, "I see."
 
 They walked silently through the corridor.
-
-
-====<br>
+<hr>
 Image taken by, and modified with permission from: [DrunkCrunkFranken](https://bsky.app/profile/drunkcrunkfranken.bsky.social)<br>
-Written at 4am while being sleep deprived<br>
-====
+Written at 4am while being sleep deprived
