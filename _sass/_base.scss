@@ -59,6 +59,17 @@ a.underline
 	outline-color: transparent;
 	text-decoration: none;
 	border-bottom: 2px solid #0078D7;
+	padding-left: 2px;
+	padding-right: 2px;
+	transition: 0.1s;
+}
+
+a.underline:hover
+{
+	color: snow;
+    background-color: #0078D7;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
 article.content-post hr
