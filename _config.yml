@@ -45,8 +45,16 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Absurdia Abode'
 description:	       'Care-Vamme Sinte Mana Ana Tece-Símen'
-author:                'Fafau06'
+author:              'Fafau06'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 feed:
 path: rss-feed.xml
+
+# Defaults property
+defaults:
+  # Assign assets in subfolder /img as image
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
