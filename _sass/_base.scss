@@ -53,6 +53,14 @@ a:hover
 	border-bottom: none;
 }
 
+a.underline
+{
+	color: $body-color;
+	outline-color: transparent;
+	text-decoration: none;
+	border-bottom: 2px solid #0078D7;
+}
+
 article.content-post hr
 {
 	width: 50%;
