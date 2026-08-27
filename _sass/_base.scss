@@ -174,9 +174,7 @@ blockquote span
 
 hr
 {
-	height: 2px;
-	border-width: 0;
-	color: $body-color;
+	border-top: 2px solid $body-color;
 }
 
 /*
