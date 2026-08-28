@@ -58,3 +58,8 @@ defaults:
       path: "assets/img"
     values:
       image: true
+
+# Collections
+collections:
+  gallery:
+    output: true
