@@ -40,12 +40,18 @@ paginate:            5
 markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Absurdia Abode'
 description:	       'Care-Vamme Sinte Mana Ana Tece-Símen'
-author:              'Fafau06'
+author:                'Fafau06'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 feed:
@@ -63,3 +69,17 @@ defaults:
 collections:
   gallery:
     output: true
+    permalink: /gallery/:name/
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+
+  layouts:
+    category: category
+    tag: tag
+
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
