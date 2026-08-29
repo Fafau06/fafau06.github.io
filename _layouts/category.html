@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<h1>Category: {{ page.title }}</h1>
+
+<p class="archive-count">
+  {{ page.posts.size }}
+  post{% unless page.posts.size == 1 %}s{% endunless %}
+</p>
+
+<ul class="archive-posts">
+
+  {% for post in page.posts %}
+
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+
+      <span class="archive-post-meta">
+        {{ post.date | date: "%B %-d, %Y" }}
+        ·
+        {{ post.content | number_of_words }} words
+      </span>
+    </li>
+
+  {% endfor %}
+
+</ul>

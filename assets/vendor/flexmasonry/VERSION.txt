@@ -1,0 +1,6 @@
+FlexMasonry
+Repository: gilbitron/flexmasonry
+Link: https://github.com/gilbitron/flexmasonry
+Version: 0.2.3
+Source: dist/
+License: MIT

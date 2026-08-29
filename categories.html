@@ -1,0 +1,36 @@
+---
+layout: default
+title: Categories
+permalink: /categories/
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul class="taxonomy-list">
+
+  {% assign categories = site.categories | sort %}
+
+  {% for category in categories %}
+
+    {% assign category_name = category[0] %}
+    {% assign category_slug = category_name | slugify %}
+    {% assign category_url = '/categories/' | append: category_slug | append: '/' %}
+
+    <li>
+
+      <a
+        class="taxonomy-pill category-pill"
+        href="{{ category_url | relative_url }}"
+      >
+        {{ category_name }}
+      </a>
+
+      <span class="taxonomy-count">
+        {{ category[1].size }}
+      </span>
+
+    </li>
+
+  {% endfor %}
+
+</ul>

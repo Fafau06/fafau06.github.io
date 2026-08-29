@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<article class="gallery-single">
+
+  <h1>
+    {{ page.title }}
+  </h1>
+
+  {% if page.image %}
+
+    <figure class="gallery-single-image">
+
+      <img
+        src="{{ page.image | relative_url }}"
+        alt="{{ page.title | escape }}"
+      >
+    </figure>
+	
+	{% if content != "" %}
+        <figcaption class="gallery-single-caption">
+          {{ content }}
+        </figcaption>
+    {% endif %}
+
+  {% endif %}
+
+</article>
+
+{% if site.hide_post_date != true %}
+  {% include post-date.html %}
+{% endif %}
+
+{% if page.categories or page.tags %}
+  <div class="post-taxonomy">
+
+    {% if page.categories %}
+      <div class="post-categories">
+
+        <span class="taxonomy-label">
+          Category:
+        </span>
+
+        {% for category in page.categories %}
+          <a
+            class="taxonomy-pill category-pill"
+            href="{{ '/categories/' | append: category | slugify | append: '/' | relative_url }}"
+          >
+            {{ category }}
+          </a>
+        {% endfor %}
+
+      </div>
+    {% endif %}
+
+    {% if page.tags %}
+      <div class="post-tags">
+
+        <span class="taxonomy-label">
+          Tags:
+        </span>
+
+        {% for tag in page.tags %}
+          <a
+            class="taxonomy-pill tag-pill"
+            href="{{ '/tags/' | append: tag | slugify | append: '/' | relative_url }}"
+          >
+            {{ tag }}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+{% endif %}

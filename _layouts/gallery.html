@@ -2,21 +2,116 @@
 layout: default
 ---
 
-{% assign image_files = site.static_files | where: "image", true %}
-{% for myimage in image_files %}
-  {{ myimage.image }}
-{% endfor %}
+<link
+  rel="stylesheet"
+  href="{{ '/assets/vendor/flexmasonry/flexmasonry.css' | relative_url }}"
+>
 
-<!--<div class="gallery">
-  {% for item in site.gallery %}
+<h1>{{ page.title }}</h1>
+
+<div class="gallery" id="gallery">
+
+  {% assign gallery_items = site.gallery | sort: "title" %}
+
+  {% for item in gallery_items %}
+
     <div class="gallery-item">
-      <a href="{{ item.url | relative_url }}">
-        <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
-        <div class="gallery-item-overlay">
-          <span class="gallery-item-title">{{ item.title }}</span>
-        </div>
+
+      <a
+        href="{{ item.url | relative_url }}"
+        class="gallery-image-link"
+        data-gallery-index="{{ forloop.index0 }}"
+        data-gallery-image="{{ item.image | relative_url }}"
+        data-gallery-title="{{ item.title | escape }}"
+      >
+
+        <img
+          src="{{ item.image | relative_url }}"
+          alt="{{ item.title | escape }}"
+          width="100%"
+          loading="lazy"
+          decoding="async"
+        >
+
       </a>
+
+      <div class="gallery-item-overlay">
+
+        <a
+          href="{{ item.url | relative_url }}"
+          class="gallery-item-title"
+        >
+          {{ item.title }}
+        </a>
+
+        <a
+          href="{{ item.url | relative_url }}"
+          class="gallery-item-details"
+        >
+          Details
+        </a>
+
+      </div>
+
     </div>
+
   {% endfor %}
-</div>-->
-<!-- stolen from https://ningxia233.github.io/ -->
+
+</div>
+
+
+<!-- Lightbox -->
+
+<div
+  class="gallery-lightbox"
+  id="gallery-lightbox"
+  aria-hidden="true"
+>
+
+  <div class="gallery-lightbox-content">
+
+    <button
+      type="button"
+      class="gallery-lightbox-close"
+      id="gallery-lightbox-close"
+      aria-label="Close gallery"
+    >×</button>
+
+    <button
+      type="button"
+      class="gallery-lightbox-prev"
+      id="gallery-lightbox-prev"
+      aria-label="Previous image"
+    >‹</button>
+
+    <img
+      class="gallery-lightbox-image"
+      id="gallery-lightbox-image"
+      src=""
+      alt=""
+    >
+
+    <button
+      type="button"
+      class="gallery-lightbox-next"
+      id="gallery-lightbox-next"
+      aria-label="Next image"
+    >›</button>
+
+    <div
+      class="gallery-lightbox-title"
+      id="gallery-lightbox-title"
+    ></div>
+
+  </div>
+
+</div>
+
+
+<script
+  src="{{ '/assets/vendor/flexmasonry/flexmasonry.js' | relative_url }}"
+></script>
+
+<script
+  src="{{ '/assets/js/gallery.js' | relative_url }}"
+></script>

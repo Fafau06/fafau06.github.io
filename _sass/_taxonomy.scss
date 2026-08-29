@@ -1,0 +1,152 @@
+/*
+  Categories and Tags
+*/
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+
+  margin-top: 3px;
+  margin-bottom: 0.75rem;
+
+  color: $light-gray-color;
+  font-family: $sans-serif-font-family;
+  font-size: 0.8rem;
+}
+
+.post-word-count {
+  color: $light-gray-color;
+}
+
+.post-date-inline {
+  color: $light-gray-color;
+}
+
+.post-taxonomy {
+  margin-bottom: 1.5rem;
+
+  font-family: $sans-serif-font-family;
+  font-size: 0.85rem;
+}
+
+.post-categories,
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  gap: 0.4rem;
+
+  margin-top: 0.45rem;
+}
+
+.taxonomy-label {
+  color: $light-gray-color;
+  margin-right: 0.15rem;
+}
+
+.taxonomy-pill {
+  display: inline-block;
+
+  padding: 0.15rem 0.55rem;
+
+  border: 1px solid $light-gray-color;
+  border-radius: 999px;
+
+  color: $body-color;
+
+  text-decoration: none;
+
+  line-height: 1.4;
+
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.taxonomy-pill:hover {
+  color: white;
+  background-color: $link-color;
+  border-color: $link-color;
+
+  text-decoration: none;
+}
+
+.category-pill {
+  font-weight: 600;
+}
+
+.tag-pill {
+  font-weight: 400;
+}
+
+
+/*
+  Taxonomy index pages
+*/
+
+.taxonomy-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.75rem;
+
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.taxonomy-list li {
+  display: flex;
+  align-items: center;
+
+  gap: 0.35rem;
+}
+
+.taxonomy-count {
+  color: $light-gray-color;
+
+  font-family: $sans-serif-font-family;
+  font-size: 0.8rem;
+}
+
+
+/*
+  Category / tag archive pages
+*/
+
+.archive-count {
+  margin-top: 3px;
+  margin-bottom: 2rem;
+
+  color: $light-gray-color;
+
+  font-family: $sans-serif-font-family;
+  font-size: 0.8rem;
+}
+
+.archive-posts {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.archive-posts li {
+  margin-bottom: 1.25rem;
+}
+
+.archive-post-meta {
+  display: block;
+
+  margin-top: 0.2rem;
+
+  color: $light-gray-color;
+
+  font-family: $sans-serif-font-family;
+  font-size: 0.75rem;
+}
