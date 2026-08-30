@@ -15,7 +15,9 @@ The root of the word “Absurdia” — that being the word "absurd" itself — 
 
 That said, everything is best kept in moderation, even my own thoughts, for I also need to make you comfortable and act like a good host so as not to throw you out. And in that sense, I’d humbly like you to come in and have a nice exchange with me in this humble “Abode” where my ideas reside.
 
-The name of the blog itself may be a tautology (“a place for a place of absurdity”), but it can also be taken to mean “a place in a place of absurdity.” Whichever way you choose to interpret it works for me — the meaning of what resides in it matters more than where it is.
+Thus, Absurdia Abode.
+
+The name itself may be a tautology, “a place for a place of absurdity," but it can also be taken to mean “a place *in* a place of absurdity.” Whichever way you choose to interpret it works for me — the meaning of what resides in it matters more than where it is.
 
 And with that, enjoy your stay!
 <hr>
