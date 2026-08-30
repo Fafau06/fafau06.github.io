@@ -2,10 +2,21 @@
 layout: default
 ---
 
-{% assign image_files = site.static_files | where: "image", true %}
+<!--{% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
   {{ myimage.image }}
-{% endfor %}
+{% endfor %}-->
+
+<!--<link rel="stylesheet" href="{{ '/assets/vendor/flexmasonry/flexmasonry.css' | relative_url }}">-->
+
+<div>
+  {% for item in site.gallery %}
+    <div>
+      <a href="{{ item.url | relative_url }}">
+        <img src="{{ item.image | relative_url }}" alt="{{ item.title | escape }}" loading="lazy" decoding"async">
+    </div>
+  {% endfor %}
+</div>
 
 <!--<div class="gallery">
   {% for item in site.gallery %}
