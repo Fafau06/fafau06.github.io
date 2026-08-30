@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: page
 title: "Fear Corridor"
 categories: image
 tags: [photobash, photoedit, ibispaintx]
