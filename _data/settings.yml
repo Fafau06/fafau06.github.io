@@ -10,8 +10,8 @@ menu:
 - {name: 'About',   url: 'about.html'}
 - {name: 'Writing', url: 'writing.html'}
 - {name: 'Gallery', url: 'gallery.html'}
-- {name: 'Contact', url: 'contact.html'}
 - {name: 'Works',   url: 'works.html'}
+- {name: 'Contact', url: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
