@@ -189,7 +189,6 @@ blockquote
   margin: 10px 20px 10px;
   padding-left: 1.4em;
   border-left: 3px solid #0078D7;
-  line-height: 1.5;
 }
 
 blockquote::after
@@ -199,10 +198,12 @@ blockquote::after
 
 blockquote span::before
 {
-    background-size: 100%;
-    background-image: url("/assets/svg/quote-left-black.svg");
-	margin-left: -6%;
+    margin-left: -6%;
     padding-right: 2%;
+
+	background-size: 100%;
+    background-image: url("/assets/svg/quote-left-black.svg");
+
 }
 
 blockquote span
