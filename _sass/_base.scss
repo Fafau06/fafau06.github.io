@@ -201,6 +201,10 @@ blockquote span::before
 	content: "";
     margin-left: -6%;
     padding-right: 2%;
+	display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
+    margin-top: 0%;
 
 	background-size: 100%;
     background-image: url("/assets/svg/quote-left-white.svg");
