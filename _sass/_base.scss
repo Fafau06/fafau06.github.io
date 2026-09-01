@@ -4,11 +4,29 @@
 
 body
 {
-	background-color: $body-bg;
 	font-family: $serif-font-family;
 	font-size: 18px;
 	color: $body-color;
 	line-height: 1.75rem;
+	background:
+        linear-gradient(-90deg, rgba(0,0,0,.03) 1px, transparent 1px),
+        linear-gradient(rgba(0,0,0,.03) 1px, transparent 1px), 
+        linear-gradient(-90deg, rgba(0, 0, 0, .02) 1px, transparent 1px),
+        linear-gradient(rgba(0,0,0,.02) 1px, transparent 1px),
+        linear-gradient(transparent 3px, #C8F5FF 3px, #C8F5FF 78px, transparent 78px),
+        linear-gradient(-90deg, #ccc 1px, transparent 1px),
+        linear-gradient(-90deg, transparent 3px, #C8F5FF 3px, #C8F5FF 78px, transparent 78px),
+        linear-gradient(#ccc 1px, transparent 1px),
+        #C8F5FF;
+    background-size:
+        16px 16px,
+        16px 16px,
+        80px 80px,
+        80px 80px,
+        80px 80px,
+        80px 80px,
+        80px 80px,
+        80px 80px;
 }
 
 @media (max-width: $elements-responsive-width)
@@ -181,15 +199,26 @@ blockquote::after
 
 blockquote span::before
 {
-    content: "\2014 \0020";
+    content: "<i class="fa-solid fa-quote-left"></i>";
+	margin-left: -6%;
+    padding-right: 2%;
 }
 
 blockquote span
 {
+    font-family: 'IBM Plex Sans';
+    color: snow;
     display: block;
     font-style: normal;
     /*font-weight: bold;*/
+    font-size: 0.9em;
     margin-top: 1em;
+    background-color: #0078D7;
+    padding-left: 8%;
+    margin-left: -8%;
+    margin-top: 3%;
+    padding-bottom: 2px;
+    padding-top: 2px;
 }
 
 hr
