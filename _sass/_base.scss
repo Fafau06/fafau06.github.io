@@ -198,6 +198,7 @@ blockquote::after
 
 blockquote span::before
 {
+	content: "";
     margin-left: -6%;
     padding-right: 2%;
 
