@@ -199,7 +199,8 @@ blockquote::after
 
 blockquote span::before
 {
-    content: "<i class="fa-solid fa-quote-left"></i>";
+    background-size: 100%;
+    background-image: url("/assets/svg/quote-left-black.svg");
 	margin-left: -6%;
     padding-right: 2%;
 }
