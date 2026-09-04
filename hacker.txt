@@ -1,0 +1,17 @@
+# hacker.txt - Security Testing Guidelines
+# https://hackertxt.com
+#
+# This file defines the security testing boundaries for this website.
+# It specifies what types of security testing are allowed, when they can be performed,
+# and how to responsibly disclose any findings.
+#
+# Schema: https://hackertxt.com/schema.json
+#
+# Generated at 2026-09-04T18:43:41.401Z
+
+Allow-Pentesting: yes
+Testing-Window: anytime
+Security-Contact: fafau0639@gmail.com
+Responsible-Disclosure: 7
+
+Legal-Notice: Unauthorized hacking is illegal. Follow testing rules.
