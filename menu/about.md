@@ -19,7 +19,7 @@ The name of the blog itself may be a tautology (“a place for a place of absurd
 
 That said, enjoy your stay.
 
-Leave your name and comment on the [Guestbook](https://fafau06.atabook.org/)
+Leave your name and comment on the [Guestbook](https://fafau06.atabook.org/)!
 <hr>
 Typeface used [IBM Plex](https://www.ibm.com/plex/)
 
