@@ -18,6 +18,8 @@ That said, everything is best kept in moderation, even my own thoughts, for I al
 The name of the blog itself may be a tautology (“a place for a place of absurdity”), but it can also be taken to mean “a place in a place of absurdity.” Whichever way you choose to interpret it works for me — the meaning of what resides in it matters more than where it is.
 
 That said, enjoy your stay.
+
+Leave your name and comment on the [Guestbook](https://fafau06.atabook.org/)
 <hr>
 Typeface used [IBM Plex](https://www.ibm.com/plex/)
 
