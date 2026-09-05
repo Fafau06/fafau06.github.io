@@ -71,6 +71,18 @@ a:hover
 	border-bottom: none;
 }
 
+a.badge
+{
+	outline-color: transparent;
+	text-decoration: none;
+}
+
+a.badge:hover
+{
+	outline-color: transparent;
+	text-decoration: none;
+}
+
 a.underline
 {
 	color: $body-color;
@@ -157,7 +169,7 @@ img
 {
   max-width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 mark
