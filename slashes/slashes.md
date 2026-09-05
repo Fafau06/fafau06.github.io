@@ -17,8 +17,11 @@ List of [Slash Pages](https://slashpages.net/) this site has.
 - [Podroll](https://fafau06.github.io/podroll.html)
 - [Gallery](https://fafau06.github.io/gallery.html)
 - [Works](https://fafau06.github.io/works.html)
-- [Contact](https://fafau06.github.io/contact.html)
+<!--
+- [Academia](https://fafau06.github.io/academia.html)
 - [Portfolio](https://fafau06.github.io/portfolio.html)
+-->
+- [Contact](https://fafau06.github.io/contact.html)
 - [Verify](https://fafau06.github.io/verify.html)
 - [Links](https://fafau06.github.io/links.html)
 - [Badges](https://fafau06.github.io/badges.html)
