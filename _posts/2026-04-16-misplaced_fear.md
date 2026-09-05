@@ -35,7 +35,7 @@ The young girl, while struggling to understand all this, gave a little nod and w
 
 They walked silently through the corridor.
 <hr>
-Image taken by, and modified with permission from: [DrunkCrunkFranken](https://bsky.app/profile/drunkcrunkfranken.bsky.social)
+Image taken by, and modified with permission from: [DrunkCrunkFranken](https://bsky.app/profile/drunkcrunkfranken.bsky.social)<br>
 Written at 4am while being sleep deprived
 
 <link class="u-url" href="https://fafau06.github.io/misplaced_fear">
