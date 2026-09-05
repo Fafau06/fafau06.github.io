@@ -1,26 +1,26 @@
 ---
 layout: page
-title: Slashes
+title: Slash Pages
 permalink: /slashes
 ---
 
-List of Slashes this web has.
+List of [Slash Pages](https://slashpages.net/) this site has.
 
 - [About](https://fafau06.github.io/about.html)
 - [Ideas](https://fafau06.github.io/ideas.html)
 - [Now](https://fafau06.github.io/now.html)
-- [Gallery](https://fafau06.github.io/Gallery.html)
+- [Uses](https://fafau06.github.io/uses.html)
+- [Bookshelf](https://fafau06.github.io/bookshelf.html)
+- [Blogroll](https://fafau06.github.io/blogroll.html)
+- [Postroll](https://fafau06.github.io/postroll.html)
+- [Vidroll](https://fafau06.github.io/podroll.html)
+- [Podroll](https://fafau06.github.io/podroll.html)
+- [Gallery](https://fafau06.github.io/gallery.html)
 - [Works](https://fafau06.github.io/works.html)
 - [Contact](https://fafau06.github.io/contact.html)
 - [Portfolio](https://fafau06.github.io/portfolio.html)
-- [Blogroll](https://fafau06.github.io/blogroll.html)
-- [Postroll](https://fafau06.github.io/postroll.html)
-- [Bookroll](https://fafau06.github.io/bookroll.html)
-- [Vidroll](https://fafau06.github.io/podroll.html)
-- [Podroll](https://fafau06.github.io/podroll.html)
-- [Uses](https://fafau06.github.io/uses.html)
 - [Verify](https://fafau06.github.io/verify.html)
-- [Badges](https://fafau06.github.io/badges.html)
 - [Links](https://fafau06.github.io/links.html)
+- [Badges](https://fafau06.github.io/badges.html)
 - [Death](https://fafau06.github.io/death.html)
 - [Blank](https://fafau06.github.io/blank.html)
