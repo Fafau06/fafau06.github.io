@@ -9,10 +9,15 @@ i'll put some good posts/blogs here trust
 ### 09-07-26
 [running a personal website is not fun anymore](https://winnielim.org/journal/running-a-personal-website-is-not-fun-anymore/)
 > I was always advocating for personal websites without realising how much work it is for the average person. The technical part of it was fun for me so I had mistakenly assumed it would be fun for everyone else.
+
 > It is difficult to have such a space in reality, but online we can collect, express, share anything we want.
+
 > This site is over 10 years old and this is the first time attacks are happening consecutively. Why? AI, obviously. I feel dirty even typing the word out. It is being used to find vulnerabilities at a speed and depth that didn’t occur before.
+
 > Somehow the idea that this site’s content is being scraped for AI is strangely violating.
+
 > At the core, these projects exists because there is a belief in some sense of shared humanity.
+
 > Why should I take the time and effort – the deep meditative state I need to reach to translate my inner experiences into coherent words – when AI bots just scrape everything?
 
 ### 09-05-26
