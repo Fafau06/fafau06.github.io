@@ -6,8 +6,9 @@ layout: default
   {{ page.title }}
 </h1>
 {% if page.image %}
-  <img src="{{ page.image | relative_url}}" alt="{{ page.title | escape }}"
-      >
+  <a target="_blank" href="{{ page.image | relative_url}}">
+  <img src="{{ page.image | relative_url}}" alt="{{ page.title | escape }}">
+  </a>
 {% endif %}
 <article class="content-post">
   {{ content }}
