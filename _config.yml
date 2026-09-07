@@ -33,14 +33,11 @@ future                   : true
 read_more                : "enable" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add
 
-# jekyll-paginate configuration
-paginate:            5
-
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+plugins:             [jekyll-archives, jekyll-paginate-v2, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Absurdia Abode'
@@ -63,3 +60,13 @@ defaults:
 collections:
   gallery:
     output: true
+
+# Jekyll-paginate-v2 configuration
+pagination:
+   enabled: true
+   per_page: 5
+   permalink: '/home/page/:num/'
+   title: ':title - page :num of :max'
+   limit: 0
+   sort_field: 'date'
+   sort_reverse: true
