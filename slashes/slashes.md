@@ -6,24 +6,22 @@ permalink: /slashes
 
 List of [Slash Pages](https://slashpages.net/) this site has.
 
-- [About](https://fafau06.github.io/about.html)
-- [Ideas](https://fafau06.github.io/ideas.html)
-- [Now](https://fafau06.github.io/now.html)
-- [Uses](https://fafau06.github.io/uses.html)
-- [Bookshelf](https://fafau06.github.io/bookshelf.html)
-- [Blogroll](https://fafau06.github.io/blogroll.html)
-- [Postroll](https://fafau06.github.io/postroll.html)
-- [Vidroll](https://fafau06.github.io/podroll.html)
-- [Podroll](https://fafau06.github.io/podroll.html)
-- [Gallery](https://fafau06.github.io/gallery.html)
-- [Works](https://fafau06.github.io/works.html)
-<!--
-- [Academia](https://fafau06.github.io/academia.html)
-- [Portfolio](https://fafau06.github.io/portfolio.html)
--->
-- [Contact](https://fafau06.github.io/contact.html)
-- [Verify](https://fafau06.github.io/verify.html)
-- [Links](https://fafau06.github.io/links.html)
-- [Badges](https://fafau06.github.io/badges.html)
-- [Death](https://fafau06.github.io/death.html)
-- [Blank](https://fafau06.github.io/blank.html)
+- [About](../about.html)
+- [Ideas](../ideas.html)
+- [Now](../now.html)
+- [Uses](../uses.html)
+- [Bookshelf](../bookshelf.html)
+- [Blogroll](../blogroll.html)
+- [Postroll](../postroll.html)
+- [Vidroll](../podroll.html)
+- [Podroll](../podroll.html)
+- [Gallery](../gallery.html)
+- [Works](../works.html)
+- --[Academia](/blank.html)--
+- --[Portfolio](/blank.html)--
+- [Contact](../contact.html)
+- [Verify](../verify.html)
+- [Links](../links.html)
+- [Badges](../badges.html)
+- [Death](../death.html)
+- [Blank](../blank.html)
