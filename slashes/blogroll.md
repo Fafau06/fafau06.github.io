@@ -6,4 +6,5 @@ permalink: /blogroll
 
 i'll add some cool blogs here trust
 - [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/)
+
   One of the coolest engineered blog out there. Interesting stuff too about low-tech/mininalist technology!
