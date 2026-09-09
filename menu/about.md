@@ -4,23 +4,14 @@ title: About
 permalink: /about
 ---
 
-```
-Absurdia \əb-ˈsər-dē-ə\ — meaning a place that is absurd or irrational, one that does not follow the rules of logic or common sense.
+Heya, the name's Fafau06.
+I'm someone who does way too many things than is humanly necessary. But mainly known as a Pixel Artist.
+<small>(see [contact)(../menu/contact.html) for ways of reaching me.)</small>
 
-Abode \ə-ˈbōd\ — meaning a place to stay or live.
-```
-This blog is intended to be — and will always remain — a personal blog, and never a dedicated blog about “something” unless that something happens to be “me,” in which case the blog will be dedicated to that and only that.
+I archived most of my [works](../menu/works.html) here so you can look around and see what I've been working on.
 
-The root of the word “Absurdia” — that being the word "absurd" itself — does reflect the nature of the content I will post here; the things I write might be disconnected from or irrelevant to one another, but rest assured that the one thing you can safely entrust yourself to is the simple fact that they will all be written by me (ft. my own thoughts / views / opinions / nonsense).
+This blog also features many [Slash Pages](https://slashpages.net/) and you can look at my own [slashes](../slashes/slashes.html) if you're *that* noisy and want to know what I've been up to.
 
-That said, everything is best kept in moderation, even my own thoughts, for I also need to make you comfortable and act like a good host so as not to throw you out. And in that sense, I’d humbly like you to come in and have a nice exchange with me in this humble “Abode” where my ideas reside.
+I think that's all, I’ll update this page once I have more to talk about myself.
 
-The name of the blog itself may be a tautology (“a place for a place of absurdity”), but it can also be taken to mean “a place *in* a place of absurdity.” Whichever way you choose to interpret it works for me — the meaning of what resides in it matters more than where it is.
-
-With that, enjoy your stay!
-
-And please leave your name and comment on the [Guestbook](https://fafau06.atabook.org/)!
-<hr>
-Typeface used [IBM Plex](https://www.ibm.com/plex/)
-
-Made using [Lagrange](https://github.com/LeNPaul/Lagrange) theme for [Jekyll](https://jekyllrb.com/)
+Probably never.
