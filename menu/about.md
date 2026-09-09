@@ -5,7 +5,7 @@ permalink: /about
 ---
 
 Heya, the name's Fafau06.
-I'm someone who does way too many things than is humanly necessary. But mainly known as a Pixel Artist.
+I'm someone who does way too many things than is humanly necessary. But mainly known as a Pixel Artist.<br>
 <small>see [contact](../contact.html) for ways of reaching me.</small>
 
 I archived most of my [works](../works.html) here so you can look around and see what I've been working on.
