@@ -15,7 +15,7 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github',      link: 'https://www.github.com/fafau06'}
+- {icon: 'bluesky',     link: 'https://bsky.app/profile/fafau06.bsky.social'}
 - {icon: 'instagram',   link: 'https://www.instagram.com/fafau0639'}
 - {icon: 'youtube',     link: 'http://www.youtube.com/@Fafau0639'}
 - {icon: 'envelope',    link: 'mailto:fafau0639@gmail.com'}
@@ -31,4 +31,4 @@ sharing_button_prompt: 'Share it somewhere'
 
 related_posts: 'Other stuff:'
 
-post_date_prefix: 'Uploaded on'
+post_date_prefix: 'Posted on'
