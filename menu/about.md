@@ -10,7 +10,7 @@ I'm someone who does way too many things than is humanly necessary. But mainly k
 
 I archived most of my [works](../works.html) here so you can look around and see what I've been working on.
 
-This blog also features many [Slash Pages](https://slashpages.net/) and you can look at my own [slashes](../slashes.html) if you're *that* noisy and want to know what I've been up to.
+This blog also features many [Slash Pages](https://slashpages.net/) and you can look at my own [slashes](../slashes.html) if you're *that* noisy and curious about me.
 
 I think that's all, I’ll update this page once I have more to talk about myself.
 
