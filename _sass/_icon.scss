@@ -1,0 +1,34 @@
+.icon
+{
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-github
+{
+  background-image: url("/assets/svg/github.svg");
+}
+
+.icon-instagram
+{
+  background-image: url("/assets/svg/instagram.svg");
+}
+
+.icon-youtube
+{
+  background-image: url("/assets/svg/youtube.svg");
+}
+
+.icon-envelope
+{
+  background-image: url("/assets/svg/envelope.svg");
+}
+
+.icon-rss-square
+{
+  background-image: url("/assets/svg/rss-square.svg");
+}
