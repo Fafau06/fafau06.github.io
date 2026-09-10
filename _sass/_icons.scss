@@ -46,14 +46,14 @@
   opacity: 1;
 }
 
-.icon-github
+.icon-bluesky
 {
-  background-image: url("/assets/svg/github.svg");
+  background-image: url("/assets/svg/bluesky.svg");
 }
 
-.icon-github::after
+.icon-bluesky::after
 {
-  background-image: url("/assets/svg/github-color.svg");
+  background-image: url("/assets/svg/bluesky-color.svg");
 }
 
 .icon-instagram
@@ -106,12 +106,12 @@
   background-image: url("/assets/svg/envelope-color.svg");
 }
 
-.icon-rss-square
+.icon-square-rss
 {
-  background-image: url("/assets/svg/rss-square.svg");
+  background-image: url("/assets/svg/square-rss.svg");
 }
 
-.icon-rss-square::after
+.icon-square-rss::after
 {
-  background-image: url("/assets/svg/rss-square-color.svg");
+  background-image: url("/assets/svg/square-rss-color.svg");
 }
