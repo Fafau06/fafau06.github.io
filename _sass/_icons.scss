@@ -51,7 +51,7 @@
   background-image: url("/assets/svg/bluesky.svg");
 }
 
-.icon-bluesky::after
+.icon-bluesky:hover
 {
   background-image: url("/assets/svg/bluesky-color.svg");
 }
@@ -61,7 +61,7 @@
   background-image: url("/assets/svg/instagram.svg");
 }
 
-.icon-instagram::after
+.icon-instagram:hover
 {
   background-image: url("/assets/svg/instagram-color.svg");
 }
@@ -71,7 +71,7 @@
   background-image: url("/assets/svg/youtube.svg");
 }
 
-.icon-youtube::after
+.icon-youtube:hover
 {
   background-image: url("/assets/svg/youtube-color.svg");
 }
@@ -81,7 +81,7 @@
   background-image: url("/assets/svg/facebook.svg");
 }
 
-.icon-facebook::after
+.icon-facebook:hover
 {
   background-image: url("/assets/svg/facebook-color.svg");
 }
@@ -91,7 +91,7 @@
   background-image: url("/assets/svg/twitter.svg");
 }
 
-.icon-twitter::after
+.icon-twitter:hover
 {
   background-image: url("/assets/svg/twitter-color.svg");
 }
@@ -101,7 +101,7 @@
   background-image: url("/assets/svg/envelope.svg");
 }
 
-.icon-envelope::after
+.icon-envelope:hover
 {
   background-image: url("/assets/svg/envelope-color.svg");
 }
@@ -111,7 +111,7 @@
   background-image: url("/assets/svg/square-rss.svg");
 }
 
-.icon-square-rss::after
+.icon-square-rss:hover
 {
   background-image: url("/assets/svg/square-rss-color.svg");
 }
