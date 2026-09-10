@@ -28,42 +28,36 @@
 .icon-github
 {
   background-image: url("/assets/svg/github.svg");
-  padding: 5px;
   @include social-media-icon($github-color, $icon-transition-time);
 }
 
 .icon-bluesky
 {
   background-image: url("/assets/svg/bluesky.svg");
-  padding: 5px;
   @include social-media-icon($bluesky-color, $icon-transition-time);
 }
 
 .icon-instagram
 {
   background-image: url("/assets/svg/instagram.svg");
-  padding: 5px;
   @include social-media-icon($instagram-color, $icon-transition-time);
 }
 
 .icon-youtube
 {
   background-image: url("/assets/svg/youtube.svg");
-  padding: 5px;
   @include social-media-icon($youtube-color, $icon-transition-time);
 }
 
 .icon-facebook
 {
   background-image: url("/assets/svg/facebook.svg");
-  padding: 5px;
   @include social-media-icon($facebook-color, $icon-transition-time);
 }
 
 .icon-twitter
 {
   background-image: url("/assets/svg/twitter.svg");
-  padding: 5px;
   @include social-media-icon($twitter-color, $icon-transition-time);
 }
 
@@ -77,21 +71,18 @@
 .icon-discord
 {
   background-image: url("/assets/svg/discord.svg");
-  padding: 5px;
   @include social-media-icon($discord-color, $icon-transition-time);
 }
 
 .icon-envelope
 {
   background-image: url("/assets/svg/envelope.svg");
-  padding: 5px;
   @include social-media-icon($envelope-color, $icon-transition-time);
 }
 
 .icon-square-rss
 {
   background-image: url("/assets/svg/square-rss.svg");
-  padding: 5px;
   @include social-media-icon($rss-color, $icon-transition-time);
 }
 
