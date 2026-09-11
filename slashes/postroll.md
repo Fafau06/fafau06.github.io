@@ -5,6 +5,13 @@ permalink: /postroll
 ---
 
 i'll put some good posts/blogs here trust and maybe some cool quotes from them too
+<hr>
+
+### 09-11-26
+[An Ode to Links](https://blog.jim-nielsen.com/2026/ode-to-links/) by [Jim Nielsen](https://blog.jim-nielsen.com/)
+> We’ve built an entire culture around links.
+
+> We make links. Links make the web. The web makes Us.
 
 ### 09-07-26
 [running a personal website is not fun anymore](https://winnielim.org/journal/running-a-personal-website-is-not-fun-anymore/) by [Winnie Lim](https://winnielim.org/)
