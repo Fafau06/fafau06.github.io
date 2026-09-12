@@ -19,6 +19,13 @@
 	background: #C8F5FF;
 }
 
+.content-container hr
+{
+	border-width: 0;
+	color: $light-gray-color;
+	background-color: $light-gray-color;
+}
+
 .main
 {
 	border-radius: 5px;
