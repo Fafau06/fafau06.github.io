@@ -169,12 +169,19 @@ img
 {
 	outline-color: transparent;
 	text-decoration: none;
+	border-bottom: 0px solid #0078D7;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
-.badge a:hover
+.badge a[href^="http"]::after
 {
-	outline-color: transparent;
-	text-decoration: none;
+    content: "";
+    display: inline-block;
+    width: 0em;
+    height: 0em;
+    margin-left: 0em;
+    margin-top: 0%;
 }
 
 mark
