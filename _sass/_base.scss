@@ -99,7 +99,10 @@ article
 article.content-post hr
 {
 	width: 50%;
-	border-top: 1.64px solid $body-color;
+	height: 0.08rem;
+	border-width: 0;
+	color: #C8F5FF;
+	background-color: #003764;
 }
 
 article.content-post a
