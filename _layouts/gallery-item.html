@@ -1,19 +1,20 @@
 ---
 layout: default
 ---
-
-<h1>
+<main class="h-entry">
+<link rel="author" class="p-author h-card" href="https://fafau06.github.io/" content="Fafau06">
+<h1 class="p-name">
   {{ page.title }}
 </h1>
 {% if page.image %}
   <a target="_blank" href="{{ page.image | relative_url}}">
-  <img src="{{ page.image | relative_url}}" alt="{{ page.title | escape }}">
+  <img class="u-photo" src="{{ page.image | relative_url}}" alt="{{ page.title | escape }}">
   </a>
 {% endif %}
-<article class="content-post">
+<article class="content-post e-content">
   {{ content }}
 </article>
-<small>
+<small class="p-category">
 	{{ page.tags }}
 </small>
 {% if site.hide_post_date != true %}
@@ -22,9 +23,7 @@ layout: default
 {% if site.hide_post_share != true %}
   {% include social-sharing.html %}
 {% endif %}
-{% if site.hide_related_posts != true %}
-  {% include related-posts.html %}
-{% endif %}
+</main>
 {% if site.data.settings.disqus.comments %}
   {% include disqus.html %}
 {% endif %}
