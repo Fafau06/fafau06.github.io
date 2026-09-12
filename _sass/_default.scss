@@ -11,18 +11,15 @@
 
 .content-container
 {
-	margin-bottom: 4rem;
-	margin-left: 4%;
-	margin-right: 4%;
-	margin-top: 1rem;
-	padding-right: 2%;
-	padding-left: 2%;
+	margin-bottom: 0;
+	padding-top: 1rem;
+	padding-right: 4%;
+	padding-left: 4%;
 	background: #C8F5FF;
 }
 
 .content-container hr
 {
-	border-width: 0;
 	color: $light-gray-color;
 	background-color: $light-gray-color;
 }
