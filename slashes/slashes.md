@@ -16,9 +16,6 @@ List of [Slash Pages](https://slashpages.net/) this site has.
 - [Vidroll](../podroll.html)
 - [Podroll](../podroll.html)
 - [Gallery](../gallery.html)
-- [Works](../works.html)
-- --[Academia](/blank.html)--
-- --[Portfolio](/blank.html)--
 - [Contact](../contact.html)
 - [Verify](../verify.html)
 - [Links](../links.html)
