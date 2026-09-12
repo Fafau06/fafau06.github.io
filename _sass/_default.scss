@@ -12,7 +12,7 @@
 .content-container
 {
 	margin-bottom: 0;
-	padding-top: 1rem;
+	padding-top: 0.5rem;
 	padding-right: 4%;
 	padding-left: 4%;
 	background: #C8F5FF;
@@ -20,8 +20,7 @@
 
 .content-container hr
 {
-	color: $light-gray-color;
-	background-color: $light-gray-color;
+	border-top: 2px solid $light-gray-color;
 }
 
 .main
