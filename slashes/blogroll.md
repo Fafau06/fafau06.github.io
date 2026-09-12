@@ -9,7 +9,7 @@ i'll add some cool blogs here trust
 
 - **[Gretchen McCulloch](https://gretchenmcculloch.com/)**
 
-  One of the hosts for [Lingthusiasm](http://lingthusiasm.com/). Her blog is full of fun and interesting linguistics related articles.
+  One of the hosts for [Lingthusiasm](../podroll.html##Lingthusiasm). Her blog is full of fun and interesting linguistics related articles.
 
 - **[LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/)**
 
