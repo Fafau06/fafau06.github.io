@@ -5,6 +5,7 @@ permalink: /badges
 ---
 
 Some badges that I made or collected from somewhere (most are "stolen.")
+<hr>
 
 ## Self
 <a href="https://fafau06.github.io/" class="badge"><img src="assets/badges/AbsurdiaBorder.gif" alt="Absurdia Abode badge" height="31" width="88"></a>
