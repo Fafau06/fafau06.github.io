@@ -7,6 +7,16 @@ permalink: /postroll
 i'll put some good posts/blogs here trust and maybe some cool quotes from them too
 <hr>
 
+### 09-14-26
+[X communicated](https://olly.world/x-communicated) by [Olly Headey](https://olly.world/)
+> I'm sure these people thought long and hard about using X once Musk took over, but the people they want to reach are on X, so they've made the decision that **it's better to stay than leave and let the far right have the place to themselves.**
+
+> ... but it didn't take anyone away from the far right – it only took away people who were *fighting* the far right!
+
+> All those people who are likely to be radicalised are still on X, but now there are fewer people trying to convince them otherwise.
+
+> Reading different opinions, especially when argued calmly and intelligently, can be more beneficial than living in an echo chamber.
+
 ### 09-11-26
 [An Ode to Links](https://blog.jim-nielsen.com/2026/ode-to-links/) by [Jim Nielsen](https://blog.jim-nielsen.com/)
 > We’ve built an entire culture around links.
