@@ -11,8 +11,11 @@ permalink: /uses
 
 ## Writing
 - Obsidian
-  I use Obsidian to draft my blog posts and as a PKM. Might write on how I use this app.
-- Ellipsus
+
+  I use Obsidian to draft my blog posts and as a PKM. Might write on how I use this app someday.
+- [Ellipsus](https://ellipsus.com/)
+
+  Good enough as a Google Docs replacement (...ish.)
 - Trelby
 - Microsoft Word
 
@@ -27,6 +30,7 @@ permalink: /uses
 - Godot
 - Ren'Py
 - RPG Maker MV
+
   I hate this engine
 - Twine
 
@@ -35,9 +39,14 @@ permalink: /uses
 - LMMS
 - Audacity
 
+  I still couldn't figure out how to use this thing
+
 ## Misc
 - Blender
 - MMD
-- Zotero
+- [Zotero](https://www.zotero.org/)
+
   Easily the best thing ever.
 - [Paperwork](https://www.openpaper.work/)
+
+  Very good for organizing papers / other documents.
