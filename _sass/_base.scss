@@ -71,18 +71,18 @@ a:hover
 	border-bottom: none;
 }
 
-a.underline
+a.border
 {
 	color: $body-color;
 	outline-color: transparent;
 	text-decoration: none;
-	border-bottom: 2px solid #0078D7;
+	border: 2px solid #0078D7;
 	padding-left: 2px;
 	padding-right: 2px;
 	transition: 0.1s;
 }
 
-a.underline:hover
+a.border:hover
 {
 	color: snow;
     background-color: #0078D7;
