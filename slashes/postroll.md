@@ -43,3 +43,13 @@ i'll put some good posts/blogs here trust and maybe some cool quotes from them t
 
 [100 (more) things you can do with your personal website](https://jamesg.blog/2024/03/10/100-more-personal-website-ideas) by [James G.](https://jamesg.blog/)
 > The web is a place to be creative. To share your ideas and perspectives. You can do so how you want: with images, poetry, blog posts, collages, music, and more. Optionally, you can code, too! (But you definitely don't need to code to have a personal website.)
+
+### 09-04-26
+[Lamentations of a Web 1.0 Dinosaur](https://toddpresta.com/musings/lamentations-of-a-web-1-0-dinosaur) by [Todd Presta](https://toddpresta.com/)
+> Why didn't you make it easier for the non-technical to carve out their own spaces on the web rather than forcing them into the centralized digital fiefdom known as social media?
+
+> You were the digital functional equivalent of a newspaper article that didn't sass you back.
+
+> *Doom Scrolling* meant panning side-to-side in the 3D view of a first-person shooter video game called "Doom," not filling your head with an infinite scrolling feed of bad news and wrath.
+
+> I am a proud Web 1.0 Dinosaur and I miss you Web 1.0. I know you're still there, lurking in the backwoods of the Internet, waiting to be rediscovered.
