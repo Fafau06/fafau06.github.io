@@ -1,0 +1,4 @@
+.webmentions:has(.webmentions--empty)
+{
+  display: none;
+}
