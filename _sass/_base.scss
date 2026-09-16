@@ -74,6 +74,7 @@ a:hover
 a.border
 {
 	color: $body-color;
+	display: inline-block;
 	outline-color: transparent;
 	text-decoration: none;
 	border: 2px solid #0078D7;
