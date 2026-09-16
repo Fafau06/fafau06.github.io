@@ -27,3 +27,6 @@ layout: default
 {% if site.data.settings.disqus.comments %}
   {% include disqus.html %}
 {% endif %}
+{% webmentions page.url %}
+{% webmention_replies page.url %}
+{% webmentions_js %}
