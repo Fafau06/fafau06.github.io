@@ -32,3 +32,5 @@ layout: default
 {% if site.data.settings.disqus.comments %}
   {% include disqus.html %}
 {% endif %}
+{% webmentions page.url %}
+{% webmentions_js %}

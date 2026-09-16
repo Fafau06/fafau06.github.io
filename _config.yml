@@ -37,7 +37,7 @@ talkmap_link             : false #change to true to add
 markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
-plugins:             [jekyll-archives, jekyll-paginate-v2, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+plugins:             [jekyll-archives, jekyll-paginate-v2, jekyll-sitemap, jekyll-feed, jekyll-seo-tag, jekyll-webmention_io]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Absurdia Abode'
@@ -70,3 +70,11 @@ pagination:
    limit: 0
    sort_field: 'date'
    sort_reverse: true
+
+# Webmentions
+webmentions:
+  username: fafau06.github.io
+  # Use my own cache folder
+  cache_folder: .cache
+  # skip bad URLs for 5 days
+  cache_bad_uris_for: 5
