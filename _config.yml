@@ -74,8 +74,6 @@ pagination:
 # Webmentions
 webmentions:
   username: fafau06.github.io
-  # Use my own cache folder
-  cache_folder: .cache
   # skip bad URLs for 5 days
   cache_bad_uris_for: 5
   pages: true
