@@ -78,3 +78,4 @@ webmentions:
   cache_folder: .cache
   # skip bad URLs for 5 days
   cache_bad_uris_for: 5
+  pages: true
