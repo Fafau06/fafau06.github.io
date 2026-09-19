@@ -171,7 +171,7 @@ img
 	border-radius: 0px;
 }
 
-.badge a
+article.content-post.badge a
 {
 	outline-color: transparent;
 	text-decoration: none;
@@ -180,9 +180,9 @@ img
 	padding-right: 0px;
 }
 
-.badge a[href^="http"]::after
+article.content-post.badge [href^="http"]::after
 {
-    content: "";
+    content: " ";
     display: inline-block;
     width: 0em;
     height: 0em;
@@ -235,14 +235,14 @@ blockquote::after
 blockquote span::before
 {
 	content: "";
-    margin-left: -6%;
-    padding-right: 2%;
 	display: inline-block;
-    width: 0.7em;
-    height: 0.7em;
-    margin-top: 2%;
+    width: 1em;
+    height: 1em;
+    margin-left: -3.5%;
+	margin-right: 0.5em;
+    margin-top: 0%;
 
-	background-size: 100%;
+	background-size: 120%;
     background-image: url("/assets/svg/quote-left-white.svg");
 
 }
@@ -254,12 +254,12 @@ blockquote span
     display: block;
     font-style: normal;
     /*font-weight: bold;*/
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-top: 1em;
     background-color: #0078D7;
-    padding-left: 10%;
-    margin-left: -10%;
-    margin-top: 3%;
+    padding-left: 3em;
+    margin-left: -1.8em;
+    margin-top: 2%;
     padding-bottom: 2px;
     padding-top: 2px;
 }

@@ -1,9 +1,4 @@
-.webmentions:has(.webmentions--empty)
+p.webmentions__not-found
 {
-  display: none;
-}
-
-.webmentions--empty
-{
-  display: none;
+	display: none;
 }

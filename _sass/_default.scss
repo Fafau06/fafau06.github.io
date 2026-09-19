@@ -6,7 +6,7 @@
 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 615px;
+	width: 50%;
 }
 
 .content-container
@@ -22,6 +22,12 @@
 .content-container hr
 {
 	border-top: 2px solid $light-gray-color;
+}
+
+.content-image
+{
+	display: block;
+	margin: 0 auto;
 }
 
 .main
@@ -99,21 +105,57 @@
 .menu-content
 {
 	float: left;
+	display: flex;
 }
 
 .menu-content a
-{
+{                
+	position: relative;
+	display: block;
 	color: $light-gray-color;
 	font-size: 1rem;
-	padding-right: 0px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+.menu-content a:first-child::before
+{
+	content: "|";
+	color: $body-color;
+	position: absolute;
+	left: -1px;
+	top: 0;
+	font-weight: bold;
+}
+
+.menu-content a:not(:last-child)::after
+{
+	content: "|";
+	color: $body-color;
+	position: absolute;
+	right: -5px;
+	top: 0;
+	font-weight: bold;
 }
 
 .menu-content a:hover
 {
-    background-color: #text-color;
-	padding-left: 2px;
-	padding-right: 2px;
+	color: snow;
+    background: $link-color;
 }
+
+.menu-content a:hover::after
+{
+	color: $link-color;
+    background: $link-color;
+}
+
+.menu-content a:first-child:hover::before
+{
+	color: $link-color;
+    background: $link-color;
+}
+
 
 .social-icons
 {
