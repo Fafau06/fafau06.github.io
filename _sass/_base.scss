@@ -148,14 +148,6 @@ article.content-post a[href^="http"]::after
 
 article.content-post a[href^="http"]:hover:after
 {
-    content: "";
-    display: inline-block;
-    width: 0.7em;
-    height: 0.7em;
-    margin-left: 0.25em;
-    margin-top: 0%;
-
-    background-size: 100%;
     background-image: url("/assets/svg/link-out-white.svg");
 }
 
@@ -171,23 +163,10 @@ img
 	border-radius: 0px;
 }
 
-article.content-post.badge a
+article.content-post a.badge::after,
+article.content-post a.badge:hover::after
 {
-	outline-color: transparent;
-	text-decoration: none;
-	border-bottom: 0px solid #0078D7;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-article.content-post.badge [href^="http"]::after
-{
-    content: " ";
-    display: inline-block;
-    width: 0em;
-    height: 0em;
-    margin-left: 0em;
-    margin-top: 0%;
+    content: none;
 }
 
 mark
