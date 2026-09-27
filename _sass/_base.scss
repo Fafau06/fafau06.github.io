@@ -168,7 +168,8 @@ article.content-post a.badge:hover::after
 {
     content: none;
 	text-decoration: none;
-	border-bottom: none;
+	border-bottom: 0px solid black;
+	background-color: none;
 }
 
 mark
