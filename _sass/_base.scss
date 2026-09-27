@@ -135,7 +135,7 @@ article.content-post a:hover
 
 article.content-post a[href^="http"]::after
 {
-    content: "";
+    content: none;
     display: inline-block;
     width: 0.7em;
     height: 0.7em;
@@ -167,6 +167,8 @@ article.content-post a.badge::after,
 article.content-post a.badge:hover::after
 {
     content: none;
+	text-decoration: none;
+	border-bottom: none;
 }
 
 mark
