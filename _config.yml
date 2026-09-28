@@ -1,15 +1,5 @@
 # Site Build Settings
 
-# Jekyll-paginate-v2 configuration
-#  pagination:
-#   enabled: true
-#   per_page: 5
-#   permalink: '/page/:num/'
-#   title: ':title - page :num of :max'
-#   limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
-
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -59,6 +49,8 @@ defaults:
 # Collections
 collections:
   gallery:
+    output: true
+  blogs:
     output: true
 
 # Jekyll-paginate-v2 configuration
