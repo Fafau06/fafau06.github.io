@@ -158,7 +158,7 @@
 
 .menu-content a:hover
 {
-  color: $link-color;
+  color: snow;
 }
 
 .menu-content a:hover::before,
@@ -167,7 +167,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: $body-color;
+  background-color: $link-color;
   transform: none;
 }
 
