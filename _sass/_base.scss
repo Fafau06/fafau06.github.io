@@ -163,8 +163,9 @@ img
 	border-radius: 0px;
 }
 
-article.content-post a.badge::after,
-article.content-post a.badge:hover::after
+a.badge,
+a.badge::after,
+a.badge:hover::after
 {
     content: none;
 	text-decoration: none;
