@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog-item
 title: "Test blog"
 categories: journal
 tags: [documentation,sample]
