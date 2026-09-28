@@ -52,6 +52,7 @@ collections:
     output: true
   blogs:
     output: true
+    permalink: /blog/:title/
 
 # Jekyll-paginate-v2 configuration
 pagination:
