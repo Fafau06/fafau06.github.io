@@ -8,10 +8,17 @@
   </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; script-src 'self' 'unsafe-eval' https://u.widget.st">
+	<meta http-equiv="Content-Security-Policy"
+		content="default-src 'self' https:;
+                 style-src 'self' 'unsafe-inline';
+                 img-src 'self' data: https:;
+                 script-src 'self' 'unsafe-eval' https://u.widget.st https://widget.st;
+                 connect-src 'self' https://widget.st;
+                 frame-src 'self' https://widget.st;
+                 form-action 'self' https://widget.st">
 	<meta name="title" content="Absurdia Abode">
 	<meta name="description" content="Care-Vamme Sinte Mana Ana Tece-Símen">
-	<meta name="keywords" content="Personal Blog">
+	<meta name="keywords" content="Personal Website">
 	<meta name="author" content="Fafau06">
 	<meta name="robots" content="noai, noimageai">
 	<meta name="kicya-site-verification" content="163a9dce3b59c49f8bbb371391b68542d75286b116ac8d2c9d906fdfb1d69821">
@@ -26,7 +33,7 @@
 	<link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
 	<link rel="stylesheet" href="{{ site.github.url }}/assets/css/syntax.css">
 	<!-- Use Atom -->
-	<!-- {% feed_meta %} -->
+	{% feed_meta %}
 	<!-- Use RSS-2.0 -->
 	<link href="{{ site.github.url }}/rss-feed.xml" type="application/rss+xml" rel="alternate" title="{{ site.title }} | {{ site.description }}"/>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
