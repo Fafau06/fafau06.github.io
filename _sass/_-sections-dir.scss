@@ -1,7 +1,7 @@
-@use "base";
-@use "code";
-@use "default";
-@use "home";
-@use "post";
-@use "icons";
-@use "webmention";
+@import "base",
+  "code",
+  "default",
+  "home",
+  "post",
+  "icons",
+  "webmention";
