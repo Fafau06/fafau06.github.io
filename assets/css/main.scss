@@ -6,11 +6,11 @@ $serif-font-family:      "IBM Plex Serif", Georgia, "Times New Roman", serif;
 $code-font-family:       "IBM Plex Mono", monospace;
 $heading-font-family:    "IBM Plex Sans Condensed", sans-serif;
 
-$body-bg:				 #C8F5FF;
+$body-bg:			        	 #C8F5FF;
 $body-color:             #003764;
 $link-color:             #0078D7;
 
-$code-color:			 #b4ebf0;
+$code-color:			       #b4ebf0;
 $code-background-color:  #6496B2;
 $pagination-button-color:#e0e0e0;
 
@@ -37,4 +37,4 @@ $medium-color:         #00AB6C;
 $codepen-color:        black;
 $rss-color:            #ff6600;
 
-@import "-sections-dir";
+@use "-sections-dir";
