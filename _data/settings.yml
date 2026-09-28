@@ -18,7 +18,7 @@ social:
 - {icon: 'bluesky',     link: 'https://bsky.app/profile/fafau06.bsky.social'}
 - {icon: 'instagram',   link: 'https://www.instagram.com/fafau0639'}
 - {icon: 'youtube',     link: 'http://www.youtube.com/@Fafau0639'}
-- {icon: 'envelope',    link: 'mailto:fafau0639@gmail.com'}
+- {icon: 'itch',        link: 'https://fafau06.itch.io/'}
 # - {icon: 'rss-square',link: '/feed.xml'}
 - {icon: 'square-rss',  link: '/rss-feed.xml'}
 
