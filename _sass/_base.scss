@@ -279,6 +279,8 @@ th, td
 input, select
 {
 	font-family: $serif-font-family;
+	font-size: 18px;
+	color: $body-color;
 	width: 100%;
 	padding: 12px;
 	margin: 8px 0;
@@ -296,6 +298,9 @@ input[placeholder]
 
 textarea
 {
+	font-family: $serif-font-family;
+	font-size: 18px;
+	color: $body-color;
 	width: 100%;
 	padding: 12px;
 	margin: 8px 0;
@@ -307,6 +312,8 @@ textarea
 
 button[type=submit]
 {
+	font-family: $serif-font-family;
+	font-size: 18px;
 	width: 100%;
 	background-color: $body-bg;
 	color: $link-color;
@@ -324,6 +331,8 @@ button[type=submit]
 
 button[type=submit]:hover
 {
+	font-family: $serif-font-family;
+	font-size: 18px;
 	color: snow;
 	background-color: $link-color;
 }
