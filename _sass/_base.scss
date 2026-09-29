@@ -273,3 +273,38 @@ th, td
   padding: 15px;
   text-align: left;
 }
+
+/* Form */
+
+input[type=text], select
+{
+	width: 100%;
+	padding: 12px;
+	margin: 8px 0;
+	background-color: #467896;
+	display: inline-block;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit]
+{
+	width: 100%;
+	color: $link-color;
+	padding: 14px;
+	margin-top: 0.5rem;
+	margin-bottom: 0.25rem;
+	cursor: pointer;
+	display: inline-block;
+	outline-color: transparent;
+	text-decoration: none;
+	border: 2px solid #0078D7;
+	border-radius: 4px;
+	transition: 0.1s;
+}
+
+input[type=submit]:hover
+{
+	color: snow;
+	background-color: $link-color;
+}
