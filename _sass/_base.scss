@@ -135,7 +135,7 @@ article.content-post a:hover
 
 article.content-post a[href^="http"]::after
 {
-    content: none;
+    content: "";
     display: inline-block;
     width: 0.7em;
     height: 0.7em;
@@ -164,13 +164,14 @@ img
 }
 
 a.badge,
+a.badge:hover,
 a.badge::after,
 a.badge:hover::after
 {
     content: none;
 	text-decoration: none;
-	border-bottom: 0px solid black;
-	background-color: none;
+	border-bottom: 0px;
+	background-color: $body-bg;
 }
 
 mark
