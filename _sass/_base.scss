@@ -282,7 +282,7 @@ input, select
 	width: 100%;
 	padding: 12px;
 	margin: 8px 0;
-	background-color: #467896;
+	background-color: #extra-light-gray-color;
 	display: inline-block;
 	border: 0px;
 	border-radius: 4px;
@@ -308,7 +308,7 @@ textarea
 button[type=submit]
 {
 	width: 100%;
-	background-color: $body-color;
+	background-color: $body-bg;
 	color: $link-color;
 	padding: 14px;
 	margin-top: 0.5rem;
