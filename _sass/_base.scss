@@ -276,7 +276,7 @@ th, td
 
 /* Form */
 
-input[type=text], select
+input, select
 {
 	width: 100%;
 	padding: 12px;
@@ -287,7 +287,18 @@ input[type=text], select
 	box-sizing: border-box;
 }
 
-input[type=submit]
+textarea
+{
+	width: 100%;
+	padding: 12px;
+	margin: 8px 0;
+	background-color: #467896;
+	display: inline-block;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+button[type=submit]
 {
 	width: 100%;
 	color: $link-color;
@@ -303,7 +314,7 @@ input[type=submit]
 	transition: 0.1s;
 }
 
-input[type=submit]:hover
+button[type=submit]:hover
 {
 	color: snow;
 	background-color: $link-color;
