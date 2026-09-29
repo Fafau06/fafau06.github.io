@@ -278,13 +278,20 @@ th, td
 
 input, select
 {
+	font-family: $serif-font-family;
 	width: 100%;
 	padding: 12px;
 	margin: 8px 0;
 	background-color: #467896;
 	display: inline-block;
+	border: 0px;
 	border-radius: 4px;
 	box-sizing: border-box;
+}
+
+input[placeholder]
+{
+	color: $light-gray-color;
 }
 
 textarea
@@ -301,6 +308,7 @@ textarea
 button[type=submit]
 {
 	width: 100%;
+	background-color: $body-color;
 	color: $link-color;
 	padding: 14px;
 	margin-top: 0.5rem;
