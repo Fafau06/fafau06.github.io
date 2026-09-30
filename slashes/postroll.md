@@ -7,6 +7,16 @@ permalink: /postroll
 i'll put some good posts/blogs here trust and maybe some cool quotes from them too
 <hr>
 
+### 10-01-26
+[Not the End of the World, actually](https://francescrossley.com/not-the-end-of-the-world-actually/) by [Frances Crossley](https://francescrossley.com/not-the-end-of-the-world-actually/)
+> Which side do we want to come down on?
+- We are the last generation before disaster becomes inevitable
+- We could be the first generation to build a truly sustainable planet
+
+> One of the wildest sections is on the massive disparity between what people think makes the biggest impact (recycling) versus what is actually most effective (giving up your SUV).
+
+> Along with having to keep multiple truths in mind we have to accept that what's actually effective can look bad, or be counter intuitive
+
 ### 09-14-26
 [X communicated](https://olly.world/x-communicated) by [Olly Headey](https://olly.world/)
 > I'm sure these people thought long and hard about using X once Musk took over, but the people they want to reach are on X, so they've made the decision that **it's better to stay than leave and let the far right have the place to themselves.**
