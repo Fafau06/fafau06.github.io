@@ -14,11 +14,11 @@ Feel free to send memes to me in:
 
 <ws-widget type="contact" iid="10545">
   <form>
-    <label for="name">Your name</label>
+    <label for="name"><b>Your name</b></label>
     <input type="text" name="name">
-    <label for="email">Your email</label>
+    <label for="email"><b>Your email</b></label>
     <input type="email" name="email">
-    <label for="message">Your message</label>
+    <label for="message"><b>Your message</b></label>
     <textarea name="message"></textarea>
     <button type="submit">Send</button>
   </form>
