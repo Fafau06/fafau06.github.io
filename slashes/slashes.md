@@ -7,6 +7,7 @@ permalink: /slashes
 List of [Slash Pages](https://slashpages.net/) this site has.
 
 - [About](../about.html)
+- [Updates](../updates.html)
 - [Ideas](../ideas.html)
 - [Now](../now.html)
 - [Uses](../uses.html)
