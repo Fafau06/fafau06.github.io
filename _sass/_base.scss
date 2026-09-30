@@ -292,9 +292,9 @@ input, select
 	box-sizing: border-box;
 }
 
-input[placeholder]
+input[label]
 {
-	color: $light-gray-color;
+	font-weight: bold;
 }
 
 textarea
@@ -314,8 +314,9 @@ textarea
 
 button[type=submit]
 {
-	font-family: $serif-font-family;
+	font-family: $sans-serif-font-family;
 	font-size: 16px;
+	font-weight: bold;
 	width: 100%;
 	background-color: $body-bg;
 	color: $link-color;
@@ -335,6 +336,7 @@ button[type=submit]:hover
 {
 	font-family: $sans-serif-font-family;
 	font-size: 16px;
+	font-weight: bold;
 	color: snow;
 	background-color: $link-color;
 }
