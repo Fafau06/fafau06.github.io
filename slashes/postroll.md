@@ -8,7 +8,7 @@ i'll put some good posts/blogs here trust and maybe some cool quotes from them t
 <hr>
 
 ### 10-01-26
-[Not the End of the World, actually](https://francescrossley.com/not-the-end-of-the-world-actually/) by [Frances Crossley](https://francescrossley.com/not-the-end-of-the-world-actually/)
+[Not the End of the World, actually](https://francescrossley.com/not-the-end-of-the-world-actually/) by [Frances Crossley](https://francescrossley.com/)
 > Which side do we want to come down on?
 > - We are the last generation before disaster becomes inevitable
 > - We could be the first generation to build a truly sustainable planet
