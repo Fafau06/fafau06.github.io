@@ -16,8 +16,7 @@ Anyway, here's the sort of stuff you can expect me to write about:
   I've been watching a lot of movies lately with a couple of my friends, and some of them deserve a better write up than just a one-liner review in Letterboxd…
 - **Stuff I learned while building this site.**
 
-  I’ll be documenting some of the stuff I learned while making this site!
-
+  I’ll be documenting some of the stuff I learned while making this site!<br>
   <small>(I was supposed to write some for the [#WASSUP Blogging Challenge](https://tantek.com/2026/244/t1/september-blogging-challenge-wassup) in September but I never got around to it…)</small>
 - **And maybe…**
 
@@ -27,7 +26,7 @@ Now I know I suffered from a terminal illness called ✨ commitment issues ✨ a
 
 Yeah so, shut up.
 
-The thing is, I couldn't help but try to push myself because I couldn't even stay consistent or keep my attention long enough to finish *anything.* But it's precisely because I <mark>have trouble</mark> finishing anything that I need to constantly push myself to do *something.* Like sure, I *might* die doing this, but at least I'll be doing <mark>something I want to do</mark> instead of dying to… Idk, doing my assignments??
+The thing is, I couldn't help but try to push myself because I couldn't even stay consistent or keep my attention long enough to finish *anything.* But it's precisely because I <mark>have trouble</mark> finishing anything that I need to constantly push myself to do *something.* Like sure, I *might* die doing this, but at least I'll be doing <mark>something I want to do</mark> instead of dying to… Idk, doing my assignments??<br>
 <small>(I won't even go back to my uni until next year but you get the point.)</small>
 
 I’ll have to do a round-up post for my Swordtember swords and write about my commitment issues eventually… So that'll be some posts to look forward to for my Blogtober!
