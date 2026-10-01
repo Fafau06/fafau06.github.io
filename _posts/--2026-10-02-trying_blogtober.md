@@ -29,7 +29,7 @@ Yeah so, shut up.
 The thing is, I couldn't help but try to push myself because I couldn't even stay consistent or keep my attention long enough to finish *anything.* But it's precisely because I <mark>have trouble</mark> finishing anything that I need to constantly push myself to do *something.* Like sure, I *might* die doing this, but at least I'll be doing <mark>something I want to do</mark> instead of dying to… Idk, doing my assignments??<br>
 <small>(I won't even go back to my uni until next year but you get the point.)</small>
 
-I’ll have to do a round-up post for my Swordtember swords and write about my commitment issues eventually… So that'll be some posts to look forward to for my Blogtober!
+I still have to do a round-up post for my Swordtember swords and write about my commitment issues eventually… So that'll be some posts to look forward to for my Blogtober!
 
 Besides, as I've already mentioned above, I won't be doing Blogtober daily so I've decided that <mark>I’ll only do two posts a week.</mark> There'll be no set schedule for when I post but I’ll try my best to at least post twice a week!
 
