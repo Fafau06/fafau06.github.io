@@ -17,6 +17,7 @@ Anyway, here's the sort of stuff you can expect me to write about:
 - **Stuff I learned while building this site.**
 
   I’ll be documenting some of the stuff I learned while making this site!
+
   <small>(I was supposed to write some for the [#WASSUP Blogging Challenge](https://tantek.com/2026/244/t1/september-blogging-challenge-wassup) in September but I never got around to it…)</small>
 - **And maybe…**
 
