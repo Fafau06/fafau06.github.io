@@ -31,7 +31,7 @@ The thing is, I couldn't help but try to push myself because I couldn't even sta
 
 I still have to do a round-up post for my Swordtember swords and write about my commitment issues eventually… So that'll be some posts to look forward to for my Blogtober!
 
-Besides, as I've already mentioned above, I won't be doing Blogtober daily so I've decided that <mark>I’ll only do two posts a week.</mark> There'll be no set schedule for when I post but I’ll try my best to at least post twice a week!
+And as I've already mentioned above, I won't be doing Blogtober *daily*, so I've decided that <mark>I’ll only do two posts a week.</mark> There'll be no set schedule for when I post but I’ll try my best to at least post twice a week!
 
 Isn't that *so* much more manageable than doing it daily? And as we all know already, the only acceptable thing to do daily is a gacha game’s daily sign-in!
 
