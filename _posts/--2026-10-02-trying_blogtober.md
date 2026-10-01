@@ -11,13 +11,16 @@ The idea of Blogtober is very simple: write a blog post every day of October! �
 
 Anyway, here's the sort of stuff you can expect me to write about:
 
-- Reviews of books / movies.
-    I've been watching a lot of movies lately with a couple of my friends, and some of them deserve a better write up than just a one-liner review in Letterboxd…
-- Stuff I learned while building this site.
-    I’ll be documenting some of the stuff I learned while making this site!
-    <small>(I was supposed to write about some of them for the #WASSUP Challenge in September but I never got around to it…)</small>
-- And maybe…
-    A couple of my random interests? Cool stuff I found on the net?? A random song from my 500 songs playlist??? Other things that I have no idea what to write about???? It's a lot…
+- **Reviews of books / movies.**
+
+  I've been watching a lot of movies lately with a couple of my friends, and some of them deserve a better write up than just a one-liner review in Letterboxd…
+- **Stuff I learned while building this site.**
+
+  I’ll be documenting some of the stuff I learned while making this site!
+  <small>(I was supposed to write about some of them for the #WASSUP Challenge in September but I never got around to it…)</small>
+- **And maybe…**
+
+  A couple of my random interests? Cool stuff I found on the net?? A random song from my 500 songs playlist??? Other things that I have no idea what to write about???? It's a lot…
 
 Now I know I suffered from a terminal illness called ✨ commitment issues ✨ and if you know me well enough, you'll already be at my door ready to yell, “Weren't you already trying to do another dailies last month? Where you tried to draw swords for every day of September ([#swordtember](https://bsky.app/hashtag/swordtember) on Bluesky) but then you only did it for the first week and didn't even do the rest of your prompts??”
 
