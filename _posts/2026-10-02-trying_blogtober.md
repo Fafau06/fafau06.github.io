@@ -3,7 +3,7 @@ layout: post
 title: "I'm trying out Blogtober!"
 categories: post
 tags: blog, blogtober, october-2026
-image: assets/img/banner/blogtober_try.png
+image: banner/blogtober_try.png
 ---
 Another thing that requires a high level of commitment that I’m probably gonna fail hard at. And this month the culprit is Blogtober — just another one of your usual “do X thing for the rest of the month” challenge.
 
