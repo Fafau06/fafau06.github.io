@@ -269,13 +269,36 @@ table
 
 table, th, td
 {
-  border: 1px solid black;
+  border: 2px solid $body-color;
 }
 
 th, td
 {
   padding: 15px;
   text-align: left;
+}
+
+table.contact
+{
+	border: 0px solid;
+	padding: 0.5rem;
+}
+
+th.contact
+{
+	border: 0px solid;
+	width: 10%;
+}
+
+td.contact
+{
+	border: 0px solid;
+}
+
+td.contact-icon
+{
+	border: 0px solid;
+	width: 2%;
 }
 
 /* Form */
@@ -306,6 +329,7 @@ textarea
 	font-size: 16px;
 	color: $body-color;
 	width: 100%;
+	height: 10em;
 	padding: 12px;
 	margin: 8px 0;
 	background-color: $extra-light-gray-color;
@@ -313,6 +337,7 @@ textarea
 	border: 0px;
 	border-radius: 4px;
 	box-sizing: border-box;
+	resize: none;
 }
 
 button[type=submit]
