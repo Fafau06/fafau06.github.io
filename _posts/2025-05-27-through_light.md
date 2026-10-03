@@ -5,7 +5,7 @@ categories: story
 tags: [story,fiction,shortstory,microfiction,nonfiction,writing]
 ---
 
-A faded photograph hung above the window sill. At a glance, the picture seemed to have captured a lost memory from some distant age — from a time that has long since passed. A young woman in a black dress holding a parasol was standing in a tall field of grass, further back in the image was a sea of green hills and a leafless tree that seemed distant only because time has declared it to be so.
+A faded photograph hung above the window sill. At a glance, the picture seemed to have captured a lost memory from some distant age — from a time that has long since passed.<!--more--> A young woman in a black dress holding a parasol was standing in a tall field of grass, further back in the image was a sea of green hills and a leafless tree that seemed distant only because time has declared it to be so.
 
 I always thought it was the picture of someone that had come before me — rushing the same blood that flowed within me, reflecting the same light that my eyes always reflect. However, the girl's eyes reflected something else; her eyes were unlike mine, nor did the blood that coursed through her veins. In her eyes was a spark — a macabre spark of flame — just what was it that the lady had seen? That the world seemed to have stopped just for the light in her eyes to be captured.
 
