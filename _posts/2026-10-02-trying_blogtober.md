@@ -6,7 +6,7 @@ tags: blog, blogtober, october-2026
 image: banner/blogtober_try.png
 ---
 Another thing that requires a high level of commitment that I’m probably gonna fail hard at. And this month the culprit is Blogtober — just another one of your usual “do X thing for the rest of the month” challenge.
-
+<!--more-->
 The idea of Blogtober is very simple: write a blog post every day of October! … or alternatively, just post consistently for the entire month of October because there's *no way* I'm doing this daily (I still know my limits, okay?). I first heard of this challenge only a couple of weeks ago, but didn't think much of it, and now that I finally have my web properly set up, I can't wait to write more stuff here!
 
 Anyway, here's the sort of stuff you can expect me to write about:
