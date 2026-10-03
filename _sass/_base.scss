@@ -107,8 +107,8 @@ article.content-post hr
 	width: 50%;
 	height: 0.08rem;
 	border-width: 0;
-	color: #C8F5FF;
-	background-color: #003764;
+	color: $body-bg;
+	background-color: $body-color;
 }
 
 article.content-post a
@@ -255,6 +255,16 @@ hr
 {
 	border-top: 2px solid $body-color;
 }
+
+hr.short-rule
+{
+	width: 50%;
+	height: 0.08rem;
+	border-width: 0;
+	color: $body-bg;
+	background-color: $body-color;
+}
+
 
 /*
   Tables
