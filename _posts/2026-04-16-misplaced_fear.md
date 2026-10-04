@@ -9,6 +9,7 @@ image: 0416-hallway.png
 
 They both find themselves entering a yellowed dimly-lit corridor adorned with doors on either side every so often, it almost looks like the corridor terminates to the abyss and will keep on going forever in the dark.
 <!--more-->
+
 The younger girl tightened her grip on the arm of the older girl whose complexion pierced the corridor like a steel.
 
 "Are... we sure we're going the right way?" the young girl asked.
