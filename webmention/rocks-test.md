@@ -32,9 +32,8 @@ title: Webmention Test
     <li> <a class="u-in-reply-to" href="https://webmention.rocks/test/21">Test 21</a>
     <li> <a class="u-in-reply-to" href="https://webmention.rocks/test/22">Test 22</a>
     <li> <a class="u-in-reply-to" href="https://webmention.rocks/test/23/page">Test 23</a>
-  <p>This is a <a class="u-in-reply-to" href="https://webmention.rocks/update/1">post update</a> test.</p>
+  <p>This is a <a class="u-in-reply-to" href="https://webmention.rocks/update/1">post update</a> test that then got updated to the <a class="u-in-reply-to" href="https://webmention.rocks/update/1/part/2">new post update</a> test link.</p>
   <p>
       <a href="https://fafau06.github.io/webmention/rocks-test" class="u-url">
         <time class="dt-published" datetime="2026-10-04T08:30:00+0700">October 4, 2026</time>
-      </a>
   </p>
