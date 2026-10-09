@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Filmroll
-permalink: /uses
+permalink: /filmroll
 ---
 
 Some list of movies I watched, I'll also put some good reviews here trust
