@@ -12,6 +12,7 @@ List of [Slash Pages](https://slashpages.net/) this site has.
 - [Now](../now.html)
 - [Uses](../uses.html)
 - [Bookshelf](../bookshelf.html)
+- [Filmroll](../filmroll.html)
 - [Blogroll](../blogroll.html)
 - [Postroll](../postroll.html)
 - [Vidroll](../podroll.html)
