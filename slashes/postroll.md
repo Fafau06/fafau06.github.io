@@ -8,7 +8,7 @@ i'll put some good posts/blogs here trust and maybe some cool quotes from them t
 <hr>
 
 ### 10-09-26
-[The Last Days of Social Media](https://www.noemamag.com/the-last-days-of-social-media/) from [Noema](https://www.noemamag.com/)
+[The Last Days of Social Media](https://www.noemamag.com/the-last-days-of-social-media/) from [Noema](https://www.noemamag.com/) by [James O' Sullivan](https://www.noemamag.com/author/james-osullivan/)
 > These are the last days of social media, not because we lack content, but because the attention economy has neared its outer limit — we have exhausted the capacity to care.
 
 > The teenager who refuses TikTok may find herself unable to parse references, memes and microcultures that soon constitute her peers’ vernacular.
