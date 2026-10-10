@@ -7,6 +7,20 @@ permalink: /postroll
 i'll put some good posts/blogs here trust and maybe some cool quotes from them too
 <hr>
 
+### 10-09-26
+[The Last Days of Social Media](https://www.noemamag.com/the-last-days-of-social-media/) by [Noema](https://www.noemamag.com/)
+> These are the last days of social media, not because we lack content, but because the attention economy has neared its outer limit — we have exhausted the capacity to care.
+
+> The teenager who refuses TikTok may find herself unable to parse references, memes and microcultures that soon constitute her peers’ vernacular.
+
+> But as social media collapses on itself, the future points to a quieter, more fractured, more human web, something that no longer promises to be everything, everywhere, for everyone.
+
+> Unless we design these systems with care, we risk reproducing old dynamics of platform power, just in a new form.
+
+> Perhaps most crucially, we need to reframe digital literacy not as an individual responsibility but as a collective capacity.
+
+> Social media as we know it is dying, but we’re not condemned to its ruins.
+
 ### 10-01-26
 [Not the End of the World, actually](https://francescrossley.com/not-the-end-of-the-world-actually/) by [Frances Crossley](https://francescrossley.com/)
 > Which side do we want to come down on?
