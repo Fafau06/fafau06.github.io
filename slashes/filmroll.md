@@ -8,4 +8,4 @@ Some list of movies / series I watched, I'll also put some good reviews here tru
 
 <hr>
 
-[Miku Movie](../miku-movie.html)
+[Miku Movie](../project-sekai-movie-kowareta-sekai-to-utaenai-miku.html)
