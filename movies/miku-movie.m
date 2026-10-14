@@ -1,5 +1,6 @@
 ---
 layout: post
+slug: project-sekai-movie-kowareta-sekai-to-utaenai-miku
 Status: Watched
 type: movie
 subType: movie
