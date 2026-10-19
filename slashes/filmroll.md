@@ -1,7 +1,7 @@
 ---
 layout: film
 title: Filmroll
-permalink: /filmroll
+permalink: /filmroll/
 pagination:
   enabled: true
   permalink: '/filmroll/page/:num/'
