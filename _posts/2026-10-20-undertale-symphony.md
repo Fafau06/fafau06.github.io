@@ -55,11 +55,11 @@ Few things that stood out the most to me was the number of cosplayers present, e
 
 But honestly, seeing other people's abilities to come up with variations on the same simple pixel sprites were inspiring. Each cosplayer put their own spin on the design and made their cosplay memorable and distinctive. Even amongst the sea of Chara and Kris cosplayers out there, you could still make out the small little differences that each of them brings to their own costume.
 
+There were many who cosplayed various other Undertale related characters, even all the AUs stuff! …even Hatsune Miku?? And some cosplayers definitely have spent more time and money into their costumes than I could possibly comprehend, but their labor of love was properly displayed with pride for the entire symphony-goers to see!
+
 <a href="https://x.com/NGE064/status/2109315647402569833" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;color:inherit;width:100%;max-width:460px;background:#ffffff;border-radius:5px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.1);padding:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"><img src="https://pbs.twimg.com/media/HUXLXN5a8AAT8rI.jpg" alt="" onerror="this.onerror=null;this.src='https://x.com/xlogo-bimi.svg';this.style.objectFit='contain';this.style.padding='0%'" style="width:100%;height:100%;object-fit:cover;display:block"/><img src="https://x.com/xlogo-bimi.svg" alt="" style="width:15px;height:15px;border-radius:4px;flex-shrink:0"/><span style="font-family:$sans-serif-font-family;">　<b>Bondi (@NGE064) on X</b></span>
 
 <small>* The sea of Chara / Kris overwhelms you.</small>
-
-There were many who cosplayed various other Undertale related characters, even all the AUs stuff! …even Hatsune Miku?? And some cosplayers definitely have spent more time and money into their costumes than I could possibly comprehend, but their labor of love was properly displayed with pride for the entire symphony-goers to see!
 
 I stayed quite long though, enough to greet both the matinée and night show goers, but I eventually went home when the night show was on since… I have no business overstaying there and the *actual* staff members were already kicking us non-goers out.
 
