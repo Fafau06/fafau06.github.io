@@ -2,6 +2,7 @@
 layout: default-article
 ---
 <main class="h-entry">
+<article class="content-post e-content">
 <link rel="author" class="p-author h-card" href="https://fafau06.github.io/" content="Fafau06">
 <h1 class="p-name">
   {{ page.title }}
@@ -13,7 +14,6 @@ layout: default-article
 {% if page.image %}
   <img class="content-image u-photo" src="{{ site.github.url }}/assets/img/{{ page.image }}"/>
 {% endif %}
-<article class="content-post e-content">
   {{ content }}
 </article>
 <small class="p-category">
