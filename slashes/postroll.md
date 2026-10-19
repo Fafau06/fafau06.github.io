@@ -7,6 +7,18 @@ permalink: /postroll
 i'll put some good posts/blogs here trust and maybe some cool quotes from them too
 <hr>
 
+### 10-19-26
+[The "Disability Dongle": Why Silicon Valley Hates Me and you.](https://sightlessscribbles.com/posts/disability-dongle/) by [Robert Kingett](https://sightlessscribbles.com/about/)
+> But here is the reality they refuse to accept: My disability is not a tragedy of biology. It is a failure of infrastructure.
+
+> These solutions are nothing other than costumes, the height of "performative engineering"
+
+> It assumes that the only reason I am excluded from society is because I am blind, rather than because society has made a choice to exclude me.
+
+> The second most advanced piece of technology I want is a society that gives a damn.
+
+> And stop trying to upgrade my body when the problem is your design.
+
 ### 10-09-26
 [The Last Days of Social Media](https://www.noemamag.com/the-last-days-of-social-media/) from [Noema](https://www.noemamag.com/) by [James O' Sullivan](https://www.noemamag.com/author/james-osullivan/)
 > These are the last days of social media, not because we lack content, but because the attention economy has neared its outer limit — we have exhausted the capacity to care.
