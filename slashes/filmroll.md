@@ -1,5 +1,5 @@
 ---
 layout: film
-title: Films
-permalink: /films
+title: Filmroll
+permalink: /filmroll
 ---
