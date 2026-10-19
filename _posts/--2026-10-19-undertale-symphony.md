@@ -42,8 +42,9 @@ Now, I'm definitely the more quiet one and I didn't remember doing much for the 
 
 Few things that stood out the most to me was the amount of cosplayers present, even the admins were in a cosplay too! I never was one for cosplaying so I didn't come up with anything but oh my god, people's abilities to come up with variations on the same pixel design were staggering. Each cosplayer managed to put their own spin on the design and make their cosplay memorable and distinctive, even amongst the sea of Chara and Kris cosplayer there were, you could still make out the small little differences that each of them brings to their own costume.
 
-https://twitter.com/NGE064/status/2109315647402569833
-*The sea of Chara / Kris overwhelms you.
+<blockquote class="twitter-tweet" data-dnt="true" align="center" data-conversation="none"><p lang="en" dir="ltr">Enjoy <a href="https://t.co/yRs1Xm8e0n">pic.twitter.com/yRs1Xm8e0n</a></p>&mdash; Bondi (@NGE064) <a href="https://x.com/NGE064/status/2109315647402569833?ref_src=twsrc%5Etfw">October 11, 2026</a></blockquote>
+<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<small>*The sea of Chara / Kris overwhelms you.</small>
 
 There were of course many other dedicated cosplayers who have definitely spent more time and money into their costume than I could possibly comprehend, but their labor of love was properly displayed with pride for the entire symphony-goers to see!
 
@@ -56,8 +57,6 @@ Massive thank you for everyone that comes and gave away all sorts of trinkets an
 Hope I can see everyone again sometime!
 
 … If I can go, that is… :ralsei_splat:
-
 <hr>
-This post took a while to write to the point it messed with my Blogtober schedule! I apologize about that.
-
+This post took a while to write to the point it messed with my Blogtober schedule! I apologize about that.<br>
 [^1]Sabita Onitsuga’s [carrd](https://sabitaonitsuga.carrd.co/)
