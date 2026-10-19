@@ -40,9 +40,9 @@ So about a week before the event. I went there, only to find out that it was emp
 
 It didn't end there! I was then questioned by some security guards who thought I was going to rent the place and needed an auditorium?? Luckily, I sorted the issue out somehow but in return I got the namecard of the sales manager...? So that was something...
 
-Remember how I said earlier that I designed a brand new logo and made my own freebies? I did all those things in a one-week-crunch away from the actual event... yeah, it was quite the busy week (which also explained why I didn't blog anything during that week!)
+Remember how I said earlier that I designed a brand new logo and made my own freebies? I did all those in a one-week-crunch away from the actual event... yeah, it was quite the busy week (which also explained why I didn't blog anything during that week!)
 
-But the long awaited day finally came! I was two hours late from the agreed “four hours before the matinée show” but turns out even that is still pretty early. I quickly met up with the other field team members who have travelled pretty far to get here and we started handing out the freebies.
+But the long awaited day finally came! I was two hours late from the agreed upon “four hours before the matinée show” meet-up but it turns out even that is still pretty early. I quickly met up with the other field team members who have travelled far to get here and we started handing out the freebies.
 
 Now, I'm definitely the more quiet one and I didn't remember doing much for the six hours I was there… I wish I could explain more about the events but I'm such a private and secluded person that I don't remember interacting with much of the people there… sorry ;,,
 
@@ -55,7 +55,7 @@ Few things that stood out the most to me was the number of cosplayers present, e
 
 But honestly, seeing other people's abilities to come up with variations on the same simple pixel sprites were inspiring. Each cosplayer put their own spin on the design and made their cosplay memorable and distinctive. Even amongst the sea of Chara and Kris cosplayers out there, you could still make out the small little differences that each of them brings to their own costume.
 
-<a href="https://x.com/NGE064/status/2109315647402569833" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;color:inherit;width:100%;max-width:460px;background:#ffffff;border-radius:5px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.1);padding:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"><img src="https://pbs.twimg.com/media/HUXLXN5a8AAT8rI.jpg" alt="" onerror="this.onerror=null;this.src='https://x.com/xlogo-bimi.svg';this.style.objectFit='contain';this.style.padding='0%'" style="width:100%;height:100%;object-fit:cover;display:block"/><img src="https://x.com/xlogo-bimi.svg" alt="" style="width:15px;height:15px;border-radius:4px;flex-shrink:0"/><span style="font-family:$sans-serif-font-family;">　Bondi (@NGE064) on X</span>
+<a href="https://x.com/NGE064/status/2109315647402569833" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;color:inherit;width:100%;max-width:460px;background:#ffffff;border-radius:5px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.1);padding:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"><img src="https://pbs.twimg.com/media/HUXLXN5a8AAT8rI.jpg" alt="" onerror="this.onerror=null;this.src='https://x.com/xlogo-bimi.svg';this.style.objectFit='contain';this.style.padding='0%'" style="width:100%;height:100%;object-fit:cover;display:block"/><img src="https://x.com/xlogo-bimi.svg" alt="" style="width:15px;height:15px;border-radius:4px;flex-shrink:0"/><span style="font-family:$sans-serif-font-family;">　<b>Bondi (@NGE064) on X</b></span>
 
 <small>* The sea of Chara / Kris overwhelms you.</small>
 
