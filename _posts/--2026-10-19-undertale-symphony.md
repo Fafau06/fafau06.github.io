@@ -4,7 +4,7 @@ title: "My Non-Experience During UNDERTALE: The Determination Symphony"
 slug: "my-non-experience-during-undertale-the-determination-symphony"
 categories: post
 tags: blog, undertale-symphony, undertale, october-2026
-image: banner/take_freebies.png
+image: banner/please_take_one.png
 ---
 
 Earlier on Sunday, 11th October was the UNDERTALE: Determination Symphony held in Ciputra Artpreneur, Jakarta. It marked the first UNDERTALE related event in Indonesia. And since I had enough time on my hand, I went there and… did not watch the symphony, at all. 
@@ -19,14 +19,14 @@ I quickly turned around from moping around not being able to watch the symphony 
 So, while the other admins were preparing the major marketing campaign. I helped out by making a new logo for the community (wonderfully designed and sketched out by Sabita Onitsuga[^1]) and buying accessories as needed for the gathering. I also made a little something for myself too, that being some limited amount of pins that I gave out privately during the gathering.
 
 ![myprints](/assets/webp/myprints.webp)
-I bought and printed some ID Cards and pins!
+<small>I bought and printed some ID Cards and pins!</small>
 
 Then it was announced that my community would be giving away some freebies. I wasn't involved in the making so I couldn't tell much about the process, but the freebies giveaway was the major campaign that the other admins were working on. They were planning on giving those away during the symphony but there was an issue, not many admins would be around for the symphony — and the closest admin for the symphony… turned out to be me.
 
 Yes, me, the same me who was dreading not going for not having a ticket now has an actual solid reason to go there! Even if it's only for the gathering and giving away freebies, at least I’ll still be there!
 
 ![freebies](/assets/webp/freebies.webp)
-The freebies that we gave out. So sorry if you missed out on these! (Wish I could take the physical photo but I only have one of them hhh)
+<small>The freebies that we gave out. So sorry if you missed out on these! (Wish I could take the physical photo but I only have one of them hhh)</small>
 
 That said, meeting and talking to people wasn't my strongest suit so I was still dreading that part even though I was undeniably excited…
 
@@ -59,4 +59,5 @@ Hope I can see everyone again sometime!
 
 <hr>
 This post took a while to write to the point it messed with my Blogtober schedule! I apologize about that.
+
 [^1]Sabita Onitsuga’s [carrd](https://sabitaonitsuga.carrd.co/)
