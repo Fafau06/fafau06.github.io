@@ -16,7 +16,7 @@ With at least that much optimism, it's not hard to imagine that I kept my expect
 
 I quickly turned around from moping around not being able to watch the symphony to being excited at the prospect of meeting other people from the community! That's not something you can just arrange on any Tuesday afterall. So I helped around with the preparations for this gathering, minimal as it was, I still want to feel like I was contributing something to this community I hold dear.
 
-So, while the other admins were preparing the major marketing campaign. I helped out by making a new logo for the community (wonderfully designed and sketched out by Sabita Onitsuga[^1]) and buying accessories as needed for the gathering. I also made a little something for myself too, that being some limited amount of pins that I gave out privately during the gathering.
+So, while the other admins were preparing the major marketing campaign. I helped out by making a new logo for the community (wonderfully designed and sketched out by [Sabita Onitsuga](https://sabitaonitsuga.carrd.co/)) and buying accessories as needed for the gathering. I also made a little something for myself too, that being some limited amount of pins that I gave out privately during the gathering.
 
 ![myprints](/assets/webp/myprints.webp)
 <small>I bought and printed some ID Cards and pins!</small>
@@ -40,23 +40,22 @@ Well, the day finally came! I was late 2 hours from the agreed upon 4 hours befo
 
 Now, I'm definitely the more quiet one and I didn't remember doing much for the 6 hours I was there… I wish I could explain more about the events but I'm such a private and secluded person that I don't remember interacting with much of the people there… sorry ;,,
 
-Few things that stood out the most to me was the amount of cosplayers present, even the admins were in a cosplay too! I never was one for cosplaying so I didn't come up with anything but oh my god, people's abilities to come up with variations on the same pixel design were staggering. Each cosplayer managed to put their own spin on the design and make their cosplay memorable and distinctive, even amongst the sea of Chara and Kris cosplayer there were, you could still make out the small little differences that each of them brings to their own costume.
+Few things that stood out the most to me was the amount of cosplayers present, even the admins were in a cosplay too! I never was one for cosplaying so I didn't come up with anything but people's abilities to come up with variations on the same pixel designs were staggering. Each cosplayer managed to put their own spin on the design and make their cosplay memorable and distinctive, even amongst the sea of Chara and Kris cosplayer there were, you could still make out the small little differences that each of them brings to their own costume.
 
 <blockquote class="twitter-tweet" data-dnt="true" align="center" data-conversation="none"><p lang="en" dir="ltr">Enjoy <a href="https://t.co/yRs1Xm8e0n">pic.twitter.com/yRs1Xm8e0n</a></p>&mdash; Bondi (@NGE064) <a href="https://x.com/NGE064/status/2109315647402569833?ref_src=twsrc%5Etfw">October 11, 2026</a></blockquote>
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-<small>*The sea of Chara / Kris overwhelms you.</small>
+<small>* The sea of Chara / Kris overwhelms you.</small>
 
-There were of course many other dedicated cosplayers who have definitely spent more time and money into their costume than I could possibly comprehend, but their labor of love was properly displayed with pride for the entire symphony-goers to see!
+There were of course many who cosplayed various other Undertale related characters (even all the AUs stuff! (And also Hatsune Miku...?)) and some definitely have spent more time and money into their costume than I could possibly comprehend, but their labor of love was properly displayed with pride for the entire symphony-goers to see!
 
-I stayed quite long though, enough to greet both the matinée and night show goers, but I eventually went home when the night show was on since… I have no business overstaying there and they're already kicking us non-goers out.
+I stayed quite long though, enough to greet both the matinée and night show goers, but I eventually went home when the night show was on since… I have no business overstaying there and the *actual* staff members were already kicking us non-goers out.
 
 At the end of the day, it really wasn't a stretch to say that I came there not to enjoy the symphony, but rather something else. It was to see the community, all the people that enjoyed this wonderful game and the works of Toby Fox in person, to know that other enthusiasts alike existed beyond the screen. Even though I didn't interact much with everyone (my social anxiety was killing me) but it was still such a joy to see everyone.
 
-Massive thank you for everyone that comes and gave away all sorts of trinkets and also to my fellow field team members from Undertale Deltarune Indonesia, especially to [faquith](https://www.instagram.com/faquith) and [dis](https://www.instagram.com/disthedrawer) for running and managing the social media promotions and having to come to Jakarta and helping out. 
+Massive thank you for everyone that comes and gave away all sorts of trinkets and also to my fellow field team members from Undertale Deltarune Indonesia, especially to [Faquith](https://www.instagram.com/faquith) and [Dis](https://www.instagram.com/disthedrawer) for running and managing the social media promotions and having to come to Jakarta and helping out. 
 
 Hope I can see everyone again sometime!
 
 … If I can go, that is… :ralsei_splat:
 <hr>
-This post took a while to write to the point it messed with my Blogtober schedule! I apologize about that.<br>
-[^1]Sabita Onitsuga’s [carrd](https://sabitaonitsuga.carrd.co/)
+This post took a while to write to the point it messed with my Blogtober schedule! I apologize about that.
