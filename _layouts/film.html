@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div>
+  <h1>Filmroll</h1>
+  <p>Some list of movies / series I watched, I'll also put some good reviews here trust</p>
+  <hr class="short-rule">
+</div>
+<br>
+{% for post in site.films %}
+  <div class="films-container">
+    <h1>
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+    </h1>
+    {% if post.image %}
+      <div>
+        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/films/{{ post.image }}"></a>
+      </div>
+    {% endif %}
+    <p>
+      {{ post.summary | strip.html }}
+      <span class="post-date"><a class="border" href="{{ site.github.url }}{{ post.url }}"><i class="icon icon-comment" aria-hidden="true"></i></a>    <i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="icon icon-clock" aria-hidden="true"></i> {{ post.hour }} (UTC+7)</span>
+    </p>
+    <hr>
+  </div>
+{% endfor %}
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+  {% endif %}
+</div>
