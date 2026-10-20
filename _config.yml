@@ -35,6 +35,7 @@ feed:
   title:		           'Absurdia Abode'
   description:	       'Care-Vamme Sinte Mana Ana Tece-Símen'
   author:              'Fafau06'
+  icon:                favicon.ico
   path:                rss-feed.xml
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
