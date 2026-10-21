@@ -1,6 +1,8 @@
 ---
 layout: post
 slug: needy-girl-overdose
+review: https://fafau06.github.io/my-non-experience-during-undertale-the-determination-symphony
+recent: 1
 Status: Watching
 type: series
 subType: series
@@ -22,7 +24,7 @@ episodes: 13
 duration: 24 min per ep
 onlineRating: 7.03
 actors: []
-image: "[[NeedyPoster.png]]"
+image: poster/NeedyPoster.png
 released: true
 streamingServices:
   - Crunchyroll
@@ -35,7 +37,7 @@ airedTo: unknown
 watched: false
 dateStarted:
 lastWatched: ""
-personalRating: 0
+rating: ★ ★ ★ ★ ★
 animeCover: "![Needy Girl Overdose (2026)|250](NeedyPoster.png)"
 tags:
   - anime

@@ -4,36 +4,116 @@ layout: default
 <div>
   <h1>Filmroll</h1>
   <p>Some list of movies / series I watched, I'll also put some good reviews here trust</p>
+  <br>
   <hr class="short-rule">
 </div>
 <br>
-{% for post in site.films %}
-  <div class="films-container">
-    <h1>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-    </h1>
-    {% if post.image %}
-      <div>
-        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/films/{{ post.image }}"></a>
-      </div>
-    {% endif %}
-    <p>
-      {{ post.summary | strip.html }}
-      <span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }}</span>
-    </p>
-    <hr>
-  </div>
-{% endfor %}
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
-  {% endif %}
+<h2>Recently Watched</h2>
+<br>
+<div class="cards">
+	{% assign films_recent = site.films | where: "recent", 1 %}
+	{% for post in films_recent %}
+	<article class="card">
+		<header>
+			<h3>
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+			</h3>
+		</header>
+		{% if post.image %}
+			<div>
+				<a href="{{ site.github.url }}{{ post.url }}"><img class="films-image" src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+			</div>
+		{% endif %}
+		<div class="card-content">
+			{{ post.englishTitle | strip_html }}
+		</div>
+		{% if post.review %}
+			<footer>
+				<a href="{{ post.review }}" class="border"><b>My Review</b></a>
+			</footer>
+		{% endif %}
+	</article>
+	{% endfor %}
 </div>
+<br>
+<hr class="short-rule">
+<br>
+<h2>2026</h2>
+<br>
+	{% assign films_2026 = site.films | where: "year", 2026 %}
+	<table class="films-container">
+	{% for post in films_2026 %}
+	<thead>
+		<tr>
+			<th scope="row" colspan="2">
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th class="films-table-image" scope="column" rowspan="2">
+			{% if post.image %}
+				<div>
+				<a href="{{ site.github.url }}{{ post.url }}"><img class="films-image" src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+				</div>
+			{% endif %}
+			</th>
+			<td>
+				<p>
+				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} • {{ post.type }}</span>
+				{% if post.rating %}
+					{{ post.rating }}
+					<br>
+				{% endif %}
+				{{ post.plot | strip_html }}
+				{% if post.review %}
+					<br>
+					<a href="{{ post.review }}" class="border"><b>My Review</b></a>
+				{% endif %}
+				</p>
+			</td>
+		</tr>
+	</tbody>
+	{% endfor %}
+	</table>
+<br>
+<h2>2025</h2>
+<br>
+	{% assign films_2025 = site.films | where: "year", 2025 %}
+	<table class="films-container">
+	{% for post in films_2025 %}
+	<thead>
+		<tr>
+			<th scope="row" colspan="2">
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th class="films-table-image" scope="column" rowspan="2">
+			{% if post.image %}
+				<div>
+				<a href="{{ site.github.url }}{{ post.url }}"><img class="films-image" src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+				</div>
+			{% endif %}
+			</th>
+			<td>
+				<p>
+				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} • {{ post.type }}</span>
+				{% if post.rating %}
+					{{ post.rating }}
+					<br>
+				{% endif %}
+				{{ post.summary | strip_html }}
+				{% if post.review %}
+					<br>
+					<a href="{{ post.review }}" class="border"><b>Read more</b></a>
+				{% endif %}
+				</p>
+			</td>
+		</tr>
+	</tbody>
+	{% endfor %}
+	</table>
