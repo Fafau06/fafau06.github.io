@@ -27,7 +27,7 @@ I know it's going to take more than a lifetime to get through this but I want to
 ###### Sōseki Natsume
 - I Am a Cat
 - Kokoro
-**Sanshirō Trilogy**
+<br>**Sanshirō Trilogy**
   - Sanshirō
   - And then
   - The Gate
