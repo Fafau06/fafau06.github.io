@@ -18,13 +18,14 @@ I know it's going to take more than a lifetime to get through this but I want to
 #### George Orwell
 - Animal Farm
 - 1984
-<br>
+
 #### Toshikazu Kawaguchi
 - Tales from the Cafe
 - Before Your Memory Fades
 - Before We Say Goodbye
 - Before We Forget Kindness
-- Before I Knew I Loved You<br>
+- Before I Knew I Loved You
+
 #### Sōseki Natsume
 - I Am a Cat
 - Kokoro
@@ -33,33 +34,34 @@ I know it's going to take more than a lifetime to get through this but I want to
   - Sanshirō
   - And then
   - The Gate
-<br>
+
 #### Osamu Dazai
 - No Longer Human
 - Schoolgirl
 - The Setting Sun
 - The Final Years
-<br>
+
 ### Fantasy
 #### J.R.R. Tolkien
 - Beren and Luthien
 - Fall of Gondolin
-<br>
+
 ### Sci-fi
 #### H.G. Wells
 - The Time Machine
 - The War of the Worlds
 - The Invisible Man
 - The Island of Dr. Moreau
-<br>
+
 #### Jules Verne
 - 20.000 Leagues Under the Sea
-- Journey to the Center of the Earth<br>
+- Journey to the Center of the Earth
+
 #### Philip K. Dick
 - Do Androids Dream of Electric Sheep?
 - Valis
 - Ubik
-<br>
+
 #### Dune
 - Dune
 - Dune: Messiah
@@ -67,18 +69,18 @@ I know it's going to take more than a lifetime to get through this but I want to
 - God Emperor of Dune
 - Heretics of Dune
 - Chapterhouse: Dune
-<br>
+
 #### Hyperion Cantos
 - Hyperion
 - The Fall of Hyperion
 - Endymion
 - The Rise of Endymion
-<br>
+
 #### Mars Trilogy
 - Red Mars
 - Green Mars
 - Blue Mars
-<br>
+
 ### Star Wars
 - Rebels Rising
 <hr class="short-rule">
