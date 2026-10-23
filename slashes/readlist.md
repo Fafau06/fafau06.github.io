@@ -41,10 +41,19 @@ I know it's going to take more than a lifetime to get through this but I want to
 - The Setting Sun
 - The Final Years
 
+#### William Faulkner
+- As I Lay Dying
+- The Sound and The Fury
+
 ### Fantasy
 #### J.R.R. Tolkien
 - Beren and Luthien
 - Fall of Gondolin
+
+#### Dragonlance Chronicles
+- Dragons of Autumn Twilight
+- Dragons of Winter Night
+- Dragons of Spring Dawning
 
 ### Sci-fi
 #### H.G. Wells
@@ -61,6 +70,70 @@ I know it's going to take more than a lifetime to get through this but I want to
 - Do Androids Dream of Electric Sheep?
 - Valis
 - Ubik
+
+#### Arthur C. Clarke
+- 2001
+- The Fountains of Paradise
+- Childhood's End
+- The City and the Stars
+
+#### Isaac Asimov
+**Foundation Trilogy**
+- Foundation
+- Foundation and Empire
+- Second Foundation
+<br>
+**Robots Series**
+- I, Robot
+- The Caves of Steel
+- The Naked Sun
+- The Robots of Dawn
+- Robots and Empire
+- The Rest of the Robots
+
+#### Robert H. Heinlein
+- Stranger in a Strange Land
+- Time for the Stars
+- Starship Troopers
+
+#### Harlan Ellison
+- I Have No Mouth And I Must Scream
+- The Beast That Shouted Love at the Heart of the World
+
+#### Alfred Bester
+- The Stars My Destination
+- The Demolished Man
+- Virtual Unrealities
+- Star Light, Star Bright
+
+#### E. E. "Doc" Smith
+**Lensman Series**
+- Triplanetary
+- First Lensman
+- Galactic Patrol
+- Grey Lensman
+- Second Stage Lensman
+- Children of the Lens
+<br>
+**Skylark Series**
+- The Skylark of Space
+- Skylark Three
+- Skylark of Valeron
+- Skylark DuQuesne
+
+#### Robert Sheckley
+- The Status Civilization
+- Dimension of Miracle
+- Mindswap
+
+#### H. Beam Piper
+- Little Fuzzy
+- Space Viking
+
+#### Edmond Hamilton
+- Captain Future and The Space Emperor
+- The Haunted Stars
+- Danger Planet
 
 #### Dune
 - Dune
@@ -80,6 +153,12 @@ I know it's going to take more than a lifetime to get through this but I want to
 - Red Mars
 - Green Mars
 - Blue Mars
+
+#### Cities in Flight
+- They shall have Stars
+- Life for the Stars
+- Earthman, Come Home
+- The Triumph of Time
 
 ### Star Wars
 - Rebels Rising
