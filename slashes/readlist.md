@@ -6,7 +6,7 @@ permalink: /readlist
 
 A dump list of everything <mark>I want to read.</mark> Comics and manga are not included here. It's mostly compiled from many different people's reading list but other than that it's just my own interests on random stuff.
 
-I know it's going to take more than a lifetime to get through this but I want to read as much as I humanly could. The list is in any particular order but I'll keep this list updated so feel free to recommend me more books!
+I know it's going to take more than a lifetime to get through this but I want to read as much as I humanly could. The list isn't in any particular order but I'll keep this list updated so feel free to recommend me more books!
 
 (p.s. if some books from a series is missing it's probably because i've read them!)
 
@@ -18,57 +18,67 @@ I know it's going to take more than a lifetime to get through this but I want to
 #### George Orwell
 - Animal Farm
 - 1984
-<br>#### Toshikazu Kawaguchi
+<br>
+#### Toshikazu Kawaguchi
 - Tales from the Cafe
 - Before Your Memory Fades
 - Before We Say Goodbye
 - Before We Forget Kindness
-- Before I Knew I Loved You
-<br>#### Sōseki Natsume
+- Before I Knew I Loved You<br>
+#### Sōseki Natsume
 - I Am a Cat
 - Kokoro
-<br>**Sanshirō Trilogy**
+<br>
+**Sanshirō Trilogy**
   - Sanshirō
   - And then
   - The Gate
-<br>#### Osamu Dazai
+<br>
+#### Osamu Dazai
 - No Longer Human
 - Schoolgirl
 - The Setting Sun
 - The Final Years
+<br>
 ### Fantasy
 #### J.R.R. Tolkien
 - Beren and Luthien
 - Fall of Gondolin
+<br>
 ### Sci-fi
 #### H.G. Wells
 - The Time Machine
 - The War of the Worlds
 - The Invisible Man
 - The Island of Dr. Moreau
-<br>#### Jules Verne
+<br>
+#### Jules Verne
 - 20.000 Leagues Under the Sea
-- Journey to the Center of the Earth
-<br>#### Philip K. Dick
+- Journey to the Center of the Earth<br>
+#### Philip K. Dick
 - Do Androids Dream of Electric Sheep?
 - Valis
 - Ubik
-<br>#### Dune
+<br>
+#### Dune
 - Dune
 - Dune: Messiah
 - Children of Dune
 - God Emperor of Dune
 - Heretics of Dune
 - Chapterhouse: Dune
-<br>#### Hyperion Cantos
+<br>
+#### Hyperion Cantos
 - Hyperion
 - The Fall of Hyperion
 - Endymion
 - The Rise of Endymion
-<br>#### Mars Trilogy
+<br>
+#### Mars Trilogy
 - Red Mars
 - Green Mars
 - Blue Mars
+<br>
 ### Star Wars
 - Rebels Rising
 <hr class="short-rule">
