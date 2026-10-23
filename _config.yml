@@ -58,6 +58,9 @@ collections:
   films:
     output: true
     permalink: /film/:title/
+  books:
+    output: true
+    permalink: /book/:title/
 
 # Jekyll-paginate-v2 configuration
 pagination:

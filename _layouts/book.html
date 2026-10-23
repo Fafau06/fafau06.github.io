@@ -1,0 +1,118 @@
+---
+layout: default
+---
+<div>
+  <h1>Bookshelf</h1>
+  <p>I'll put some books that I read here and maybe some notes and everything else alongside it trust</p>
+  <p>Here's my <a class="link-line" href="../readlist.html">readlist</a> if you want to see the stuff I'm planning to read.</p>
+  <br>
+  <hr class="short-rule">
+</div>
+<br>
+<h2>Recently Read</h2>
+<br>
+<div class="cards">
+	{% assign books_recent = site.books | where: "recent", 1 %}
+	{% for post in books_recent %}
+	<article class="card">
+		<header>
+			<h3>
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+			</h3>
+		</header>
+		{% if post.image %}
+			<div>
+				<a href="{{ site.github.url }}{{ post.url }}"><img class="films-image" src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+			</div>
+		{% endif %}
+		<div class="card-content">
+			{{ post.author | strip_html }}
+		</div>
+		{% if post.review %}
+			<footer>
+				<a href="{{ post.review }}" class="border"><b>My Review</b></a>
+			</footer>
+		{% endif %}
+	</article>
+	{% endfor %}
+</div>
+<br>
+<hr class="short-rule">
+<br>
+<h2>2026</h2>
+<br>
+	{% assign books_2026 = site.books | where: "year", 2026 | where: "status", "Read" %}
+	<table class="films-container">
+	{% for post in books_2026 %}
+	<thead>
+		<tr>
+			<th scope="row" colspan="2">
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th class="films-table-image" scope="column" rowspan="2">
+			{% if post.image %}
+				<div>
+				<a href="{{ site.github.url }}{{ post.url }}"><img class="films-image" src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+				</div>
+			{% endif %}
+			</th>
+			<td>
+				<p>
+				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} • {{ post.type }}</span>
+				{% if post.rating %}
+					{{ post.rating }}
+					<br>
+				{% endif %}
+				Author: {{ post.author}}<br>
+				{{ post.summary | strip_html }}
+				{% if post.review %}
+					<br>
+					<a href="{{ post.review }}" class="border"><b>My Review</b></a>
+				{% endif %}
+				</p>
+			</td>
+		</tr>
+	</tbody>
+	{% endfor %}
+	</table>
+<br>
+<h2>2025</h2>
+<br>
+	{% assign books_2025 = site.books | where: "year", 2025 | where: "status", "Read" %}
+	<table class="films-container">
+	{% for post in films_2025 %}
+	<thead>
+		<tr>
+			<th scope="row" colspan="2">
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th class="films-table-image" scope="column" rowspan="2">
+			{% if post.image %}
+				<div>
+				<a href="{{ site.github.url }}{{ post.url }}"><img class="films-image" src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+				</div>
+			{% endif %}
+			</th>
+			<td>
+				<p>
+				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} • {{ post.type }}</span>
+				Author: {{ post.author}}<br>
+				{{ post.summary | strip_html }}
+				{% if post.review %}
+					<br>
+					<a href="{{ post.review }}" class="border"><b>Read more</b></a>
+				{% endif %}
+				</p>
+			</td>
+		</tr>
+	</tbody>
+	{% endfor %}
+	</table>
