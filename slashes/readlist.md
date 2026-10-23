@@ -425,6 +425,11 @@ I know it's going to take more than a lifetime to get through this but I want to
 - The Concept of Anxiety
 - The Sickness unto Death
 
+#### David Hume
+- A Treatise of Human Nature
+- An Enquiry Concerning Human Understanding
+- An Enquiry Concerning the Principles of Morals
+
 #### John Locke
 - Two Treatises of Government
 - An Essay Concerning Human Understanding
