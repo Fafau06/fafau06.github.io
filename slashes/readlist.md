@@ -15,57 +15,57 @@ I know it's going to take more than a lifetime to get through this but I want to
 <hr>
 
 ## Novels
-###### George Orwell
+#### George Orwell
 - Animal Farm
 - 1984
-###### Toshikazu Kawaguchi
+<br>#### Toshikazu Kawaguchi
 - Tales from the Cafe
 - Before Your Memory Fades
 - Before We Say Goodbye
 - Before We Forget Kindness
 - Before I Knew I Loved You
-###### Sōseki Natsume
+<br>#### Sōseki Natsume
 - I Am a Cat
 - Kokoro
 <br>**Sanshirō Trilogy**
   - Sanshirō
   - And then
   - The Gate
-###### Osamu Dazai
+<br>#### Osamu Dazai
 - No Longer Human
 - Schoolgirl
 - The Setting Sun
 - The Final Years
 ### Fantasy
-###### J.R.R. Tolkien
+#### J.R.R. Tolkien
 - Beren and Luthien
 - Fall of Gondolin
 ### Sci-fi
-###### H.G. Wells
+#### H.G. Wells
 - The Time Machine
 - The War of the Worlds
 - The Invisible Man
 - The Island of Dr. Moreau
-###### Jules Verne
+<br>#### Jules Verne
 - 20.000 Leagues Under the Sea
 - Journey to the Center of the Earth
-###### Philip K. Dick
+<br>#### Philip K. Dick
 - Do Androids Dream of Electric Sheep?
 - Valis
 - Ubik
-###### Dune
+<br>#### Dune
 - Dune
 - Dune: Messiah
 - Children of Dune
 - God Emperor of Dune
 - Heretics of Dune
 - Chapterhouse: Dune
-###### Hyperion Cantos
+<br>#### Hyperion Cantos
 - Hyperion
 - The Fall of Hyperion
 - Endymion
 - The Rise of Endymion
-###### Mars Trilogy
+<br>#### Mars Trilogy
 - Red Mars
 - Green Mars
 - Blue Mars
