@@ -1,7 +1,7 @@
 ---
 layout: book-item
 slug: 101-things-i-learned-in-architecture-school
-Status: Read
+status: read
 recent: 1
 year: 2025
 title: 101 Things I Learned in Architecture School
