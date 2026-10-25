@@ -17,7 +17,11 @@ layout: default
 	<article class="card">
 		<header>
 			<h3>
+				{% if post.englishTitle %}
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.englishTitle }}</a>
+				{% else %}
 				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+				{% endif %}
 			</h3>
 		</header>
 		{% if post.image %}
@@ -26,7 +30,15 @@ layout: default
 			</div>
 		{% endif %}
 		<div class="card-content">
-			{{ post.englishTitle | strip_html }}
+		{% if post.dateWatched %}
+			<p>Watched in: {{ post.dateWatched }}</p>
+		{% endif %}
+		{% if post.dateStarted %}
+			Started watching: {{ post.dateStarted }}
+		{% endif %}
+		{% if post.lastWatched %}
+			Current episode : {{ post.lastWatched }}
+		{% endif %}
 		</div>
 		{% if post.review %}
 			<footer>
@@ -44,13 +56,6 @@ layout: default
 	{% assign films_2026 = site.films | where: "year", 2026 %}
 	<table class="films-container">
 	{% for post in films_2026 %}
-	<thead>
-		<tr>
-			<th scope="row" colspan="2">
-				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-			</th>
-		</tr>
-	</thead>
 	<tbody>
 		<tr>
 			<th class="films-table-image" scope="column" rowspan="2">
@@ -61,12 +66,13 @@ layout: default
 			{% endif %}
 			</th>
 			<td>
-				<p>
-				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} • {{ post.type }}</span>
-				{% if post.rating %}
-					{{ post.rating }}
-					<br>
-				{% endif %}
+				<p><b>
+				{% if post.englishTitle %}
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.englishTitle }}</a>
+				{% else %}
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+				{% endif %}</b>
+				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.dateStarted }} • {{ post.type }}</span>
 				{{ post.plot | strip_html }}
 				{% if post.review %}
 					<br>
@@ -84,13 +90,6 @@ layout: default
 	{% assign films_2025 = site.films | where: "year", 2025 %}
 	<table class="films-container">
 	{% for post in films_2025 %}
-	<thead>
-		<tr>
-			<th scope="row" colspan="2">
-				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-			</th>
-		</tr>
-	</thead>
 	<tbody>
 		<tr>
 			<th class="films-table-image" scope="column" rowspan="2">
@@ -101,12 +100,13 @@ layout: default
 			{% endif %}
 			</th>
 			<td>
-				<p>
+				<p><b>
+				{% if post.englishTitle %}
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.englishTitle }}</a>
+				{% else %}
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+				{% endif %}</b>
 				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} • {{ post.type }}</span>
-				{% if post.rating %}
-					{{ post.rating }}
-					<br>
-				{% endif %}
 				{{ post.summary | strip_html }}
 				{% if post.review %}
 					<br>

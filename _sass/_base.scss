@@ -425,7 +425,7 @@ button[type=submit]:hover
 .films-image
 {
 	width: 45em;
-	height: 16em;
+	height: 15em;
 	display: block;
 	margin: 0 auto;
 }
@@ -436,7 +436,7 @@ button[type=submit]:hover
 
 .cards
 {
-	max-width: 450px;
+	max-width: 700px;
 	margin: 1em auto;
 
 	display: grid;
@@ -477,6 +477,7 @@ button[type=submit]:hover
 
 .card-content
 {
+	font-family: $code-font-family;
 	margin-top: 0.75rem;
 	height: 5em;
 }

@@ -26,7 +26,9 @@ layout: default
 			</div>
 		{% endif %}
 		<div class="card-content">
-			{{ post.author | strip_html }}
+		{% if post.Date-Read %}
+			Started reading: {{ post.Date-Read }}
+		{% endif %}
 		</div>
 		{% if post.review %}
 			<footer>
@@ -41,16 +43,9 @@ layout: default
 <br>
 <h2>2026</h2>
 <br>
-	{% assign books_2026 = site.books | where: "year", 2026 | where: "status", "read" %}
+	{% assign books_2026 = site.books | where: "year", 2026 | where: "status", "Read" %}
 	<table class="films-container">
 	{% for post in books_2026 %}
-	<thead>
-		<tr>
-			<th scope="row" colspan="2">
-				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-			</th>
-		</tr>
-	</thead>
 	<tbody>
 		<tr>
 			<th class="films-table-image" scope="column" rowspan="2">
@@ -61,8 +56,9 @@ layout: default
 			{% endif %}
 			</th>
 			<td>
-				<p>
-				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} • {{ post.type }}</span>
+				<p><b>
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></b>
+				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} • {{ post.Category }}</span>
 				{% if post.rating %}
 					{{ post.rating }}
 					<br>
@@ -82,16 +78,9 @@ layout: default
 <br>
 <h2>2025</h2>
 <br>
-	{% assign books_2025 = site.books | where: "year", 2025 | where: "status", "read" %}
+	{% assign books_2025 = site.books | where: "year", 2025 | where: "status", "Read" %}
 	<table class="films-container">
 	{% for post in books_2025 %}
-	<thead>
-		<tr>
-			<th scope="row" colspan="2">
-				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-			</th>
-		</tr>
-	</thead>
 	<tbody>
 		<tr>
 			<th class="films-table-image" scope="column" rowspan="2">
@@ -102,8 +91,9 @@ layout: default
 			{% endif %}
 			</th>
 			<td>
-				<p>
-				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} • {{ post.type }}</span>
+				<p><b>
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></b>
+				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} • {{ post.Category }}</span>
 				Author: {{ post.author}}<br>
 				{{ post.summary | strip_html }}
 				{% if post.review %}

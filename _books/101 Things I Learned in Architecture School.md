@@ -1,8 +1,8 @@
 ---
 layout: book-item
 slug: 101-things-i-learned-in-architecture-school
-status: read
-recent: 1
+status: "Read"
+recent: 0
 year: 2025
 title: 101 Things I Learned in Architecture School
 author: Matthew Frederick
@@ -13,7 +13,7 @@ ISBN: 9780262062664
 Date-Read: 2025-02-10
 summary: Written by an architect and instructor who remembers well the fog of his own student days,  101 Things I Learned in Architecture School provides valuable guideposts for navigating the design studio and other classes in the architecture curriculum. Architecture graduates — from young designers to experienced practitioners — will turn to the book as well, for inspiration and a guide back to basics when solving a complex design problem.
 Kanban-Cover: "![Book Cover|250](https://covers.openlibrary.org/b/isbn/9780262062664-L.jpg)"
-image: https://covers.openlibrary.org/b/isbn/9780262062664-L.jpg
+image: cover/101ArcSch.jpg
 tags:
   - sources
   - book
@@ -21,10 +21,10 @@ tags:
   - architecture
 ---
 
-> [!example]- SYNOPSIS
-> Concise lessons in design, drawing, the creative process, and presentation, from the basics of "How to Draw a Line" to the complexities of color theory. This is a book that students of architecture will want to keep in the studio and in their backpacks. It is also a book they may want to keep out of view of their professors, for it expresses in clear and simple language things that tend to be murky and abstruse in the classroom. These 101 concise lessons in design, drawing, the creative process, and presentation--from the basics of "How to Draw a Line" to the complexities of color theory--provide a much-needed primer in architectural literacy, making concrete what too often is left nebulous or open-ended in the architecture curriculum. Each lesson utilizes a two-page format, with a brief explanation and an illustration that can range from diagrammatic to whimsical. The lesson on "How to Draw a Line" is illustrated by examples of good and bad lines; a lesson on the dangers of awkward floor level changes shows the television actor Dick Van Dyke in the midst of a pratfall; a discussion of the proportional differences between traditional and modern buildings features a drawing of a building split neatly in half between the two. Written by an architect and instructor who remembers well the fog of his own student days,  101 Things I Learned in Architecture School provides valuable guideposts for navigating the design studio and other classes in the architecture curriculum. Architecture graduates--from young designers to experienced practitioners--will turn to the book as well, for inspiration and a guide back to basics when solving a complex design problem.
----
-### Lessons
+## SYNOPSIS
+> Concise lessons in design, drawing, the creative process, and presentation, from the basics of "How to Draw a Line" to the complexities of color theory. This is a book that students of architecture will want to keep in the studio and in their backpacks. It is also a book they may want to keep out of view of their professors, for it expresses in clear and simple language things that tend to be murky and abstruse in the classroom. These 101 concise lessons in design, drawing, the creative process, and presentation--from the basics of "How to Draw a Line" to the complexities of color theory--provide a much-needed primer in architectural literacy, making concrete what too often is left nebulous or open-ended in the architecture curriculum. Each lesson utilizes a two-page format, with a brief explanation and an illustration that can range from diagrammatic to whimsical. The lesson on "How to Draw a Line" is illustrated by examples of good and bad lines; a lesson on the dangers of awkward floor level changes shows the television actor Dick Van Dyke in the midst of a pratfall; a discussion of the proportional differences between traditional and modern buildings features a drawing of a building split neatly in half between the two. Written by an architect and instructor who remembers well the fog of his own student days, 101 Things I Learned in Architecture School provides valuable guideposts for navigating the design studio and other classes in the architecture curriculum. Architecture graduates--from young designers to experienced practitioners--will turn to the book as well, for inspiration and a guide back to basics when solving a complex design problem.
+
+## Lessons
 
 1. How to draw a line.
 2. A figure is an element or shape placed on a page, canvas, or other background. Ground is the space of the page.

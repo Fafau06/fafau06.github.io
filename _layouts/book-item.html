@@ -28,38 +28,31 @@ layout: default-article
 		</tr>
 		<tr>
 			<th>Type</th>
-			<td>{{ page.type }}</d>
+			<td>{{ page.Category }}</d>
 		</tr>
 		<tr>
-			<th>Studio</th>
-			<td>{{ page.studio }}</d>
+			<th>Author</th>
+			<td>{{ page.author }}</d>
 		</tr>
+		{% if page.translator %}
 		<tr>
-			<th>Director</th>
-			<td>{{ page.director }}</d>
-		</tr>
-		{% if page.airedFrom %}
-		<tr>
-			<th>Aired From</th>
-			<td>{{ page.airedFrom }}</d>
+			<th>Translator</th>
+			<td>{{ page.translator }}</d>
 		</tr>
 		{% endif %}
-		{% if page.airedTo %}
 		<tr>
-			<th>Aired To</th>
-			<td>{{ page.airedTo }}</d>
+			<th>Publisher</th>
+			<td>{{ page.Publisher }}</d>
 		</tr>
-		{% endif %}
-		{% if page.premiere %}
+		{% if page.Date-Read %}
 		<tr>
-			<th>Premiere</th>
-			<td>{{ page.premiere }}</d>
-		</tr>
-		{% endif %}
-		{% if page.dateWatched %}
-		<tr>
-			<th>Date Watched</th>
-			<td>{{ page.dateWatched }}</d>
+			<th>Reading from</th>
+			<td>{{ page.Date-Read }} to 
+				{% if page.Date-Finished %}
+				{{ page.Date-Finished }}
+				{% else %}
+				still reading...
+				{% endif %}</td>
 		</tr>
 		{% endif %}
 	<tbody>

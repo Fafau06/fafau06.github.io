@@ -5,7 +5,11 @@ layout: default-article
 <article class="content-post e-content">
 <link rel="author" class="p-author h-card" href="https://fafau06.github.io/" content="Fafau06">
 <h1 class="p-name">
-  {{ page.title }}
+	{% if page.englishTitle %}
+		{{ page.englishTitle }}
+	{% else %}
+		{{ page.title }}
+	{% endif %}
 </h1>
 <table class="films-container">
 	<tbody>
@@ -20,46 +24,53 @@ layout: default-article
 		</tr>
 		<tr>
 			<th>Year</th>
-			<td>{{ page.year }}</d>
+			<td>{{ page.year }}</td>
 		</tr>
 		<tr>
 			<th>Status</th>
-			<td>{{ page.status }}</d>
+			<td>{{ page.status }}</td>
 		</tr>
 		<tr>
 			<th>Type</th>
-			<td>{{ page.type }}</d>
+			<td>{{ page.type }}</td>
 		</tr>
 		<tr>
 			<th>Studio</th>
-			<td>{{ page.studio }}</d>
+			<td>{{ page.studio }}</td>
 		</tr>
+		{% if page.director %}
 		<tr>
 			<th>Director</th>
-			<td>{{ page.director }}</d>
-		</tr>
-		{% if page.airedFrom %}
-		<tr>
-			<th>Aired From</th>
-			<td>{{ page.airedFrom }}</d>
+			<td>{{ page.director }}</td>
 		</tr>
 		{% endif %}
-		{% if page.airedTo %}
+		{% if page.airedFrom %}
 		<tr>
-			<th>Aired To</th>
-			<td>{{ page.airedTo }}</d>
+			<th>Aired</th>
+			<td>{{ page.airedFrom }} to {{ page.airedTo }}</td>
 		</tr>
 		{% endif %}
 		{% if page.premiere %}
 		<tr>
 			<th>Premiere</th>
-			<td>{{ page.premiere }}</d>
+			<td>{{ page.premiere }}</td>
 		</tr>
 		{% endif %}
 		{% if page.dateWatched %}
 		<tr>
-			<th>Date Watched</th>
-			<td>{{ page.dateWatched }}</d>
+			<th>Watching from</th>
+			<td>{{ page.dateStarted }} to 
+				{% if page.dateFinished %}
+				{{ page.dateFinished }}
+				{% else %}
+				still watching...
+				{% endif %}</td>
+		</tr>
+		{% endif %}
+		{% if page.lastWatched %}
+		<tr>
+			<th>Current Episode</th>
+			<td>{{ page.lastWatched }}</td>
 		</tr>
 		{% endif %}
 	<tbody>
