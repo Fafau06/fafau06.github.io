@@ -41,7 +41,7 @@ layout: default
 <br>
 <h2>2026</h2>
 <br>
-	{% assign books_2026 = site.books | where: "year", 2026 | where: "status", "Read" %}
+	{% assign books_2026 = site.books | where: "year", 2026 | where: "status", "read" %}
 	<table class="films-container">
 	{% for post in books_2026 %}
 	<thead>
@@ -82,9 +82,9 @@ layout: default
 <br>
 <h2>2025</h2>
 <br>
-	{% assign books_2025 = site.books | where: "year", 2025 | where: "status", "Read" %}
+	{% assign books_2025 = site.books | where: "year", 2025 | where: "status", "read" %}
 	<table class="films-container">
-	{% for post in films_2025 %}
+	{% for post in books_2025 %}
 	<thead>
 		<tr>
 			<th scope="row" colspan="2">
