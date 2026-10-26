@@ -95,7 +95,7 @@ One day, Iroha hears rumors of a city where "magical girls can be saved," and fi
 			<th>9</th>
 			<td>A World with Just Me</td>
 			<td>Mar 1, 2020</td>
-			<td style="text-align: center;">X</td>
+			<td style="text-align: center;">✔</td>
 		</tr>
 		<tr>
 			<th>10</th>
