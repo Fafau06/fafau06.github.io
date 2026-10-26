@@ -169,6 +169,14 @@ One day, Iroha hears rumors of a city where "magical girls can be saved," and fi
 			<th style="text-align: left;">23 Oct 2026</th>
 			<td>7. I Want to Go Home with You</td>
 		</tr>
+		<tr>
+			<th style="text-align: left;">24 Oct 2026</th>
+			<td>8. You Definitely Shouldn't Respond</td>
+		</tr>
+		<tr>
+			<th style="text-align: left;">26 Oct 2026</th>
+			<td>9. A World with Just Me</td>
+		</tr>
 	</tbody>
 </table>
 
