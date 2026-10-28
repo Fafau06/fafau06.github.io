@@ -10,6 +10,7 @@ length: 84 mins
 status: Watched
 type: movie
 recent: 1
+image: poster/VivrePoster.jpg
 letterboxd: https://letterboxd.com/film/vivre-sa-vie/
 imdb: https://www.imdb.com/title/tt0056663/
 comment: exactly a dozen scene in it as marketed
