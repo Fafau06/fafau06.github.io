@@ -454,6 +454,25 @@ button[type=submit]:hover
 	grid-template-rows: max-content 200px 1fr;
 }
 
+@media screen and (max-width: $container-responsive-width)
+{
+  .cards
+	{
+		display: flex;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		gap: 1rem;
+		padding-bottom: 1rem;
+		-webkit-overflow-scrolling: touch;
+	}
+
+  .cards > .card
+	{
+		flex: 0 0 80%;
+		min-width: 0;
+	}
+}
+
 .card header
 {
 	margin-top: -6%;
