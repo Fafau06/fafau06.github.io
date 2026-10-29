@@ -20,6 +20,7 @@ I know it's going to take more than a lifetime to get through this but I want to
 - American Psycho
 - An Unauthorized Fan Treatise
 - Tomorrow, and Tomorrow, and Tomorrow
+- All the Water in the World
 - The Midnight Library
 - The Ministry of Time
 - Mickey 7
@@ -31,12 +32,15 @@ I know it's going to take more than a lifetime to get through this but I want to
 - Infinite Jest
 - Wuthering Heights
 - Jane Eyre
+- Walden
+- Brave New World
 - In Darkest London
 - Don Quixote
 - Dead Souls
 - The Shooting Party
-- All the Water in the World
 - Canterbury Tales
+- The Handmaid's Tale
+- Tristes Tropiques
 
 #### Jasper Fforde
 - Shades of Grey
@@ -49,6 +53,11 @@ I know it's going to take more than a lifetime to get through this but I want to
 #### Franz Kafka
 - The Trial
 - The Castle
+
+#### Albert Camus
+- The Stranger
+- The Fall
+- The Plague
 
 #### Ray Bradbury
 - Fahrenheit 451
@@ -403,6 +412,10 @@ I know it's going to take more than a lifetime to get through this but I want to
 - Meditations on First Philosophy
 - Principles of Philosophy
 
+#### Michel Foucault
+- Discipline and Punish
+- Madness and Civilization
+
 #### John Stuart Mill
 - A System of Logic
 - On Library
@@ -491,3 +504,6 @@ I know it's going to take more than a lifetime to get through this but I want to
 - The Golden Tractate of Hermes Trismegistus
 - Numbers: Their Occult Power and Mystic Virtues
 <hr class="short-rule">
+The Western Canon by Harold Bloom on [Internet Archive](https://web.archive.org/web/20190921184722/http://ebooks.adelaide.edu.au/l/literature/bloom/complete.html)
+
+Philosophy Archive on [Marxists Internet Archive](https://www.marxists.org/reference/subject/philosophy/index.htm)
