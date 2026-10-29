@@ -7,6 +7,8 @@ layout: default-article
 <h1 class="p-name">
 	{% if page.englishTitle %}
 		{{ page.englishTitle }}
+	{% elsif page.premiere %}
+		{{ page.title }} ({{ page.premiere }})
 	{% else %}
 		{{ page.title }}
 	{% endif %}
@@ -23,21 +25,15 @@ layout: default-article
 			</th>
 		</tr>
 		<tr>
-			<th>Year</th>
-			<td>{{ page.year }}</td>
-		</tr>
-		<tr>
 			<th>Status</th>
 			<td>{{ page.status }}</td>
 		</tr>
-		<tr>
-			<th>Type</th>
-			<td>{{ page.type }}</td>
-		</tr>
+		{% if page.studio %}
 		<tr>
 			<th>Studio</th>
 			<td>{{ page.studio }}</td>
 		</tr>
+		{% endif %}
 		{% if page.director %}
 		<tr>
 			<th>Director</th>
@@ -58,6 +54,12 @@ layout: default-article
 		{% endif %}
 		{% if page.dateWatched %}
 		<tr>
+			<th>Watched in</th>
+			<td>{{ page.dateWatched }}</td>
+		</tr>
+		{% endif %}
+		{% if page.dateStarted %}
+		<tr>
 			<th>Watching from</th>
 			<td>{{ page.dateStarted }} to 
 				{% if page.dateFinished %}
@@ -71,6 +73,12 @@ layout: default-article
 		<tr>
 			<th>Current Episode</th>
 			<td>{{ page.lastWatched }}</td>
+		</tr>
+		{% endif %}
+		{% if page.rating %}
+		<tr>
+			<th>Rating</th>
+			<td>{{ page.rating }}</td>
 		</tr>
 		{% endif %}
 	<tbody>

@@ -22,8 +22,8 @@ image: poster/NeedyPoster.png
 airedFrom: 04/05/2026
 airedTo: unknown
 watched: false
-dateStarted:
-lastWatched: ""
+dateStarted: 5 Apr 2026
+lastWatched: 10
 rating: ★ ★ ★ ★ ★
 tags: anime, series, needy-girl-overdose
 ---

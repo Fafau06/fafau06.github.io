@@ -10,10 +10,9 @@ layout: default
 </div>
 <br>
 <h2>Recently Watched</h2>
-<br>
 <div class="cards">
-	{% assign films_recent = site.films | where: "recent", 1 %}
-	{% for post in films_recent %}
+	{% assign movies_recent = site.films | where: "recent", 1 | where: "type", "movie" %}
+	{% for post in movies_recent %}
 	<article class="card">
 		<header>
 			<h3>
@@ -31,13 +30,46 @@ layout: default
 		{% endif %}
 		<div class="card-content">
 		{% if post.dateWatched %}
-			<p>Watched in: {{ post.dateWatched }}</p>
+			Watched in: {{ post.dateWatched }}
 		{% endif %}
+		{% if post.rating %}
+			Rating: {{ post.rating }}
+		{% endif %}
+		</div>
+		{% if post.review %}
+			<footer>
+				<a href="{{ post.review }}" class="border"><b>My Review</b></a>
+			</footer>
+		{% endif %}
+	</article>
+	{% endfor %}
+</div>
+<br>
+<h2>Series</h2>
+<div class="cards">
+	{% assign series_recent = site.films | where: "recent", 1 | where: "type", "series" %}
+	{% for post in series_recent %}
+	<article class="card">
+		<header>
+			<h3>
+				{% if post.englishTitle %}
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.englishTitle }}</a>
+				{% else %}
+				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+				{% endif %}
+			</h3>
+		</header>
+		{% if post.image %}
+			<div>
+				<a href="{{ site.github.url }}{{ post.url }}"><img class="films-image" src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+			</div>
+		{% endif %}
+		<div class="card-content">
 		{% if post.dateStarted %}
 			Started watching: {{ post.dateStarted }}
 		{% endif %}
 		{% if post.lastWatched %}
-			Current episode : {{ post.lastWatched }}
+			<br>Current episode : {{ post.lastWatched }}
 		{% endif %}
 		</div>
 		{% if post.review %}
@@ -72,7 +104,13 @@ layout: default
 				{% else %}
 				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
 				{% endif %}</b>
-				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.dateStarted }} • {{ post.type }}</span>
+				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> 
+				{% if post.dateStarted %}
+					{{ post.dateStarted }} • {{ post.type }}
+				{% else %}
+					{{ post.dateWatched }} • {{ post.type }}
+				{% endif %}
+				</span>
 				{{ post.plot | strip_html }}
 				{% if post.review %}
 					<br>

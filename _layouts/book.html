@@ -29,6 +29,9 @@ layout: default
 		{% if post.Date-Read %}
 			Started reading: {{ post.Date-Read }}
 		{% endif %}
+		{% if post.Date-Finished %}
+			Finish reading : {{ post.Date-Finished }}
+		{% endif %}
 		</div>
 		{% if post.review %}
 			<footer>

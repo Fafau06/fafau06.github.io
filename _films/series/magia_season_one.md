@@ -22,7 +22,7 @@ airedFrom: 5 Jan 2020
 airedTo: 29 Mar 2020
 watched: false
 dateStarted: 7 Oct 2026
-lastWatched: 8
+lastWatched: 10
 rating: ★ ★ ★ ★ ★
 tags: anime, series, mahou-shoujo, magia-record, season-one
 ---
@@ -101,7 +101,7 @@ One day, Iroha hears rumors of a city where "magical girls can be saved," and fi
 			<th>10</th>
 			<td>My Name</td>
 			<td>Mar 8, 2020</td>
-			<td style="text-align: center;">X</td>
+			<td style="text-align: center;">✔</td>
 		</tr>
 		<tr>
 			<th>11</th>
@@ -176,6 +176,10 @@ One day, Iroha hears rumors of a city where "magical girls can be saved," and fi
 		<tr>
 			<th style="text-align: left;">26 Oct 2026</th>
 			<td>9. A World with Just Me</td>
+		</tr>
+		<tr>
+			<th style="text-align: left;">29 Oct 2026</th>
+			<td>10. My Name</td>
 		</tr>
 	</tbody>
 </table>

@@ -8,11 +8,15 @@ englishTitle: My Life to Live
 premiere: 1962
 length: 84 mins
 status: Watched
+dateWatched: 28 Oct 2026
+rating: ★ ★ ★ ★ ½
 type: movie
 recent: 1
 image: poster/VivrePoster.jpg
 letterboxd: https://letterboxd.com/film/vivre-sa-vie/
 imdb: https://www.imdb.com/title/tt0056663/
+plot: |-
+  Twelve episodic tales in the life of a Parisian woman and her slow descent into prostitution.
 comment: exactly a dozen scene in it as marketed
 ---
 
