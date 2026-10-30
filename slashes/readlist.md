@@ -384,6 +384,10 @@ I know it's going to take more than a lifetime to get through this but I want to
 - Seneca's Dialogues
 - Spinoza's Ethics
 - Seven Discourses on Art
+- Being and Event
+- Of Grammatology
+- The World of Perception
+- The World as Will and Representation
 
 #### Plato
 - The Republic
@@ -437,6 +441,16 @@ I know it's going to take more than a lifetime to get through this but I want to
 - Either/Or
 - The Concept of Anxiety
 - The Sickness unto Death
+
+#### Martin Heidegger
+- Being and Time
+- The Question Concerning Technology
+- The Origin of the Work of Art
+- Introduction to Metaphysics
+
+#### Simone de Beauvoir 
+- Ethics of Ambiguity 
+- The Second Sex
 
 #### David Hume
 - A Treatise of Human Nature
