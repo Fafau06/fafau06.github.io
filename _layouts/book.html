@@ -29,6 +29,7 @@ layout: default
 		{% if post.Date-Read %}
 			Started reading: {{ post.Date-Read }}
 		{% endif %}
+		<br>
 		{% if post.Date-Finished %}
 			Finish reading : {{ post.Date-Finished }}
 		{% endif %}
@@ -67,7 +68,7 @@ layout: default
 					<br>
 				{% endif %}
 				Author: {{ post.author}}<br>
-				{{ post.summary | strip_html }}
+				{{ post.comment | strip_html }}
 				{% if post.review %}
 					<br>
 					<a href="{{ post.review }}" class="border"><b>My Review</b></a>
@@ -98,7 +99,7 @@ layout: default
 				<a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></b>
 				<span class="post-date"><i class="icon icon-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} • {{ post.Category }}</span>
 				Author: {{ post.author}}<br>
-				{{ post.summary | strip_html }}
+				{{ post.comment | strip_html }}
 				{% if post.review %}
 					<br>
 					<a href="{{ post.review }}" class="border"><b>Read more</b></a>
