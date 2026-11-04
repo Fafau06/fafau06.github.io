@@ -7,6 +7,24 @@ permalink: /postroll
 i'll put some good posts/blogs here trust and maybe some cool quotes from them too
 <hr>
 
+### 11-04-26
+[There Will Always Be Someone Faster, Cheaper, and Better](https://www.chrbutler.com/faster-cheaper-better) by [Christopher Butler](https://www.chrbutler.com/)
+> There has always been someone faster than me, someone cheaper than me, and someone better than me. This was true the day I started my career and it will be true on the day it ends. It describes a market, not an era.
+
+> There are as many designers who are fast and cheap and good as there are those who are slow, expensive, and bad.
+
+> What makes faster feel dangerous is that we convert it immediately into cheaper, and we do that because *most designers price their time.*
+
+> That advice persists because it works on a seductive technicality: whether or not you believe you’re the best, behaving as though you are turns out to be convincing to other people. Notice who that advice is sold to.
+
+> ... where knowledge is cheap, experience is what differentiates.
+
+> They essentially argue that AI compels us to move faster in order to stay ahead. But if experience is the differentiator, speed is the thing eroding it. Going slowly through a problem — getting it wrong, trying it on a real client, finding out — is where the differentiation was built all along.
+
+> Experience doesn’t only distinguish you; it aligns you with some people and not others. A prospect’s fit with how you’ve worked, what you’ve lived through, and how you talk about it is doing as much work as the expertise itself.
+
+> After all, nobody has ever asked me what tools I use. Except, of course, another designer.
+
 ### 10-19-26
 [The "Disability Dongle": Why Silicon Valley Hates Me and you.](https://sightlessscribbles.com/posts/disability-dongle/) by [Robert Kingett](https://sightlessscribbles.com/about/)
 > But here is the reality they refuse to accept: My disability is not a tragedy of biology. It is a failure of infrastructure.
