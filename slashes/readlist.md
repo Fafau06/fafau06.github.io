@@ -220,6 +220,8 @@ I know it's going to take more than a lifetime to get through this but I want to
 ### Sci-fi
 - Dark Matter
 - Notes on Infinity
+- Contact
+- Voidverse
 - Micromégas
 - We
 - Planet of the Damned
@@ -348,6 +350,11 @@ I know it's going to take more than a lifetime to get through this but I want to
 - Earthman, Come Home
 - The Triumph of Time
 
+#### Great Ship
+- Marrow
+- The Well of Stars
+- The Greatship
+
 ### Star Wars
 - Star Wars Trilogy
 - Revenge of the Sith
@@ -385,9 +392,13 @@ I know it's going to take more than a lifetime to get through this but I want to
 - Spinoza's Ethics
 - Seven Discourses on Art
 - Being and Event
+- Freedom and Nature
+- Mystery of Being
 - Of Grammatology
+- The Phenomenology of Aesthetic Experience
 - The World of Perception
 - The World as Will and Representation
+- Modern French Philosophy
 
 #### Plato
 - The Republic
@@ -447,6 +458,11 @@ I know it's going to take more than a lifetime to get through this but I want to
 - The Question Concerning Technology
 - The Origin of the Work of Art
 - Introduction to Metaphysics
+
+#### Maurice Merleau-Ponty
+- The Phenomenology of Perception
+- Humanism and Terror
+- Sense and Nonsense
 
 #### Simone de Beauvoir 
 - Ethics of Ambiguity 
