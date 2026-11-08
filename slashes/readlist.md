@@ -4,7 +4,7 @@ title: Readlist
 permalink: /readlist
 ---
 
-A dump list of everything <mark>I want to read.</mark> Comics and manga are not included here. It's mostly compiled from many different people's reading list but other than that it's just my own interests on random stuff.
+A dump list of <mark>everythingI want to read.</mark> Comics and manga are not included here. It's mostly compiled from many different people's reading list but other than that it's just my own interests on random stuff.
 
 I know it's going to take more than a lifetime to get through this but I want to read as much as I humanly could. The list isn't in any particular order but I'll keep this list updated so feel free to recommend me more books!
 
@@ -332,6 +332,11 @@ I know it's going to take more than a lifetime to get through this but I want to
 - God Emperor of Dune
 - Heretics of Dune
 - Chapterhouse: Dune
+
+#### Remembrance of Earth's Past
+- The Three-Body Problem
+- The Dark Forest
+- Death's End
 
 #### Hyperion Cantos
 - Hyperion
