@@ -537,3 +537,5 @@ I know it's going to take more than a lifetime to get through this but I want to
 The Western Canon by Harold Bloom on [Internet Archive](https://web.archive.org/web/20190921184722/http://ebooks.adelaide.edu.au/l/literature/bloom/complete.html)
 
 Philosophy Archive on [Marxists Internet Archive](https://www.marxists.org/reference/subject/philosophy/index.htm)
+
+The Complete English Literature Reading List by [Adam Walker](https://adamgagewalker.substack.com/) on [Substack](https://adamgagewalker.substack.com/p/the-complete-english-literature-reading)
