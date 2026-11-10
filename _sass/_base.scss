@@ -465,7 +465,7 @@ Container
 .gallery-container
 {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(1, 3fr);
 }
 
 .gallery-container div
