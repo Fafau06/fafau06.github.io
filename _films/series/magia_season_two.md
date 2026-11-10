@@ -1,6 +1,6 @@
 ---
 layout: film-item
-slug: magia-record-puella-magi-madoka-magica-side-story
+slug: magia-record-puella-magi-madoka-magica-side-story-season-two-the-eve-of-awakening
 review:
 recent: 1
 status: "Watching"
