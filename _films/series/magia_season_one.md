@@ -174,9 +174,9 @@ One day, Iroha hears rumors of a city where "magical girls can be saved," and fi
 		</tr>
 		<tr>
 			<th style="text-align: left;">4 Nov 2026</th>
-			<td>11. Memory Museum at 3:00 PM</td>
-			<td>12. Why Is This So Unbearable?</td>
-			<td>13. A Faint Hope</td>
+			<td>11. Memory Museum at 3:00 PM
+			<br>12. Why Is This So Unbearable?
+			<br>13. A Faint Hope</td>
 		</tr>
 	</tbody>
 </table>

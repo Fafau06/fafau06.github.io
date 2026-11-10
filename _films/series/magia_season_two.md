@@ -128,8 +128,8 @@ Amid the turbulent situations, a calamitous threat approaches, presenting a dire
 	<tbody>
 		<tr>
 			<th style="text-align: left;">10 Nov 2026</th>
-			<td>1. I Had a Feeling We Could All Become Magical Girls Together</td>
-			<td>2. You're Nothing Like Me</td>
+			<td>1. I Had a Feeling We Could All Become Magical Girls Together
+			<br>2. You're Nothing Like Me</td>
 		</tr>
 	</tbody>
 </table>
