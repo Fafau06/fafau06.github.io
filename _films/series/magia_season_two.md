@@ -3,7 +3,7 @@ layout: film-item
 slug: magia-record-puella-magi-madoka-magica-side-story
 review:
 recent: 1
-status: "Watched"
+status: "Watching"
 type: series
 title: マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-
 romajiTitle: "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden 2nd Season - Kakusei Zenya"
