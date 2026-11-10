@@ -2,23 +2,42 @@
 layout: default
 ---
 
-<!--{% assign image_files = site.static_files | where: "image", true %}
-{% for myimage in image_files %}
-  {{ myimage.image }}
-{% endfor %}-->
-
-<!--<link rel="stylesheet" href="{{ '/assets/vendor/flexmasonry/flexmasonry.css' | relative_url }}">-->
-
-<div>
-  {% for item in site.gallery %}
+<div class="gallery-year">
+	<div><h2>2026</h2></div>
+	<div class="gallery-linewrap">
+		<div class="gallery-line"></div>
+	</div>
+</div>
+<div class="gallery-container">
+	{% assign gallery_2026 = site.gallery | where: "year", 2026 %}
+	{% for item in gallery_2026 %}
     <div>
-      <a href="{{ item.url | relative_url }}">
-        <img src="{{ item.image | relative_url }}" alt="{{ item.title | escape }}" loading="lazy" decoding"async">
+		<a href="{{ item.url | relative_url }}">
+        <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.title | escape }}" loading="lazy" decoding"async">
+		</a>
     </div>
-  {% endfor %}
+	{% endfor %}
+</div>
+<br>
+<div class="gallery-year">
+	<div><h2>2024</h2></div>
+	<div class="gallery-linewrap">
+		<div class="gallery-line"></div>
+	</div>
+</div>
+<div class="gallery-container">
+	{% assign gallery_2024 = site.gallery | where: "year", 2024 %}
+	{% for item in gallery_2024 %}
+    <div>
+		<a href="{{ item.url | relative_url }}">
+        <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.title | escape }}" loading="lazy" decoding"async">
+		</a>
+    </div>
+	{% endfor %}
 </div>
 
-<!--<div class="gallery">
+<!--
+<div class="gallery">
   {% for item in site.gallery %}
     <div class="gallery-item">
       <a href="{{ item.url | relative_url }}">
@@ -29,5 +48,6 @@ layout: default
       </a>
     </div>
   {% endfor %}
-</div>-->
+</div>
+-->
 <!-- stolen from https://ningxia233.github.io/ -->
