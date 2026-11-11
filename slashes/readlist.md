@@ -19,20 +19,62 @@ I know it's going to take more than a lifetime to get through this but I want to
 - A Clockwork Orange
 - American Psycho
 - An Unauthorized Fan Treatise
+- Catch-22
+- Inherited Disorder
 - Tomorrow, and Tomorrow, and Tomorrow
 - All the Water in the World
+- Eat the Document
+- The City & the City
 - The Midnight Library
 - The Ministry of Time
+- The Use of Enchantment
+- The Sellout
+- I Hate the Internet
+- Time's Arrow
+- House Keeping
+- White Noise
 - Mickey 7
+- The Tunnel
+- Nausea
+- Train Dreams
+- The Tartar Steppe
+- The Opposing Shore
+- The Sea Came in at Midnight
+- Icefields
+- Ice
+- Steps
 - Recursion
 - Candide
 - Gulliver's Travels
 - North and South
+- Under the Net
 - Cloud Atlas
+- Correction
+- The Magic Mountain
+- Open City
+- 2666
 - Infinite Jest
+- Life: A User's Manual
+- A Naked Singularity
+- The Origin of the Brunists
 - Wuthering Heights
 - Jane Eyre
 - Walden
+- Contempt
+- Remainder
+- Swann's Way
+- Zeno's Conscience
+- You Deserve Nothing
+- The Man Without Qualities
+- The Woman in the Dunes
+- The Unbearable Lightness of Being
+- The Meursault Investigation
+- The Invention of Morel
+- The Intuitionist
+- The Immoralist
+- The Moviegoer
+- The Outsider
+- Stoner
 - Brave New World
 - In Darkest London
 - Don Quixote
@@ -72,6 +114,7 @@ I know it's going to take more than a lifetime to get through this but I want to
 #### Herman Melville
 - Moby-Dick
 - The Confidence-Man
+- Bartleby the Srivener
 - I Would Prefer Not To
 
 #### Jane Austen
@@ -136,6 +179,7 @@ I know it's going to take more than a lifetime to get through this but I want to
 - Norwegian Wood
 - Kafka on the Shore
 - 1Q84
+- Hard-Boiled Wonderland and the End of the World
 
 #### Sōseki Natsume
 - I Am a Cat
@@ -219,14 +263,26 @@ I know it's going to take more than a lifetime to get through this but I want to
 
 ### Sci-fi
 - Dark Matter
+- The Zero Signal
 - Notes on Infinity
+- Pattern Recognition
+- Dhalgren
+- Annihilation
 - Contact
+- Fiskadoro
 - Voidverse
 - Micromégas
 - We
 - Planet of the Damned
 - After London
 - After Life
+- The Wall
+- The Red Men
+- The Children of Men
+- The Man in the High Castle
+- The Brief History of the Dead
+- Never Let Me Go
+- A Canticle for Leibowitz
 
 #### Andy Weir
 - The Martian
