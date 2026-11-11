@@ -57,8 +57,15 @@ I know it's going to take more than a lifetime to get through this but I want to
 - Life: A User's Manual
 - A Naked Singularity
 - The Origin of the Brunists
+- The Way of All Flesh
+- The Way We Live Now
 - Wuthering Heights
 - Jane Eyre
+- Tom Jones
+- Utopia
+- Vanity Fair
+- Middlemarch
+- Ivanhoe
 - Walden
 - Contempt
 - Remainder
@@ -224,6 +231,8 @@ I know it's going to take more than a lifetime to get through this but I want to
 
 ### Fantasy
 - The Princess Bride
+- The House on the Borderland
+- The Once and Future King
 
 #### J.R.R. Tolkien
 - Beren and Luthien
@@ -550,6 +559,20 @@ I know it's going to take more than a lifetime to get through this but I want to
 - Atomic Habits
 - Make It Stick
 - Good Habits, Bad Habits
+- A Mind for Numbers
+- Seven Types of Ambiguity
+- Nabokov's Lectures on Literature
+- Aspects of the Novel
+- How Fiction Works: The Irresponsible Self
+- Readings: Bound to Please
+- A Temple of Text
+- ABC of Reading
+- The Pleasure of the Text
+- Thank You for Not Reading
+- The Art of Fiction
+- No Other Book
+- Less Than One
+- On Literature
 ### Drawing
 - Of the Just Shaping of Letters
 ### Writing
@@ -598,5 +621,7 @@ I know it's going to take more than a lifetime to get through this but I want to
 The Western Canon by Harold Bloom on [Internet Archive](https://web.archive.org/web/20190921184722/http://ebooks.adelaide.edu.au/l/literature/bloom/complete.html)
 
 Philosophy Archive on [Marxists Internet Archive](https://www.marxists.org/reference/subject/philosophy/index.htm)
+
+A Flowchart of Philosophical Novels: Reading Recommendations from Haruki Murakami to Don DeLillo on [Open Culture](https://www.openculture.com/2019/10/a-flowchart-of-philosophical-novels.html)
 
 The Complete English Literature Reading List by [Adam Walker](https://adamgagewalker.substack.com/) on [Substack](https://adamgagewalker.substack.com/p/the-complete-english-literature-reading)
