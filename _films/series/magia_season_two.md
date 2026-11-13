@@ -131,9 +131,13 @@ Amid the turbulent situations, a calamitous threat approaches, presenting a dire
 			<td>1. I Had a Feeling We Could All Become Magical Girls Together
 			<br>2. You're Nothing Like Me</td>
 		</tr>
+		<tr>
+			<th style="text-align: left;">14 Nov 2026</th>
+			<td>3. There Were Too Many To Carry
+			<br>4. Are You Okay With That?</td>
+		</tr>
 	</tbody>
 </table>
 
 ## ScreenCaps
-![](/assets/img/capture/magia-ss1.png)
-![](/assets/img/capture/magia-ss2.png)
+![](/assets/img/capture/magia-ss3.png)
