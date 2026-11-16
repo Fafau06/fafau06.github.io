@@ -22,7 +22,7 @@ airedFrom: 1 Aug 2021
 airedTo: 26 Sep 2021
 watched: false
 dateStarted: 10 Nov 2026
-lastWatched: 2
+lastWatched: 5
 comment: pink girl fumble so bad madoka and girlfailure homu is in it now
 rating: ★ ★ ★ ★
 tags: anime, series, mahou-shoujo, magia-record, season-one
@@ -135,6 +135,10 @@ Amid the turbulent situations, a calamitous threat approaches, presenting a dire
 			<th style="text-align: left;">14 Nov 2026</th>
 			<td>3. There Were Too Many To Carry
 			<br>4. Are You Okay With That?</td>
+		</tr>
+		<tr>
+			<th style="text-align: left;">14 Nov 2026</th>
+			<td>5. I Won't Forgive Anybody</td>
 		</tr>
 	</tbody>
 </table>
