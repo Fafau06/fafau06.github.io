@@ -140,6 +140,10 @@ Amid the turbulent situations, a calamitous threat approaches, presenting a dire
 			<th style="text-align: left;">16 Nov 2026</th>
 			<td>5. I Won't Forgive Anybody</td>
 		</tr>
+		<tr>
+			<th style="text-align: left;">18 Nov 2026</th>
+			<td>6. This Is Something Only I Can Do</td>
+		</tr>
 	</tbody>
 </table>
 
