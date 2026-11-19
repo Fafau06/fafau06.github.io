@@ -144,6 +144,10 @@ Amid the turbulent situations, a calamitous threat approaches, presenting a dire
 			<th style="text-align: left;">18 Nov 2026</th>
 			<td>6. This Is Something Only I Can Do</td>
 		</tr>
+		<tr>
+			<th style="text-align: left;">19 Nov 2026</th>
+			<td>7. You Don't Know Anything</td>
+		</tr>
 	</tbody>
 </table>
 
