@@ -26,4 +26,4 @@ comment: exactly a dozen scene in it as marketed
 
 ## Comment
 > exactly a dozen scene in it as marketed
-<br><span><cite>(Review on <a href="https://letterboxd.com/fafau06/film/vivre-sa-vie/">Letterboxd</a>)</cite></span>
+<br><span><cite>(Review on <a href="https://boxd.it/h1bqdn">Letterboxd</a>)</cite></span>

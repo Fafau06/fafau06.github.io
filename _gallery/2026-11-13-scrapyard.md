@@ -1,5 +1,6 @@
 ---
 layout: gallery-item
+slug: scrapyard
 title: "Scrapyard"
 year: 2026
 categories: image

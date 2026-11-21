@@ -1,5 +1,6 @@
 ---
 layout: gallery-item
+slug: do-you-love-me
 title: "Do you love me?"
 year: 2024
 categories: image

@@ -1,5 +1,6 @@
 ---
 layout: gallery-item
+slug: fear-corridor
 title: "Fear Corridor"
 year: 2026
 categories: image

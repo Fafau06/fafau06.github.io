@@ -24,4 +24,4 @@ plot: |-
 
 ## Comment
 > elopement: the crime: the musical
-<br><span><cite>(Review on <a href="https://letterboxd.com/fafau06/film/pierrot-le-fou/">Letterboxd</a>)</cite></span>
+<br><span><cite>(Review on <a href="https://boxd.it/h7ACIL">Letterboxd</a>)</cite></span>
