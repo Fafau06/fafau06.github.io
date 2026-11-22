@@ -3,7 +3,7 @@ layout: film-item
 slug: magia-record-puella-magi-madoka-magica-side-story-season-two-the-eve-of-awakening
 review:
 recent: 1
-status: "Watching"
+status: "Watched"
 type: series
 title: マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-
 romajiTitle: "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden 2nd Season - Kakusei Zenya"
@@ -20,12 +20,13 @@ episodes: 8
 image: poster/MagiaRecordS2.jpg
 airedFrom: 1 Aug 2021
 airedTo: 26 Sep 2021
-watched: false
+watched: true
 dateStarted: 10 Nov 2026
-lastWatched: 5
+dateFinished: 23 Nov 2026
+lastWatched: end
 comment: pink girl fumble so bad madoka and girlfailure homu is in it now
 rating: ★ ★ ★ ★
-tags: anime, series, mahou-shoujo, magia-record, season-one
+tags: anime, series, mahou-shoujo, magia-record, season-two
 ---
 
 ## SYNOPSIS
@@ -147,6 +148,11 @@ Amid the turbulent situations, a calamitous threat approaches, presenting a dire
 		<tr>
 			<th style="text-align: left;">19 Nov 2026</th>
 			<td>7. You Don't Know Anything</td>
+		</tr>
+		<tr>
+			<th style="text-align: left;">23 Nov 2026</th>
+			<td>8. You're not strong</td>
+		</tr>
 		</tr>
 	</tbody>
 </table>
