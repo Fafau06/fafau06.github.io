@@ -7,13 +7,13 @@ status: "Watched"
 type: series
 title: マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-
 romajiTitle: "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden 2nd Season - Kakusei Zenya"
-englishTitle: "Magia Record: Puella Magi Madoka Magica Side Story Season 2 - The Eve of Awakening"
+englishTitle: "Magia Record: Puella Magi Madoka Magica Side Story Season 2 - The Eve of Awakening -"
 year: 2026
 dataSource: MALAPI
 url: https://myanimelist.net/anime/41530/Magia_Record__Mahou_Shoujo_Madoka%E2%98%86Magica_Gaiden_2nd_Season_-_Kakusei_Zenya
 id: 41530
 plot: |-
-  After a daring escape from the Memory Museum, Sayaka Miki returns to Mitakihara City with unsettling news. Troubled by what she has learned, Sayaka reveals to Madoka Kaname and Homura Akemi the whereabouts of Mami Tomoe—but more importantly—the disturbing truth behind the existence of magical girls. Despite knowing the cruel fate that awaits them, the three quickly resolve to work together and save Mami once and for all.
+  After a daring escape from the Memory Museum, Sayaka Miki returns to Mitakihara City with unsettling news. Troubled by what she has learned, Sayaka reveals to Madoka Kaname and Homura Akemi the whereabouts of Mami Tomoe — but more importantly — the disturbing truth behind the existence of magical girls. Despite knowing the cruel fate that awaits them, the three quickly resolve to work together and save Mami once and for all.
 studio:
   - Shaft
 episodes: 8
@@ -30,9 +30,10 @@ tags: anime, series, mahou-shoujo, magia-record, season-two
 ---
 
 ## SYNOPSIS
-> After a daring escape from the Memory Museum, Sayaka Miki returns to Mitakihara City with unsettling news. Troubled by what she has learned, Sayaka reveals to Madoka Kaname and Homura Akemi the whereabouts of Mami Tomoe—but more importantly—the disturbing truth behind the existence of magical girls. Despite knowing the cruel fate that awaits them, the three quickly resolve to work together and save Mami once and for all.<br>
+> After a daring escape from the Memory Museum, Sayaka Miki returns to Mitakihara City with unsettling news. Troubled by what she has learned, Sayaka reveals to Madoka Kaname and Homura Akemi the whereabouts of Mami Tomoe — but more importantly — the disturbing truth behind the existence of magical girls. Despite knowing the cruel fate that awaits them, the three quickly resolve to work together and save Mami once and for all.<br>
 Meanwhile in Kamihama City, Yachiyo Nanami hunts various "rumors" in search of Hotel Fendt Hope, the headquarters for the Wings of Magius. The magical girl organization is Yachiyo's only lead in finding Iroha Tamaki, whose disappearance remains shrouded in uncertainty. Determined to reunite Team Mikazuki Villa, Yachiyo swears to destroy the Wings of Magius and put a stop to their insidious plans.<br>
-Amid the turbulent situations, a calamitous threat approaches, presenting a dire conflict set to jeopardize the entire world.<br><span><cite>(Written by MAL Rewrite)</cite></span>
+Amid the turbulent situations, a calamitous threat approaches, presenting a dire conflict set to jeopardize the entire world.<br>
+<span><cite>(Written by MAL Rewrite)</cite></span>
 
 ## Comment
 > pink girl fumble so bad madoka and girlfailure homu is in it now
@@ -152,7 +153,6 @@ Amid the turbulent situations, a calamitous threat approaches, presenting a dire
 		<tr>
 			<th style="text-align: left;">23 Nov 2026</th>
 			<td>8. You're not strong</td>
-		</tr>
 		</tr>
 	</tbody>
 </table>
