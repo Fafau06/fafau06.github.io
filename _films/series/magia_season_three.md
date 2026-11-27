@@ -21,8 +21,7 @@ image: poster/MagiaRecordS3.jpg
 airedFrom: 3 Apr 2022
 watched: true
 dateStarted: 24 Nov 2026
-lastWatched: 1
-rating: ★ ★ ★ ★
+lastWatched: 2
 tags: anime, series, mahou-shoujo, magia-record, season-three, final-season
 ---
 
@@ -103,6 +102,10 @@ tags: anime, series, mahou-shoujo, magia-record, season-three, final-season
 		<tr>
 			<th style="text-align: left;">24 Nov 2026</th>
 			<td>1. We Failed</td>
+		</tr>
+		<tr>
+			<th style="text-align: left;">25 Nov 2026</th>
+			<td>2. All the Girls Disappearing</td>
 		</tr>
 	</tbody>
 </table>

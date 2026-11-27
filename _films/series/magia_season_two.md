@@ -25,7 +25,6 @@ dateStarted: 10 Nov 2026
 dateFinished: 23 Nov 2026
 lastWatched: end
 comment: pink girl fumble so bad madoka and girlfailure homu is in it now
-rating: ★ ★ ★ ★
 tags: anime, series, mahou-shoujo, magia-record, season-two
 ---
 
